@@ -1,0 +1,1806 @@
+{
+  "source": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+  "fetchedAt": "2026-10-19T15:32:34.594Z",
+  "markets": [
+    {
+      "code": "GLOBAL",
+      "name": "Global",
+      "type": "global",
+      "parentCode": null,
+      "iso3": "",
+      "source": "openrun"
+    },
+    {
+      "code": "EAS",
+      "name": "East Asia & Pacific",
+      "type": "region",
+      "parentCode": "GLOBAL",
+      "iso3": "",
+      "source": "worldbank"
+    },
+    {
+      "code": "ECS",
+      "name": "Europe & Central Asia",
+      "type": "region",
+      "parentCode": "GLOBAL",
+      "iso3": "",
+      "source": "worldbank"
+    },
+    {
+      "code": "LCN",
+      "name": "Latin America & Caribbean",
+      "type": "region",
+      "parentCode": "GLOBAL",
+      "iso3": "",
+      "source": "worldbank"
+    },
+    {
+      "code": "MEA",
+      "name": "Middle East, North Africa, Afghanistan & Pakistan",
+      "type": "region",
+      "parentCode": "GLOBAL",
+      "iso3": "",
+      "source": "worldbank"
+    },
+    {
+      "code": "NAC",
+      "name": "North America",
+      "type": "region",
+      "parentCode": "GLOBAL",
+      "iso3": "",
+      "source": "worldbank"
+    },
+    {
+      "code": "SAS",
+      "name": "South Asia",
+      "type": "region",
+      "parentCode": "GLOBAL",
+      "iso3": "",
+      "source": "worldbank"
+    },
+    {
+      "code": "SSF",
+      "name": "Sub-Saharan Africa",
+      "type": "region",
+      "parentCode": "GLOBAL",
+      "iso3": "",
+      "source": "worldbank"
+    },
+    {
+      "code": "AW",
+      "name": "Aruba",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "ABW",
+      "source": "worldbank"
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "AFG",
+      "source": "worldbank"
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "AGO",
+      "source": "worldbank"
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "ALB",
+      "source": "worldbank"
+    },
+    {
+      "code": "AD",
+      "name": "Andorra",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "AND",
+      "source": "worldbank"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "ARE",
+      "source": "worldbank"
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "ARG",
+      "source": "worldbank"
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "ARM",
+      "source": "worldbank"
+    },
+    {
+      "code": "AS",
+      "name": "American Samoa",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "ASM",
+      "source": "worldbank"
+    },
+    {
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "ATG",
+      "source": "worldbank"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "AUS",
+      "source": "worldbank"
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "AUT",
+      "source": "worldbank"
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "AZE",
+      "source": "worldbank"
+    },
+    {
+      "code": "BI",
+      "name": "Burundi",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "BDI",
+      "source": "worldbank"
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "BEL",
+      "source": "worldbank"
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "BEN",
+      "source": "worldbank"
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "BFA",
+      "source": "worldbank"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "type": "country",
+      "parentCode": "SAS",
+      "iso3": "BGD",
+      "source": "worldbank"
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "BGR",
+      "source": "worldbank"
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "BHR",
+      "source": "worldbank"
+    },
+    {
+      "code": "BS",
+      "name": "Bahamas, The",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "BHS",
+      "source": "worldbank"
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "BIH",
+      "source": "worldbank"
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "BLR",
+      "source": "worldbank"
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "BLZ",
+      "source": "worldbank"
+    },
+    {
+      "code": "BM",
+      "name": "Bermuda",
+      "type": "country",
+      "parentCode": "NAC",
+      "iso3": "BMU",
+      "source": "worldbank"
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "BOL",
+      "source": "worldbank"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "BRA",
+      "source": "worldbank"
+    },
+    {
+      "code": "BB",
+      "name": "Barbados",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "BRB",
+      "source": "worldbank"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei Darussalam",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "BRN",
+      "source": "worldbank"
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "type": "country",
+      "parentCode": "SAS",
+      "iso3": "BTN",
+      "source": "worldbank"
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "BWA",
+      "source": "worldbank"
+    },
+    {
+      "code": "CF",
+      "name": "Central African Republic",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "CAF",
+      "source": "worldbank"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "type": "country",
+      "parentCode": "NAC",
+      "iso3": "CAN",
+      "source": "worldbank"
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "CHE",
+      "source": "worldbank"
+    },
+    {
+      "code": "JG",
+      "name": "Channel Islands",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "CHI",
+      "source": "worldbank"
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "CHL",
+      "source": "worldbank"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "CHN",
+      "source": "worldbank"
+    },
+    {
+      "code": "CI",
+      "name": "Cote d'Ivoire",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "CIV",
+      "source": "worldbank"
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "CMR",
+      "source": "worldbank"
+    },
+    {
+      "code": "CD",
+      "name": "Congo, Dem. Rep.",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "COD",
+      "source": "worldbank"
+    },
+    {
+      "code": "CG",
+      "name": "Congo, Rep.",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "COG",
+      "source": "worldbank"
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "COL",
+      "source": "worldbank"
+    },
+    {
+      "code": "KM",
+      "name": "Comoros",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "COM",
+      "source": "worldbank"
+    },
+    {
+      "code": "CV",
+      "name": "Cabo Verde",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "CPV",
+      "source": "worldbank"
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "CRI",
+      "source": "worldbank"
+    },
+    {
+      "code": "CU",
+      "name": "Cuba",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "CUB",
+      "source": "worldbank"
+    },
+    {
+      "code": "CW",
+      "name": "Curacao",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "CUW",
+      "source": "worldbank"
+    },
+    {
+      "code": "KY",
+      "name": "Cayman Islands",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "CYM",
+      "source": "worldbank"
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "CYP",
+      "source": "worldbank"
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "CZE",
+      "source": "worldbank"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "DEU",
+      "source": "worldbank"
+    },
+    {
+      "code": "DJ",
+      "name": "Djibouti",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "DJI",
+      "source": "worldbank"
+    },
+    {
+      "code": "DM",
+      "name": "Dominica",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "DMA",
+      "source": "worldbank"
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "DNK",
+      "source": "worldbank"
+    },
+    {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "DOM",
+      "source": "worldbank"
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "DZA",
+      "source": "worldbank"
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "ECU",
+      "source": "worldbank"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt, Arab Rep.",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "EGY",
+      "source": "worldbank"
+    },
+    {
+      "code": "ER",
+      "name": "Eritrea",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "ERI",
+      "source": "worldbank"
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "ESP",
+      "source": "worldbank"
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "EST",
+      "source": "worldbank"
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "ETH",
+      "source": "worldbank"
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "FIN",
+      "source": "worldbank"
+    },
+    {
+      "code": "FJ",
+      "name": "Fiji",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "FJI",
+      "source": "worldbank"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "FRA",
+      "source": "worldbank"
+    },
+    {
+      "code": "FO",
+      "name": "Faroe Islands",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "FRO",
+      "source": "worldbank"
+    },
+    {
+      "code": "FM",
+      "name": "Micronesia, Fed. Sts.",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "FSM",
+      "source": "worldbank"
+    },
+    {
+      "code": "GA",
+      "name": "Gabon",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "GAB",
+      "source": "worldbank"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "GBR",
+      "source": "worldbank"
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "GEO",
+      "source": "worldbank"
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "GHA",
+      "source": "worldbank"
+    },
+    {
+      "code": "GI",
+      "name": "Gibraltar",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "GIB",
+      "source": "worldbank"
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "GIN",
+      "source": "worldbank"
+    },
+    {
+      "code": "GM",
+      "name": "Gambia, The",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "GMB",
+      "source": "worldbank"
+    },
+    {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "GNB",
+      "source": "worldbank"
+    },
+    {
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "GNQ",
+      "source": "worldbank"
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "GRC",
+      "source": "worldbank"
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "GRD",
+      "source": "worldbank"
+    },
+    {
+      "code": "GL",
+      "name": "Greenland",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "GRL",
+      "source": "worldbank"
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "GTM",
+      "source": "worldbank"
+    },
+    {
+      "code": "GU",
+      "name": "Guam",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "GUM",
+      "source": "worldbank"
+    },
+    {
+      "code": "GY",
+      "name": "Guyana",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "GUY",
+      "source": "worldbank"
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong SAR, China",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "HKG",
+      "source": "worldbank"
+    },
+    {
+      "code": "HN",
+      "name": "Honduras",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "HND",
+      "source": "worldbank"
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "HRV",
+      "source": "worldbank"
+    },
+    {
+      "code": "HT",
+      "name": "Haiti",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "HTI",
+      "source": "worldbank"
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "HUN",
+      "source": "worldbank"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "IDN",
+      "source": "worldbank"
+    },
+    {
+      "code": "IM",
+      "name": "Isle of Man",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "IMN",
+      "source": "worldbank"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "type": "country",
+      "parentCode": "SAS",
+      "iso3": "IND",
+      "source": "worldbank"
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "IRL",
+      "source": "worldbank"
+    },
+    {
+      "code": "IR",
+      "name": "Iran, Islamic Rep.",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "IRN",
+      "source": "worldbank"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "IRQ",
+      "source": "worldbank"
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "ISL",
+      "source": "worldbank"
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "ISR",
+      "source": "worldbank"
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "ITA",
+      "source": "worldbank"
+    },
+    {
+      "code": "JM",
+      "name": "Jamaica",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "JAM",
+      "source": "worldbank"
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "JOR",
+      "source": "worldbank"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "JPN",
+      "source": "worldbank"
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "KAZ",
+      "source": "worldbank"
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "KEN",
+      "source": "worldbank"
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyz Republic",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "KGZ",
+      "source": "worldbank"
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "KHM",
+      "source": "worldbank"
+    },
+    {
+      "code": "KI",
+      "name": "Kiribati",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "KIR",
+      "source": "worldbank"
+    },
+    {
+      "code": "KN",
+      "name": "St. Kitts and Nevis",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "KNA",
+      "source": "worldbank"
+    },
+    {
+      "code": "KR",
+      "name": "Korea, Rep.",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "KOR",
+      "source": "worldbank"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "KWT",
+      "source": "worldbank"
+    },
+    {
+      "code": "LA",
+      "name": "Lao PDR",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "LAO",
+      "source": "worldbank"
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "LBN",
+      "source": "worldbank"
+    },
+    {
+      "code": "LR",
+      "name": "Liberia",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "LBR",
+      "source": "worldbank"
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "LBY",
+      "source": "worldbank"
+    },
+    {
+      "code": "LC",
+      "name": "St. Lucia",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "LCA",
+      "source": "worldbank"
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "LIE",
+      "source": "worldbank"
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "type": "country",
+      "parentCode": "SAS",
+      "iso3": "LKA",
+      "source": "worldbank"
+    },
+    {
+      "code": "LS",
+      "name": "Lesotho",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "LSO",
+      "source": "worldbank"
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "LTU",
+      "source": "worldbank"
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "LUX",
+      "source": "worldbank"
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "LVA",
+      "source": "worldbank"
+    },
+    {
+      "code": "MO",
+      "name": "Macao SAR, China",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "MAC",
+      "source": "worldbank"
+    },
+    {
+      "code": "MF",
+      "name": "St. Martin (French part)",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "MAF",
+      "source": "worldbank"
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "MAR",
+      "source": "worldbank"
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "MCO",
+      "source": "worldbank"
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "MDA",
+      "source": "worldbank"
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "MDG",
+      "source": "worldbank"
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "type": "country",
+      "parentCode": "SAS",
+      "iso3": "MDV",
+      "source": "worldbank"
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "MEX",
+      "source": "worldbank"
+    },
+    {
+      "code": "MH",
+      "name": "Marshall Islands",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "MHL",
+      "source": "worldbank"
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "MKD",
+      "source": "worldbank"
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "MLI",
+      "source": "worldbank"
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "MLT",
+      "source": "worldbank"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "MMR",
+      "source": "worldbank"
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "MNE",
+      "source": "worldbank"
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "MNG",
+      "source": "worldbank"
+    },
+    {
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "MNP",
+      "source": "worldbank"
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "MOZ",
+      "source": "worldbank"
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "MRT",
+      "source": "worldbank"
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "MUS",
+      "source": "worldbank"
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "MWI",
+      "source": "worldbank"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "MYS",
+      "source": "worldbank"
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "NAM",
+      "source": "worldbank"
+    },
+    {
+      "code": "NC",
+      "name": "New Caledonia",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "NCL",
+      "source": "worldbank"
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "NER",
+      "source": "worldbank"
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "NGA",
+      "source": "worldbank"
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "NIC",
+      "source": "worldbank"
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "NLD",
+      "source": "worldbank"
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "NOR",
+      "source": "worldbank"
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "type": "country",
+      "parentCode": "SAS",
+      "iso3": "NPL",
+      "source": "worldbank"
+    },
+    {
+      "code": "NR",
+      "name": "Naoero",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "NRU",
+      "source": "worldbank"
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "NZL",
+      "source": "worldbank"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "OMN",
+      "source": "worldbank"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "PAK",
+      "source": "worldbank"
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "PAN",
+      "source": "worldbank"
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "PER",
+      "source": "worldbank"
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "PHL",
+      "source": "worldbank"
+    },
+    {
+      "code": "PW",
+      "name": "Palau",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "PLW",
+      "source": "worldbank"
+    },
+    {
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "PNG",
+      "source": "worldbank"
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "POL",
+      "source": "worldbank"
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico (US)",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "PRI",
+      "source": "worldbank"
+    },
+    {
+      "code": "KP",
+      "name": "Korea, Dem. People's Rep.",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "PRK",
+      "source": "worldbank"
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "PRT",
+      "source": "worldbank"
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "PRY",
+      "source": "worldbank"
+    },
+    {
+      "code": "PS",
+      "name": "West Bank and Gaza",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "PSE",
+      "source": "worldbank"
+    },
+    {
+      "code": "PF",
+      "name": "French Polynesia",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "PYF",
+      "source": "worldbank"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "QAT",
+      "source": "worldbank"
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "ROU",
+      "source": "worldbank"
+    },
+    {
+      "code": "RU",
+      "name": "Russian Federation",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "RUS",
+      "source": "worldbank"
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "RWA",
+      "source": "worldbank"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "SAU",
+      "source": "worldbank"
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "SDN",
+      "source": "worldbank"
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "SEN",
+      "source": "worldbank"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "SGP",
+      "source": "worldbank"
+    },
+    {
+      "code": "SB",
+      "name": "Solomon Islands",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "SLB",
+      "source": "worldbank"
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "SLE",
+      "source": "worldbank"
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "SLV",
+      "source": "worldbank"
+    },
+    {
+      "code": "SM",
+      "name": "San Marino",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "SMR",
+      "source": "worldbank"
+    },
+    {
+      "code": "SO",
+      "name": "Somalia, Fed. Rep.",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "SOM",
+      "source": "worldbank"
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "SRB",
+      "source": "worldbank"
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "SSD",
+      "source": "worldbank"
+    },
+    {
+      "code": "ST",
+      "name": "Sao Tome and Principe",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "STP",
+      "source": "worldbank"
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "SUR",
+      "source": "worldbank"
+    },
+    {
+      "code": "SK",
+      "name": "Slovak Republic",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "SVK",
+      "source": "worldbank"
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "SVN",
+      "source": "worldbank"
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "SWE",
+      "source": "worldbank"
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "SWZ",
+      "source": "worldbank"
+    },
+    {
+      "code": "SX",
+      "name": "Sint Maarten (Dutch part)",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "SXM",
+      "source": "worldbank"
+    },
+    {
+      "code": "SC",
+      "name": "Seychelles",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "SYC",
+      "source": "worldbank"
+    },
+    {
+      "code": "SY",
+      "name": "Syrian Arab Republic",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "SYR",
+      "source": "worldbank"
+    },
+    {
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "TCA",
+      "source": "worldbank"
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "TCD",
+      "source": "worldbank"
+    },
+    {
+      "code": "TG",
+      "name": "Togo",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "TGO",
+      "source": "worldbank"
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "THA",
+      "source": "worldbank"
+    },
+    {
+      "code": "TJ",
+      "name": "Tajikistan",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "TJK",
+      "source": "worldbank"
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "TKM",
+      "source": "worldbank"
+    },
+    {
+      "code": "TL",
+      "name": "Timor-Leste",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "TLS",
+      "source": "worldbank"
+    },
+    {
+      "code": "TO",
+      "name": "Tonga",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "TON",
+      "source": "worldbank"
+    },
+    {
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "TTO",
+      "source": "worldbank"
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "TUN",
+      "source": "worldbank"
+    },
+    {
+      "code": "TR",
+      "name": "Turkiye",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "TUR",
+      "source": "worldbank"
+    },
+    {
+      "code": "TV",
+      "name": "Tuvalu",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "TUV",
+      "source": "worldbank"
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "TZA",
+      "source": "worldbank"
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "UGA",
+      "source": "worldbank"
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "UKR",
+      "source": "worldbank"
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "URY",
+      "source": "worldbank"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "type": "country",
+      "parentCode": "NAC",
+      "iso3": "USA",
+      "source": "worldbank"
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "UZB",
+      "source": "worldbank"
+    },
+    {
+      "code": "VC",
+      "name": "St. Vincent and the Grenadines",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "VCT",
+      "source": "worldbank"
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela, RB",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "VEN",
+      "source": "worldbank"
+    },
+    {
+      "code": "VG",
+      "name": "British Virgin Islands",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "VGB",
+      "source": "worldbank"
+    },
+    {
+      "code": "VI",
+      "name": "Virgin Islands (U.S.)",
+      "type": "country",
+      "parentCode": "LCN",
+      "iso3": "VIR",
+      "source": "worldbank"
+    },
+    {
+      "code": "VN",
+      "name": "Viet Nam",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "VNM",
+      "source": "worldbank"
+    },
+    {
+      "code": "VU",
+      "name": "Vanuatu",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "VUT",
+      "source": "worldbank"
+    },
+    {
+      "code": "WS",
+      "name": "Samoa",
+      "type": "country",
+      "parentCode": "EAS",
+      "iso3": "WSM",
+      "source": "worldbank"
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "type": "country",
+      "parentCode": "ECS",
+      "iso3": "XKX",
+      "source": "worldbank"
+    },
+    {
+      "code": "YE",
+      "name": "Yemen, Rep.",
+      "type": "country",
+      "parentCode": "MEA",
+      "iso3": "YEM",
+      "source": "worldbank"
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "ZAF",
+      "source": "worldbank"
+    },
+    {
+      "code": "ZM",
+      "name": "Zambia",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "ZMB",
+      "source": "worldbank"
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "type": "country",
+      "parentCode": "SSF",
+      "iso3": "ZWE",
+      "source": "worldbank"
+    }
+  ]
+}

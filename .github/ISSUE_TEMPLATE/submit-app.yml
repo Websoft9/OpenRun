@@ -1,0 +1,67 @@
+name: Submit a project
+description: Suggest an open source, self-hostable project for the OpenWise directory.
+title: "[Submit] "
+labels:
+  - submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Every submission goes through editorial review before it is published.
+        Do not include secrets or private information.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL
+      description: A public HTTPS repository URL. GitHub repositories get automatic metadata and license checks.
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage
+      description: Official project homepage, if different from the repository.
+      placeholder: https://example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - CMS
+        - Analytics
+        - Developer Tools
+        - Productivity
+        - Infrastructure
+        - Data
+        - Security
+        - Communication
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What does the project do?
+      description: Explain the use case, who it is for, and why it should be listed.
+      placeholder: Project description...
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: Optional GitHub handle or email for follow-up questions. It is not published.
+      placeholder: "@handle"
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: The repository is public and the project uses an OSI-approved or clearly declared open source license.
+          required: true
+        - label: The project can be self-hosted by individuals or teams.
+          required: true

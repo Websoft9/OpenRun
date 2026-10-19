@@ -1,0 +1,80 @@
+[
+  {
+    "id": "2R5PTh8eMkJkOR9GpmHNHY",
+    "type": "Entry",
+    "contentType": "delivery",
+    "createdAt": "2022-07-16T01:30:54.778Z",
+    "updatedAt": "2025-02-06T03:59:06.834Z",
+    "publishedAt": "2025-02-06T03:59:06.834Z",
+    "firstPublishedAt": "2022-07-16T01:31:13.505Z",
+    "fields": {
+      "key": {
+        "en-US": "saas"
+      },
+      "title": {
+        "en-US": "SaaS",
+        "zh-CN": "SaaS"
+      },
+      "description": {
+        "zh-CN": "基于互联网在线使用，无需安装部署的软件"
+      }
+    }
+  },
+  {
+    "id": "6cUEG9lCrTe5oSB8uhn9ad",
+    "type": "Entry",
+    "contentType": "delivery",
+    "createdAt": "2022-07-16T01:32:32.763Z",
+    "updatedAt": "2025-02-06T03:56:46.555Z",
+    "publishedAt": "2025-02-06T03:56:46.555Z",
+    "firstPublishedAt": "2022-07-16T01:33:43.850Z",
+    "fields": {
+      "key": {
+        "en-US": "desktop"
+      },
+      "title": {
+        "en-US": "Desktop Software",
+        "zh-CN": "桌面软件"
+      },
+      "description": {
+        "zh-CN": "需下载到 Windows, MacOS,Linux 等桌面上使用的软件"
+      }
+    }
+  },
+  {
+    "id": "1onvr1dUNr2pIF1M5jXSDf",
+    "type": "Entry",
+    "contentType": "delivery",
+    "createdAt": "2022-07-16T01:33:55.615Z",
+    "updatedAt": "2022-07-16T01:34:29.399Z",
+    "publishedAt": "2022-07-16T01:34:29.399Z",
+    "firstPublishedAt": "2022-07-16T01:34:29.399Z",
+    "fields": {
+      "key": {
+        "en-US": "template"
+      },
+      "title": {
+        "en-US": "Solution Template",
+        "zh-CN": "方案编排"
+      }
+    }
+  },
+  {
+    "id": "3lxWtIBSIprcHIEK9JHUmJ",
+    "type": "Entry",
+    "contentType": "delivery",
+    "createdAt": "2021-11-24T08:53:51.026Z",
+    "updatedAt": "2022-07-16T01:30:48.560Z",
+    "publishedAt": "2022-07-16T01:30:48.560Z",
+    "firstPublishedAt": "2021-11-24T08:54:54.327Z",
+    "fields": {
+      "key": {
+        "en-US": "image"
+      },
+      "title": {
+        "en-US": "Image",
+        "zh-CN": "镜像"
+      }
+    }
+  }
+]

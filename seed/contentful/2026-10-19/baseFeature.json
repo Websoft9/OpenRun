@@ -1,0 +1,4366 @@
+[
+  {
+    "id": "6RRfPOjyBUQJb8CziEV3jm",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2024-03-27T06:01:41.292Z",
+    "updatedAt": "2026-07-21T09:20:47.342Z",
+    "publishedAt": "2026-07-21T09:20:47.342Z",
+    "firstPublishedAt": "2024-03-27T06:12:10.436Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Gallery"
+        ]
+      },
+      "title": {
+        "en-US": "Live demo limit",
+        "zh-CN": "功能快速体验"
+      },
+      "slug": {
+        "en-US": "live-preview"
+      },
+      "description": {
+        "en-US": "URL: [http://demo.goweb.cc:9000](http://demo.goweb.cc:9000)  \nUser: demo  \nPassword: Websoft9@",
+        "zh-CN": "网址：[http://demo.goweb.cc:9000](http://demo.goweb.cc:9000)  \n账号：demo  \n密码：Websoft9@"
+      },
+      "icon": {
+        "en-US": "login"
+      },
+      "link": {
+        "en-US": [],
+        "zh-CN": []
+      }
+    }
+  },
+  {
+    "id": "4gAzNTx6ISEfRrP5EEmaqQ",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2025-05-06T09:01:21.849Z",
+    "updatedAt": "2025-07-22T03:40:21.028Z",
+    "publishedAt": "2025-07-22T03:40:21.028Z",
+    "firstPublishedAt": "2025-05-06T09:07:44.439Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Gallery"
+        ]
+      },
+      "title": {
+        "en-US": "One hour full trial (Recommendation)",
+        "zh-CN": "1 小时完整试用（推荐）"
+      },
+      "slug": {
+        "en-US": "one-hour-full-trial"
+      },
+      "description": {
+        "en-US": "Users can experience all the features of the product for free within one hour, with each trial application provided exclusively with free cloud resources by Websoft9.",
+        "zh-CN": "1小时内免费体验产品的所有功能，每个试用申请都由 Websoft9 免费提供独享的云资源"
+      },
+      "icon": {
+        "en-US": "apps"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "dff2c46c-be8d-4f69-8ac5-2b5e7c1609be",
+            "key": "Request for full trial",
+            "value": "/trialrequest"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "270b3d0c-ed06-4bb7-8bea-e615bb3df8bd",
+            "key": "立即申请完整试用",
+            "value": "/trialrequest"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "j5F4AVOqyfNZBnWgK3rRU",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-30T05:09:13.466Z",
+    "updatedAt": "2025-07-15T07:34:30.467Z",
+    "publishedAt": "2025-07-15T07:34:30.467Z",
+    "firstPublishedAt": "2022-09-30T05:14:03.812Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Full Monitor",
+        "zh-CN": "全面监控"
+      },
+      "slug": {
+        "en-US": "monitor"
+      },
+      "subtitle": {
+        "en-US": "Through log and application monitoring, gain insights into system status and proactively manage operations.",
+        "zh-CN": "通过日志监控和应用监控，全面洞察系统运行的状况，主动掌握运维之道"
+      },
+      "description": {
+        "en-US": "Application monitoring is crucial in Websoft9's products, ensuring high availability and performance of systems. Through real-time monitoring, users can promptly detect and respond to anomalies, reducing downtime. Additionally, powerful data analysis and visualization capabilities help teams gain deeper insights into application status, identify potential issues, and optimize performance. Effective application monitoring not only enhances fault response speed but also improves insight into business operations, ensuring user experience and business continuity.",
+        "zh-CN": "应用监控在 Websoft9 的产品中至关重要，它确保系统的高可用性和性能。通过实时监控，用户能够及时发现并响应异常，减少停机时间。同时，强大的数据分析和可视化能力帮助团队深入理解应用状态，识别潜在问题并优化性能。有效的应用监控不仅提升了故障响应速度，还增强了对业务运行的洞察力，确保用户体验和业务连续性。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-monitor-websoft9.jpg"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "a3fc927a-a248-4993-b038-7ce77350539c",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "67c516d3-81b5-498a-a59c-be443b689799",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5SeKy5Xr4AaW0wuPLB84Zk",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-30T04:57:17.756Z",
+    "updatedAt": "2025-07-15T07:14:14.558Z",
+    "publishedAt": "2025-07-15T07:14:14.558Z",
+    "firstPublishedAt": "2022-09-30T05:00:34.600Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Workflow ",
+        "zh-CN": "自动化工作流"
+      },
+      "slug": {
+        "en-US": "workflow"
+      },
+      "subtitle": {
+        "en-US": "Websoft9's workflow automates key processes, enhancing efficiency, stability, and adaptability in application lifecycle management",
+        "zh-CN": "Websoft9 的工作流自动化关键环节，提高了应用生命周期管理的效率、稳定性和适应性"
+      },
+      "description": {
+        "en-US": "In the Websoft9 platform, the workflow serves as a core mechanism that connects and automates various key aspects, such as continuous deployment, monitoring, cloud resource management, and release. By defining task sequences, the workflow ensures efficiency and consistency in processes, reducing human intervention and thereby lowering the likelihood of errors. In monitoring and resource management, the workflow can dynamically adjust response strategies to ensure system stability under varying loads and optimal resource allocation. Additionally, during the release process, the workflow provides structured version control and rollback mechanisms, enhancing the security of new version deployments. Overall, the application of workflows enhances the flexibility and controllability of the entire lifecycle management, enabling businesses to adapt to changes more rapidly.",
+        "zh-CN": "在 Websoft9 平台的工作流（workflow）作为核心机制，连接并自动化各个关键环节，如持续部署、监控、云资源管理和发布。通过定义任务序列，工作流确保过程的高效性和一致性，减少人为干预，从而降低错误发生的概率。在监控和资源管理中，工作流能够动态调整响应策略，确保系统在不同负载下的稳定性和资源的最优配置。同时，在发布过程中，工作流提供结构化的版本控制和回滚机制，增强新版本发布的安全性。总体而言，工作流的应用提升了整个生命周期管理的灵活性和可控性，使业务能够更快速地适应变化。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-automation-websoft9.jpg"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "a3fc927a-a248-4993-b038-7ce77350539c",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "67c516d3-81b5-498a-a59c-be443b689799",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4yeuN9Eq7Pq51sqlWj9uxR",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-30T04:49:25.748Z",
+    "updatedAt": "2025-07-15T07:00:26.906Z",
+    "publishedAt": "2025-07-15T07:00:26.906Z",
+    "firstPublishedAt": "2022-09-30T04:52:01.565Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Cycle Management",
+        "zh-CN": "全生命周期管理"
+      },
+      "slug": {
+        "en-US": "management"
+      },
+      "subtitle": {
+        "en-US": "Application lifecycle management, including starting, restarting, and deploying, is managed through a centralized interface",
+        "zh-CN": "应用的启动、重启、持续部署、终止、删除和域名发布都可以在一个集中界面中进行生命周期管理。"
+      },
+      "description": {
+        "en-US": "The Websoft9 platform focuses on the subsequent lifecycle management of application artifacts, including key aspects such as deployment, monitoring, and release. With automated deployment tools, users can quickly push application artifacts to the production environment, reducing errors and delays caused by manual operations. At the same time, the platform offers real-time monitoring capabilities, helping users promptly identify and resolve performance issues, ensuring high availability of applications.",
+        "zh-CN": "Websoft9 平台专注于应用制品的后续生命周期管理，包括部署、监控和发布等关键环节。通过自动化部署工具，用户可以快速将应用制品推向生产环境，减少手动操作带来的错误和延迟。同时，平台提供实时监控功能，帮助用户及时识别和解决性能问题，确保应用的高可用性。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-management-websoft9.webp"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "a3fc927a-a248-4993-b038-7ce77350539c",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "67c516d3-81b5-498a-a59c-be443b689799",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4fCQPBaSTCLGTJG0yZcH3p",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-30T04:44:34.884Z",
+    "updatedAt": "2025-07-15T07:00:25.411Z",
+    "publishedAt": "2025-07-15T07:00:25.411Z",
+    "firstPublishedAt": "2022-09-30T04:48:01.902Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "One-click Deployment",
+        "zh-CN": "一键部署"
+      },
+      "slug": {
+        "en-US": "deployment"
+      },
+      "subtitle": {
+        "en-US": "One-click to install, and start using it immediately. There are no technical barriers and no complex configurations required.",
+        "zh-CN": "选择所需的应用，点击即安装，安装即使用。没有任何技术门槛个，没有任何复杂配置"
+      },
+      "description": {
+        "en-US": "一键部署极大地提升了DevOps平台的效率，加快了推送更新和新功能的过程，使不同技术水平的团队成员都能轻松使用。它确保了一致性，减少了人为错误，并自动化了重复性任务，让开发人员能够专注于更具战略性的工作。这种方法还支持可扩展性，并促进快速反馈循环以实现持续改进，最终使开发团队能够更高效地交付高质量的软件。",
+        "zh-CN": "One-click deployment greatly enhances a DevOps platform by speeding up the process of pushing updates and new features, making it accessible to team members with varying technical skills. It ensures consistency, reduces human error, and automates repetitive tasks, allowing developers to focus on more strategic work. This approach also supports scalability and facilitates rapid feedback loops for continuous improvement, ultimately enabling development teams to deliver high-quality software more efficiently."
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-deploy-websoft9.webp"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "a3fc927a-a248-4993-b038-7ce77350539c",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "67c516d3-81b5-498a-a59c-be443b689799",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "67HnVx3n84uc5RL5Y3RaKV",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-30T04:31:38.396Z",
+    "updatedAt": "2025-07-15T06:44:01.879Z",
+    "publishedAt": "2025-07-15T06:44:01.879Z",
+    "firstPublishedAt": "2022-09-30T04:42:25.422Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Optimized Catalog",
+        "zh-CN": "优选类目"
+      },
+      "slug": {
+        "en-US": "product-features-catalog"
+      },
+      "subtitle": {
+        "en-US": "A catalog featuring over 300 applications, including AI, CMS, ERP, DevOps, and data analysis tools.",
+        "zh-CN": "我们广泛收集企业和组织在工作过程中所需的通用化应用，覆盖企业管理、内容管理、数据分析、无代码开发、DevOps 等多个类别，300+个热门应用，满足 80% 的场景"
+      },
+      "description": {
+        "en-US": "The cloud-native application store features hundreds of enterprise applications, including those for master data management, content creation and display, ERP, AI, and no-code development. This allows CIOs to have a clear sense of purpose regarding digital transformation and empowers employees to quickly explore digital solutions at both departmental and individual levels.",
+        "zh-CN": "云原生应用商店精选数百款企业应用，从主数据管理、内容创作与展示、ERP、无代码开发等多种相关的应用，可以让 CIO 对企业数字化有明确的目标感，也可以让赋能给员工快速从部门乃至个人自行探索数字化。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-collected-websoft9.webp"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "6e0c8864-4f58-46e4-ac1b-c76d3faccaba",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "aa7b9a81-1e88-4b73-8683-d91f5175c308",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1ZE5u9j6NeN2dxazamX3PI",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-10T06:30:43.970Z",
+    "updatedAt": "2025-05-07T06:05:54.310Z",
+    "publishedAt": "2025-05-07T06:05:54.310Z",
+    "firstPublishedAt": "2022-08-10T06:30:57.901Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS"
+        ]
+      },
+      "title": {
+        "en-US": "Applications Marketplace",
+        "zh-CN": "预制可选应用"
+      },
+      "slug": {
+        "en-US": "paas-marketplace"
+      },
+      "subtitle": {
+        "en-US": "200+个优质开源应用，可随意部署",
+        "zh-CN": "200+个优质开源应用，可随意部署"
+      },
+      "description": {
+        "en-US": "我们广泛收集企业和组织在工作过程中所需的通用化应用，覆盖企业管理、内容管理、数据分析、无代码开发、DevOps 等多个类别，200+个热门应用，满足 80% 的场景",
+        "zh-CN": "我们广泛收集企业和组织在工作过程中所需的通用化应用，覆盖企业管理、内容管理、数据分析、无代码开发、DevOps 等多个类别，200+个热门应用，满足 80% 的场景"
+      },
+      "icon": {
+        "en-US": "add_task"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-collected-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "7Em4nMAQqMgORiMo3xf8c5",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2024-03-27T06:12:33.932Z",
+    "updatedAt": "2025-05-07T00:12:22.737Z",
+    "publishedAt": "2025-05-07T00:12:22.737Z",
+    "firstPublishedAt": "2024-03-27T06:17:18.848Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Gallery"
+        ]
+      },
+      "title": {
+        "en-US": "Full Trial On Cloud",
+        "zh-CN": "在云平台上完整试用"
+      },
+      "slug": {
+        "en-US": "trial-on-cloud"
+      },
+      "description": {
+        "en-US": "We provide production-ready image environments on the major cloud platforms [Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/websoft9inc.websoft9), [AWS](https://aws.amazon.com/marketplace/pp/prodview-5jziwpvx4puq4), [Alibaba Cloud](https://marketplace.alibabacloud.com/products/201072001/sgcmjj00034378.html) and [HUAWEI CLOUD](https://marketplace.huaweicloud.com/intl/contents/bf4480ae-d0af-422c-b246-e2ec67743f4e) with up to one month of free trial available.",
+        "zh-CN": "全球主流的云平台 [Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/websoft9inc.websoft9), [AWS](https://aws.amazon.com/marketplace/pp/prodview-5jziwpvx4puq4), [阿里云](https://market.aliyun.com/common/dashi/websoft9?userCode=yetrmi9y), [华为云](https://marketplace.huaweicloud.com/contents/29458a42-64b7-4637-aa7c-8bfddea1fb72)等都提供了可以用于生产用途的 Websoft9 镜像环境，最多有一个月的免费试用期。"
+      },
+      "icon": {
+        "en-US": "cloud_done"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "6c7f9f6b-9ec5-41f5-82eb-81c97cff9a00",
+            "key": "All Cloud Platform support",
+            "value": "https://support.websoft9.com/en/docs/install-cloud/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "3a841ee0-fe7c-4740-8f90-e6e25ad7b504",
+            "key": "查看所有支持的云平台",
+            "value": "https://support.websoft9.com/docs/install-cloud"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "43pd49ttSachn0iFVlBtqX",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T09:02:29.523Z",
+    "updatedAt": "2025-03-27T09:27:04.607Z",
+    "publishedAt": "2025-03-27T09:27:04.607Z",
+    "firstPublishedAt": "2022-09-15T09:08:50.465Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "National high-tech enterprises",
+        "zh-CN": "国家高新技术企业"
+      },
+      "slug": {
+        "en-US": "hightech-company"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/1company-qualification-hightech2024-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "LHVO5z2uQhmWLey7IwjeO",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-18T02:46:38.995Z",
+    "updatedAt": "2025-01-24T02:26:19.360Z",
+    "publishedAt": "2025-01-24T02:26:19.360Z",
+    "firstPublishedAt": "2022-08-18T02:48:56.085Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Menu"
+        ]
+      },
+      "title": {
+        "en-US": "Start to use Websoft9",
+        "zh-CN": "开始使用Websoft9"
+      },
+      "slug": {
+        "en-US": "menu-feature-tryfree"
+      },
+      "subtitle": {
+        "en-US": "One Websoft9 Console, install and connect all open source, enjoy the Cloud-Native productivity",
+        "zh-CN": "一旦您部署 Websoft9 云应用商店之后，便开启了整个云原生世界，享受云技术带来的效率变革"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/menu-block-feature-tryfree-websoft9.jpeg"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "d17b9f3e-d5de-440d-bae7-162c30463e1b",
+            "key": "Try it free",
+            "value": "/apps"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "1c4d80c7-5ba4-43d6-b63c-7c9a9935e7fa",
+            "key": "免费试用",
+            "value": "/apps"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3ZCXed5MRE1C4gxv3cn8cb",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2024-05-14T07:56:53.637Z",
+    "updatedAt": "2024-05-14T08:01:37.126Z",
+    "publishedAt": "2024-05-14T08:01:37.126Z",
+    "firstPublishedAt": "2024-05-14T08:01:37.126Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "Customer Community WeChat Group",
+        "zh-CN": "用户交流企业微信群"
+      },
+      "slug": {
+        "en-US": "customer-community-wechat-group"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/icon-userchatgroup-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "5CTssKrPcW9bKkhVoeCwfb",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:39:37.431Z",
+    "updatedAt": "2024-04-28T23:42:39.754Z",
+    "publishedAt": "2024-04-28T23:42:39.754Z",
+    "firstPublishedAt": "2022-08-15T02:39:42.420Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Standard Free support",
+        "zh-CN": "产品技术支持"
+      },
+      "slug": {
+        "en-US": "pricing-item-support"
+      }
+    }
+  },
+  {
+    "id": "354nBMlEB9bvcvtXnZPnKW",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:39:59.048Z",
+    "updatedAt": "2024-04-28T23:39:35.713Z",
+    "publishedAt": "2024-04-28T23:39:35.713Z",
+    "firstPublishedAt": "2022-08-15T02:40:04.246Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "【Starter Edtion】 +",
+        "zh-CN": "【入门版】所有功能 +"
+      },
+      "slug": {
+        "en-US": "pricing-item-starter-add"
+      }
+    }
+  },
+  {
+    "id": "7aAPnGi6tJU3somyw3q5lV",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2024-04-28T23:26:46.606Z",
+    "updatedAt": "2024-04-28T23:38:16.302Z",
+    "publishedAt": "2024-04-28T23:38:16.302Z",
+    "firstPublishedAt": "2024-04-28T23:27:38.737Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "3 apps limit",
+        "zh-CN": "3 个应用"
+      },
+      "slug": {
+        "en-US": "pricing-apps-starter"
+      }
+    }
+  },
+  {
+    "id": "3MCZBJcymMHAoajbpmXTm1",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2024-04-28T23:28:28.067Z",
+    "updatedAt": "2024-04-28T23:38:05.574Z",
+    "publishedAt": "2024-04-28T23:38:05.574Z",
+    "firstPublishedAt": "2024-04-28T23:29:22.425Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "2 apps limit",
+        "zh-CN": "2 个应用"
+      },
+      "slug": {
+        "en-US": "2-apps"
+      }
+    }
+  },
+  {
+    "id": "7wYwEg41L2RaRQ20tqVFAw",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2024-04-28T23:37:33.537Z",
+    "updatedAt": "2024-04-28T23:37:51.952Z",
+    "publishedAt": "2024-04-28T23:37:51.952Z",
+    "firstPublishedAt": "2024-04-28T23:37:51.952Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "10 apps limit",
+        "zh-CN": "10 个应用"
+      },
+      "slug": {
+        "en-US": "10-apps-limit"
+      }
+    }
+  },
+  {
+    "id": "68t54do41Fzs7L6SRYWrbg",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:37:19.440Z",
+    "updatedAt": "2024-04-28T23:24:52.746Z",
+    "publishedAt": "2024-04-28T23:24:52.746Z",
+    "firstPublishedAt": "2022-08-15T02:37:26.099Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "1 user",
+        "zh-CN": "1 个用户"
+      },
+      "slug": {
+        "en-US": "one-user"
+      }
+    }
+  },
+  {
+    "id": "4SMyL3DMah3sasoTLAhjhs",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:14:43.002Z",
+    "updatedAt": "2024-01-26T06:36:43.677Z",
+    "publishedAt": "2024-01-26T06:36:43.677Z",
+    "firstPublishedAt": "2022-09-15T06:16:10.152Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Company Profile",
+        "zh-CN": "公司简介"
+      },
+      "slug": {
+        "en-US": "company-profile"
+      },
+      "description": {
+        "en-US": "Websoft9 is a Platform as a Service (PaaS) that enables you to run open-source products managed by their official creators on your own cloud or on-premises infrastructure. It offers a seamless experience of deploying applications with just a few clicks, whether on AWS, Azure, GCP, Alibaba Cloud or HUAIWEICLOUD.\n\nThe built-in AppStore from Websoft9 provides more than 200 ready-to-use templates ranging from infrastructure and business to databases, DevOps, AI, web applications, and IoT. This diversity significantly reduces the software's time to market and greatly enhances productivity.\n\nThe mission of Websoft9 is to empower innovative organizations and developers to concentrate on using open-source products, while the Websoft9 platform takes care of deployment, integration, updates, CI/CD, and maintenance.\n\nJoining the Websoft9 can unlock an organization's potential for innovation, streamlining technology management and making it simpler and more efficient.",
+        "zh-CN": "Websoft9（微聚云） 是一个 PaaS 平台，它可以帮助用户在各种云平台上轻松地运行由官方维护的开源应用。不管在 AWS、Azure、GCP 还是阿里云或华为，通过几次点击，即可轻松部署应用程序，有极简的体验。\n\nWebsoft9 内置的**应用商店**提供了 200 + 即用型模板，涵盖了云管理、企业软件、通信协作、数据、DevOps、分析、人工智能、物联网等多种类别。它将软件上线的时间由几天减少了几分钟，大大提高了生产力。\n\nWebsoft9 的使命是赋能创新型组织和开发者专注于开源应用的使用，而 Websoft9 平台负责应用部署、集成、更新、持续集成/持续部署（CI/CD）和维护。\n\n故，使用 Websoft9 可以释放组织的创新潜力，使技术管理更加流畅、简单和高效。\n\nWebsoft9 通过产品和商业级支持服务，与全球主流云平台合作，服务全球 140 多个国家 3000 万云端企业客户。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-profile-intro.png"
+      }
+    }
+  },
+  {
+    "id": "6qcENWxT8bMWeZE9WUYcgh",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:19:27.030Z",
+    "updatedAt": "2023-06-29T06:40:26.976Z",
+    "publishedAt": "2023-06-29T06:40:26.976Z",
+    "firstPublishedAt": "2022-09-16T06:20:27.198Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "Changsha of China",
+        "zh-CN": "中国.长沙"
+      },
+      "slug": {
+        "en-US": "address-changsha"
+      },
+      "subtitle": {
+        "en-US": "Yuelu District Yanghu  AUX S-911, Changsha, Hunan Province",
+        "zh-CN": "湖南省.长沙市.岳麓区洋湖奥克斯中心S1栋911房"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/address-icon-china-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "MfdpdBNc9tbwkxjlOuEh7",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-10T06:31:52.021Z",
+    "updatedAt": "2022-11-03T09:10:03.479Z",
+    "publishedAt": "2022-11-03T09:10:03.479Z",
+    "firstPublishedAt": "2022-08-10T06:32:03.878Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud Native architecture",
+        "zh-CN": "云原生架构"
+      },
+      "slug": {
+        "en-US": "cloud-native-architecture"
+      },
+      "subtitle": {
+        "en-US": "基于 Docker 的云原生架构，应用相互隔离",
+        "zh-CN": "基于 Docker 的云原生架构，应用相互隔离"
+      },
+      "description": {
+        "en-US": "云原生技术使组织能够在公共、私有和混合云等现代动态环境中构建和运行可扩展的应用程序。Websoft9 平台以[Twelve-Factor Application](https://12factor.net/)作为设计原则，可以快速部署和扩展，并添加功能以快速响应市场变化。",
+        "zh-CN": "云原生技术使组织能够在公共、私有和混合云等现代动态环境中构建和运行可扩展的应用程序。Websoft9 平台以[云原生 12 要素](https://12factor.net/)作为设计原则，可以快速部署和扩展，并添加功能以快速响应市场变化。"
+      },
+      "icon": {
+        "en-US": "cloud_done"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-paas-feature-cloudnative-websoft9.webp"
+      },
+      "link": {
+        "en-US": []
+      }
+    }
+  },
+  {
+    "id": "5SfJ4txePDLGJxfPbWtZC0",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-29T05:07:34.070Z",
+    "updatedAt": "2022-11-03T09:02:30.869Z",
+    "publishedAt": "2022-11-03T09:02:30.869Z",
+    "firstPublishedAt": "2022-09-29T05:09:15.963Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Alibaba Cloud YunHe Application Award",
+        "zh-CN": "阿里云云栖大会.云合应用奖"
+      },
+      "slug": {
+        "en-US": "alibaba-cloud-yunhe-application-award"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-honor-aliyunyunhe-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "2Qu365YY3Mkodi8KIeIjYv",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-18T02:50:57.726Z",
+    "updatedAt": "2022-10-25T06:46:45.021Z",
+    "publishedAt": "2022-10-25T06:46:45.021Z",
+    "firstPublishedAt": "2022-08-18T02:52:27.047Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Menu"
+        ]
+      },
+      "title": {
+        "en-US": "Resource Center",
+        "zh-CN": "资源中心"
+      },
+      "slug": {
+        "en-US": "resource-center"
+      },
+      "subtitle": {
+        "en-US": "阅读解决方案、案例、博客、白皮书等，可以更好的了解我们产品和服务的应用范围",
+        "zh-CN": "阅读解决方案、案例、博客、白皮书等，可以更好的了解我们产品和服务的应用范围"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/menu-block-feature-resources-websoft9.jpeg"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "6212c1ee-cb0c-4dc3-bb52-f88ecc986064",
+            "key": "Read it",
+            "value": "/resources"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "2991fd49-177c-4b27-b2ad-87a5b5023afb",
+            "key": "立即阅读",
+            "value": "/resources"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3dbPbdpxLJMlJmuPuBTamt",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-19T00:55:40.431Z",
+    "updatedAt": "2022-10-19T01:43:04.127Z",
+    "publishedAt": "2022-10-19T01:43:04.127Z",
+    "firstPublishedAt": "2022-10-19T01:00:35.093Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud native architecture consulting and implementation",
+        "zh-CN": "云原生架构咨询与落地"
+      },
+      "slug": {
+        "en-US": "cloud-native-arc-consultant"
+      },
+      "subtitle": {
+        "en-US": "咨询专家帮助客户数量数字化转型的战略，探索企业未来之路。",
+        "zh-CN": "咨询专家帮助客户数量数字化转型的战略，探索企业未来之路。"
+      },
+      "description": {
+        "en-US": "Websoft9 精选数字化转型技术专家，可以将企业架构落地到对应的云原生架构上，以中立的角度帮助企业适配最合适的产品和技术。同时，提供应用组装与集成服务，帮助企业打通应用之间的数据流、信息流，让业务之间共享数据。",
+        "zh-CN": "Websoft9 精选数字化转型技术专家，可以将企业架构落地到对应的云原生架构上，以中立的角度帮助企业适配最合适的产品和技术。同时，提供应用组装与集成服务，帮助企业打通应用之间的数据流、信息流，让业务之间共享数据。"
+      },
+      "icon": {
+        "en-US": "start"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-feature-digtalconsultant-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "74MpTvnyPmj80YXfD0Qghq",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-19T01:20:29.932Z",
+    "updatedAt": "2022-10-19T01:40:53.972Z",
+    "publishedAt": "2022-10-19T01:40:53.972Z",
+    "firstPublishedAt": "2022-10-19T01:36:04.844Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Integrate with SaaS applications",
+        "zh-CN": "与 SaaS 应用集成"
+      },
+      "slug": {
+        "en-US": "integrate-with-saas-applications"
+      },
+      "subtitle": {
+        "en-US": "让您的应用连接起来并实现流程自动化",
+        "zh-CN": "让您的应用连接起来并实现流程自动化"
+      },
+      "description": {
+        "en-US": "全球数字化营销技术目录中已有超过 50000 万个 SaaS 应用，且这个数字还在不断增长。Websoft9 平台与 SaaS 不是互斥关系，反而是相互促进关系。我们支持通过主流的 iPaaS 平台，将 Websoft9 平台中的应用与成千上万个主流的 SaaS 应用进行数据和流程的集成，让企业的数据得到有效的利用。",
+        "zh-CN": "全球数字化营销技术目录中已有超过 50000 万个 SaaS 应用，且这个数字还在不断增长。Websoft9 平台与 SaaS 不是互斥关系，反而是相互促进关系。我们支持通过主流的 iPaaS 平台，将 Websoft9 平台中的应用与成千上万个主流的 SaaS 应用进行数据和流程的集成，让企业的数据得到有效的利用。"
+      },
+      "icon": {
+        "en-US": "apps"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-feature-ipaasintegrate-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "2V1yY6EIw063L71KLuEA34",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-12T07:03:43.469Z",
+    "updatedAt": "2022-10-19T01:02:04.962Z",
+    "publishedAt": "2022-10-19T01:02:04.962Z",
+    "firstPublishedAt": "2022-08-12T07:03:59.949Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "ROI",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Business running speed",
+        "zh-CN": "业务上线速度"
+      },
+      "slug": {
+        "en-US": "business-running-speed"
+      },
+      "subtitle": {
+        "en-US": "精品应用大大节省了企业选型的时间，易部署的特征降低了上线时间，效率得到质的提升",
+        "zh-CN": "精品应用大大节省了企业选型的时间，易部署的特征降低了上线时间，效率得到质的提升"
+      },
+      "description": {
+        "en-US": "↑ 20X",
+        "zh-CN": "↑ 20倍"
+      },
+      "icon": {
+        "en-US": "start"
+      }
+    }
+  },
+  {
+    "id": "4w2ukVyqLH0c6BOBSbmsP2",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:13:30.184Z",
+    "updatedAt": "2022-10-18T08:56:42.002Z",
+    "publishedAt": "2022-10-18T08:56:42.002Z",
+    "firstPublishedAt": "2022-09-16T06:14:12.918Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "Live chat with Wechat",
+        "zh-CN": "微信在线客服（扫一扫，无需加好友）"
+      },
+      "slug": {
+        "en-US": "livechat-wechat"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/icon-online-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "7IScircq1c10Z2MrtoxMtV",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-12T07:04:07.953Z",
+    "updatedAt": "2022-10-18T08:49:21.419Z",
+    "publishedAt": "2022-10-18T08:49:21.419Z",
+    "firstPublishedAt": "2022-08-12T07:04:24.075Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "ROI",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Maintenance costs",
+        "zh-CN": "维护成本"
+      },
+      "slug": {
+        "en-US": "maintenance-costs"
+      },
+      "subtitle": {
+        "en-US": "应用商店也是一个 PaaS 平台，它集成了自动化、备份、监控、日志分析等多种运维能力",
+        "zh-CN": "应用商店也是一个 PaaS 平台，它集成了自动化、备份、监控、日志分析等多种运维能力"
+      },
+      "description": {
+        "en-US": "↓ 90%",
+        "zh-CN": "↓ 90%"
+      }
+    }
+  },
+  {
+    "id": "4OYqOkeWFc5EyLcuQrsK2F",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-12T07:02:00.494Z",
+    "updatedAt": "2022-10-18T08:49:14.656Z",
+    "publishedAt": "2022-10-18T08:49:14.656Z",
+    "firstPublishedAt": "2022-08-12T07:03:33.299Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "ROI",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud Costs",
+        "zh-CN": "云资源消耗成本"
+      },
+      "slug": {
+        "en-US": "cloud-cost"
+      },
+      "subtitle": {
+        "en-US": "云应用商店让一台服务器可以运行多个应用，应用之间相互隔离，互不干扰，实现云资源的共享",
+        "zh-CN": "云应用商店让一台服务器可以运行多个应用，应用之间相互隔离，互不干扰，实现云资源的共享"
+      },
+      "description": {
+        "en-US": "↓ 80%",
+        "zh-CN": "↓ 80%"
+      }
+    }
+  },
+  {
+    "id": "43qGvdCOzW1C41h03BBX9R",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-11T08:27:35.967Z",
+    "updatedAt": "2022-10-18T08:49:07.810Z",
+    "publishedAt": "2022-10-18T08:49:07.810Z",
+    "firstPublishedAt": "2022-08-11T08:30:05.565Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "ROI",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Human resource decrease",
+        "zh-CN": "每年节省人力成本"
+      },
+      "slug": {
+        "en-US": "human-resource-decrease"
+      },
+      "subtitle": {
+        "en-US": "中小企业可以不需要专职 IT 人员",
+        "zh-CN": "中小企业可以不需要专职 IT 人员"
+      },
+      "description": {
+        "en-US": "↓ 50%",
+        "zh-CN": "↓ 50%"
+      }
+    }
+  },
+  {
+    "id": "2M4r6AStfMHw5Nmq5ttLO2",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-11T08:31:11.988Z",
+    "updatedAt": "2022-10-18T08:48:59.438Z",
+    "publishedAt": "2022-10-18T08:48:59.438Z",
+    "firstPublishedAt": "2022-08-11T08:31:37.257Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "ROI",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Improved business response speed",
+        "zh-CN": "业务响应速度提升"
+      },
+      "slug": {
+        "en-US": "improved-business-response-speed"
+      },
+      "subtitle": {
+        "en-US": "告别等待 IT 部门的评估和实施的被动局面，自主部署应用，快速响应需求，掌握主动权",
+        "zh-CN": "告别等待 IT 部门的评估和实施的被动局面，自主部署应用，快速响应需求，掌握主动权"
+      },
+      "description": {
+        "en-US": "↑ 5X",
+        "zh-CN": "↑ 5倍"
+      }
+    }
+  },
+  {
+    "id": "1MFRpPluLtjLBL68wLe1pS",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-11T08:30:27.516Z",
+    "updatedAt": "2022-10-18T08:48:50.274Z",
+    "publishedAt": "2022-10-18T08:48:50.274Z",
+    "firstPublishedAt": "2022-08-11T08:31:02.012Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "ROI",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Website failure rate reduced to",
+        "zh-CN": "网站故障率降低到"
+      },
+      "slug": {
+        "en-US": "website-failure-rate-reduced-to"
+      },
+      "subtitle": {
+        "en-US": "微服务架构，支持集群部署，网站故障自动切换",
+        "zh-CN": "微服务架构，支持集群部署，网站故障自动切换"
+      },
+      "description": {
+        "en-US": "↓ 1%",
+        "zh-CN": "↓ 1%"
+      }
+    }
+  },
+  {
+    "id": "2vJpo1HfxfWhIwHrTzCKfA",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-09T02:15:35.552Z",
+    "updatedAt": "2022-10-18T08:42:27.226Z",
+    "publishedAt": "2022-10-18T08:42:27.226Z",
+    "firstPublishedAt": "2022-09-09T02:34:46.798Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Begin from creation",
+        "zh-CN": "从创作开始"
+      },
+      "slug": {
+        "en-US": "begin-from-creation"
+      },
+      "subtitle": {
+        "en-US": "汇聚设计创作工具，让业务一线人员从设计开始创新",
+        "zh-CN": "汇聚设计创作工具，让业务一线人员从设计开始创新"
+      },
+      "description": {
+        "zh-CN": "80% 的客户表示，由于网站客户体验不佳，降低了他们对品牌的信任。网站相应时间缓慢、网站内容匮乏、内容单一，会降低您正在创造的卓越体验，并可能将客户推向竞争对手。\n\nWebsoft9 可以帮助您进行用户体验的技术落地规划，解决用户体验中碰到的问题。"
+      },
+      "icon": {
+        "en-US": "face"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-feature-begincreate-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "2egsbucdICHe16HXbXVeRf",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-09T02:00:56.831Z",
+    "updatedAt": "2022-10-18T08:41:46.230Z",
+    "publishedAt": "2022-10-18T08:41:46.230Z",
+    "firstPublishedAt": "2022-09-09T02:07:10.086Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Faster time to Marketing",
+        "zh-CN": "更快的上线时间"
+      },
+      "slug": {
+        "en-US": "faster-time-to-market"
+      },
+      "subtitle": {
+        "en-US": "内容营销是企业自增长的引擎，更快的上线速度意味着一切",
+        "zh-CN": "内容营销是企业自增长的引擎，更快的上线速度意味着一切"
+      },
+      "description": {
+        "en-US": "产品发布、推广活动、竞争压力。将这些关键举措迅速推向市场依赖于创新和创造力。75% 的营销人员同意，IT 部门给他们用来简化工作的不同工具的数量实际上使工作变得更加复杂。\n\n只有业务一线自主学习和管理不同的 martech 工具，方可真正的改变现有局面。Websoft9 应用商店中精选的内容营销工具，可以让业务人员在无需 IT 支持的情况下，快速上线。",
+        "zh-CN": "产品发布、推广活动、竞争压力。将这些关键举措迅速推向市场依赖于创新和创造力。75% 的营销人员同意，IT 部门给他们用来简化工作的不同工具的数量实际上使工作变得更加复杂。\n\n只有业务一线自主学习和管理不同的 martech 工具，方可真正的改变现有局面。Websoft9 应用商店中精选的内容营销工具，可以让业务人员在无需 IT 支持的情况下，快速上线。"
+      },
+      "icon": {
+        "en-US": "flash_auto"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-feature-quickonline-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "4DSAb3ELBEvRai7Xd5iiTR",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-17T09:38:17.222Z",
+    "updatedAt": "2022-10-17T09:49:18.153Z",
+    "publishedAt": "2022-10-17T09:49:18.153Z",
+    "firstPublishedAt": "2022-10-17T09:49:18.153Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Governed software supply chain",
+        "zh-CN": "可监管的软件供应链"
+      },
+      "slug": {
+        "en-US": "governed-software-supply-chain"
+      },
+      "subtitle": {
+        "en-US": "End-to-end policy automation, enforcement, and traceability",
+        "zh-CN": "端到端策略自动化、执行和可追溯性"
+      },
+      "description": {
+        "en-US": "- End-to-end policy automation, enforcement, and traceability\n- Built in common controls for compliance\n- Guardrails for unobtrusive policy enforcement",
+        "zh-CN": "软件供应链的可跟踪性和安全已经成为系统的重要考虑：\n\n- 端到端策略自动化、执行和可追溯性\n- 内置合规性通用控制\n- 用于不显眼的策略执行的护栏"
+      },
+      "icon": {
+        "en-US": "link"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-softwarescm-websoft9.webp"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "a3fc927a-a248-4993-b038-7ce77350539c",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "67c516d3-81b5-498a-a59c-be443b689799",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2pARFDEPOkLnVBlFJIvdhS",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-17T09:06:55.567Z",
+    "updatedAt": "2022-10-17T09:36:33.207Z",
+    "publishedAt": "2022-10-17T09:36:33.207Z",
+    "firstPublishedAt": "2022-10-17T09:21:10.650Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud agnostic",
+        "zh-CN": "与云无关"
+      },
+      "slug": {
+        "en-US": "cloud-agnostic"
+      },
+      "subtitle": {
+        "en-US": "You can use Websoft9 how and where you want to fit with your digital infrastructure.",
+        "zh-CN": "与基础设施无关的部署和使用方式"
+      },
+      "description": {
+        "en-US": "作为应用的 PaaS 平台，我们兼容主流的云平台和私有云架构，没有供应商锁定和任何的倾向性，满足用户的采购需求和云平台选型战略。",
+        "zh-CN": "作为应用的 PaaS 平台，我们兼容主流的云平台和私有云架构，没有供应商锁定和任何的倾向性，满足用户的采购需求和云平台选型战略。"
+      },
+      "icon": {
+        "en-US": "lock_open"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-paas-feature-nolock-websoft9.webp"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "96686d91-5cb8-40af-8a90-e7ea516d9bf8",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "7771fb2d-8fd6-4365-93e6-1927939861ca",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7gSUmRSvmDJZHtNixbTv37",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-17T09:29:44.849Z",
+    "updatedAt": "2022-10-17T09:34:30.676Z",
+    "publishedAt": "2022-10-17T09:34:30.676Z",
+    "firstPublishedAt": "2022-10-17T09:34:30.676Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Team and users",
+        "zh-CN": "团队与多用户"
+      },
+      "slug": {
+        "en-US": "team-and-users"
+      },
+      "subtitle": {
+        "en-US": "面向团队提供多用户管理",
+        "zh-CN": "面向团队提供多用户管理"
+      },
+      "description": {
+        "en-US": "内置团队管理和权限控制，使得不同部门的用户可以方便的管理应用，更安全，更有利于控制。",
+        "zh-CN": "内置团队管理和权限控制，使得不同部门的用户可以方便的管理应用，更安全，更有利于控制。"
+      },
+      "icon": {
+        "en-US": "people_alt"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-paas-feature-teamuser-websoft9.webp"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "96686d91-5cb8-40af-8a90-e7ea516d9bf8",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "7771fb2d-8fd6-4365-93e6-1927939861ca",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "EV9qXCZS0IDR8HmpQrV7S",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-17T09:22:53.543Z",
+    "updatedAt": "2022-10-17T09:27:38.559Z",
+    "publishedAt": "2022-10-17T09:27:38.559Z",
+    "firstPublishedAt": "2022-10-17T09:27:38.559Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Simple",
+        "zh-CN": "简单"
+      },
+      "slug": {
+        "en-US": "simple"
+      },
+      "subtitle": {
+        "en-US": "复杂隐藏在背后，简单留给用户",
+        "zh-CN": "复杂隐藏在背后，简单留给用户"
+      },
+      "description": {
+        "en-US": "没有用户喜欢复杂的操作，复杂的系统并不意味着功能的强大。只有把简单展现给用户，把复杂隐藏到背后的系统才具真正具有人性化考虑和哲学思考。Websoft9 平台正是基于此来设计，我们不断追求极致的简单，大大解放业务人员的生产效率。",
+        "zh-CN": "没有用户喜欢复杂的操作，复杂的系统并不意味着功能的强大。只有把简单展现给用户，把复杂隐藏到背后的系统才具真正具有人性化考虑和哲学思考。Websoft9 平台正是基于此来设计，我们不断追求极致的简单，大大解放业务人员的生产效率。"
+      },
+      "icon": {
+        "en-US": "lock_open"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-paas-feature-simple-websoft9.webp"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "96686d91-5cb8-40af-8a90-e7ea516d9bf8",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "7771fb2d-8fd6-4365-93e6-1927939861ca",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "RP5wljcIyxlLsvmeafaTP",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-10T06:33:07.483Z",
+    "updatedAt": "2022-10-17T09:02:22.612Z",
+    "publishedAt": "2022-10-17T09:02:22.612Z",
+    "firstPublishedAt": "2022-08-10T06:33:18.149Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Security and compliance ",
+        "zh-CN": "安全合规"
+      },
+      "slug": {
+        "en-US": "paas-security"
+      },
+      "subtitle": {
+        "en-US": "加密证书以及公有云平台安全审核",
+        "zh-CN": "加密证书以及公有云平台安全审核"
+      },
+      "description": {
+        "en-US": "Websoft9 提供的模板应用都是安全和合规的软件。同时，一致性、通用控制、策略自动化的合规框架可帮助您监控和保护已部署的容器化应用程序。",
+        "zh-CN": "Websoft9 提供的模板应用都是安全和合规的软件。同时，一致性、通用控制、策略自动化的合规框架可帮助您监控和保护已部署的容器化应用程序。"
+      },
+      "icon": {
+        "en-US": "security"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-security-websoft9.webp"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "96686d91-5cb8-40af-8a90-e7ea516d9bf8",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "7771fb2d-8fd6-4365-93e6-1927939861ca",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "71kNpUiu74R0BJKqHBqv1z",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-10T06:32:11.719Z",
+    "updatedAt": "2022-10-17T08:55:55.550Z",
+    "publishedAt": "2022-10-17T08:55:55.550Z",
+    "firstPublishedAt": "2022-08-10T06:32:23.520Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Professional support",
+        "zh-CN": "专业支持"
+      },
+      "slug": {
+        "en-US": "professional-support"
+      },
+      "subtitle": {
+        "en-US": "为企业订阅用户，提供免费的专业支持服务",
+        "zh-CN": "为企业订阅用户，提供免费的专业支持服务"
+      },
+      "description": {
+        "en-US": "Websoft9 不仅仅给用户提供了一个云原生应用聚合与运维平台，我们也乐意为用户提供专业的技术支持和个性化定制服务，充分满足客户基于平台改善业务、提升效率的需求。",
+        "zh-CN": "Websoft9 不仅仅给用户提供了一个云原生应用聚合与运维平台，我们也乐意为用户提供专业的技术支持和个性化定制服务，充分满足客户基于平台改善业务、提升效率的需求。"
+      },
+      "icon": {
+        "en-US": "support_agent"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/service-professional-hero-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "4xAiS9aL4e3Ws2P2kPfO2r",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-10T06:31:13.065Z",
+    "updatedAt": "2022-10-17T08:40:59.890Z",
+    "publishedAt": "2022-10-17T08:40:59.890Z",
+    "firstPublishedAt": "2022-08-10T06:31:25.112Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Solution"
+        ]
+      },
+      "title": {
+        "en-US": "GUI based",
+        "zh-CN": "可视化管理"
+      },
+      "slug": {
+        "en-US": "paas-gui"
+      },
+      "subtitle": {
+        "en-US": "可视化的管理面板，简化运维",
+        "zh-CN": "可视化的管理面板，简化运维"
+      },
+      "description": {
+        "en-US": "应用的全生命周期，即启动、重启、终止、删除、配置域名都采用可视化方式，让业务部门的用户完全不需要任何 IT 支持即可轻松的使用应用。同时，内置可视化的监控工具、备份恢复系统也让运维变得简单。",
+        "zh-CN": "应用的全生命周期，即启动、重启、终止、删除、配置域名都采用可视化方式，让业务部门的用户完全不需要任何 IT 支持即可轻松的使用应用。同时，内置可视化的监控工具、备份恢复系统也让运维变得简单。"
+      },
+      "icon": {
+        "en-US": "visibility"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-management-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "5TXLlDEhL1gUIeVngEBoOG",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-10T01:18:43.910Z",
+    "updatedAt": "2022-10-17T08:36:35.944Z",
+    "publishedAt": "2022-10-17T08:36:35.944Z",
+    "firstPublishedAt": "2022-08-10T01:21:01.479Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "One-click deployment",
+        "zh-CN": "一键部署"
+      },
+      "slug": {
+        "en-US": "paas-deployment"
+      },
+      "subtitle": {
+        "en-US": "在公有云和私有云上都可以一键部署",
+        "zh-CN": "在公有云和私有云上都可以一键部署"
+      },
+      "description": {
+        "en-US": "不管是公有云、还是混合云，甚至是等保环境下的无网络环境，用户安装 Websoft9 平台都没有任何困难，我们提供了在线安装和离线安装两种方案，满足各种环境的需求。",
+        "zh-CN": "不管是公有云、还是混合云，甚至是等保环境下的无网络环境，用户安装 Websoft9 平台都没有任何困难，我们提供了在线安装和离线安装两种方案，满足各种环境的需求。"
+      },
+      "icon": {
+        "en-US": "touch_app"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-paas-feature-oneclick-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "3C4RMXPrSHCXAzzc4MhQOO",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-10T06:32:31.870Z",
+    "updatedAt": "2022-10-17T08:27:11.432Z",
+    "publishedAt": "2022-10-17T08:27:11.432Z",
+    "firstPublishedAt": "2022-08-10T06:32:42.719Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Customizable",
+        "zh-CN": "可自定义"
+      },
+      "slug": {
+        "en-US": "paas-customizable"
+      },
+      "subtitle": {
+        "en-US": "用户可以根据模板，自定义应用",
+        "zh-CN": "用户可以根据模板，自定义应用"
+      },
+      "description": {
+        "en-US": "Websoft9 不仅仅支持大量已有的应用模板，同时也支持用户自行定义的云原生应用。这样可以让用户把更多个性化的应用接入到平台中，灵活满足业务部门的需求。\n\n另外，Websoft9 还提供专业支持服务，满足用户在自定义应用过程中的技术请求。",
+        "zh-CN": "Websoft9 不仅仅支持大量已有的应用模板，同时也支持用户自行定义的云原生应用。这样可以让用户把更多个性化的应用接入到平台中，灵活满足业务部门的需求。\n\n另外，Websoft9 还提供专业支持服务，满足用户在自定义应用过程中的技术请求。"
+      },
+      "icon": {
+        "en-US": "dashboard_customize"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-paas-feature-customizable-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "6tglIKMl6sPTGCk9KGXZAH",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-10T06:32:49.046Z",
+    "updatedAt": "2022-10-17T07:50:24.609Z",
+    "publishedAt": "2022-10-17T07:50:24.609Z",
+    "firstPublishedAt": "2022-08-10T06:33:00.988Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Open Source",
+        "zh-CN": "100% 开源"
+      },
+      "slug": {
+        "en-US": "paas-opensource"
+      },
+      "subtitle": {
+        "en-US": "100% 开源，由社区驱动与开发",
+        "zh-CN": "100% 开源，由社区驱动与开发"
+      },
+      "description": {
+        "zh-CN": "Websoft9 的开源能够让项目贡献者轻松参与他们维护的产品的测试和交付方式。用户拥有源码意味着没有供应商锁定，一切尽在自己的掌握之中，无疑 Websoft9 将成为用户生态系统的重要组成部分。"
+      },
+      "icon": {
+        "en-US": "lock_open"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-paas-feature-opensource-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "76DJFDXDIPBxWrecrOyZXy",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-10T06:31:33.387Z",
+    "updatedAt": "2022-10-17T07:43:30.378Z",
+    "publishedAt": "2022-10-17T07:43:30.378Z",
+    "firstPublishedAt": "2022-08-10T06:31:45.262Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "PaaS",
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Automation",
+        "zh-CN": "自动化"
+      },
+      "slug": {
+        "en-US": "paas-automation"
+      },
+      "subtitle": {
+        "en-US": "从证书部署到备份，全部自动化完成",
+        "zh-CN": "从证书部署到备份，全部自动化完成"
+      },
+      "description": {
+        "en-US": "自动化理念在 Websoft9 产品的设计与实现中全面贯彻。自动化的安装部署，让用户可以快速使用我们的产品；自动化的证书、备份、监控等功能，可以让用户从复杂的运维工作解脱出来。",
+        "zh-CN": "自动化理念在 Websoft9 产品的设计与实现中全面贯彻。自动化的安装部署，让用户可以快速使用我们的产品；自动化的证书、备份、监控等功能，可以让用户从复杂的运维工作解脱出来。"
+      },
+      "icon": {
+        "en-US": "update"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-automation-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "4gdq320tBvOpqzWhvEg2Ot",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-13T00:06:12.735Z",
+    "updatedAt": "2022-10-13T00:06:46.924Z",
+    "publishedAt": "2022-10-13T00:06:46.924Z",
+    "firstPublishedAt": "2022-10-13T00:06:46.924Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "High-performance guidance",
+        "zh-CN": "高性能指导"
+      },
+      "slug": {
+        "en-US": "pricing-item-hpc"
+      }
+    }
+  },
+  {
+    "id": "7AqYHfFbGKwe4pRPNDBwU8",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-19T02:59:27.732Z",
+    "updatedAt": "2022-10-13T00:05:29.072Z",
+    "publishedAt": "2022-10-13T00:05:29.072Z",
+    "firstPublishedAt": "2022-08-19T02:59:37.622Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Connect leading digital technology leaders",
+        "zh-CN": "连接领先的数字化技术领导者"
+      },
+      "slug": {
+        "en-US": "connect-cloud-leader"
+      },
+      "subtitle": {
+        "en-US": "Websoft9 整合的是领先的软件供应链产品与服务，即意味着您可以通过我们与最新的数字化领导者保持联系",
+        "zh-CN": "Websoft9 整合的是领先的软件供应链产品与服务，即意味着您可以通过我们与最新的数字化领导者保持联系"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-roi-feature-connectleader-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "210r2KIE4lDXTzh1qqBm0f",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:36:53.008Z",
+    "updatedAt": "2022-10-13T00:02:39.705Z",
+    "publishedAt": "2022-10-13T00:02:39.705Z",
+    "firstPublishedAt": "2022-08-15T02:37:07.387Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Open source",
+        "zh-CN": "100% 开源"
+      },
+      "slug": {
+        "en-US": "pricing-item-opensource"
+      }
+    }
+  },
+  {
+    "id": "56qE0oRsMq5i4YAVnt4m8K",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:40:55.484Z",
+    "updatedAt": "2022-10-13T00:01:50.427Z",
+    "publishedAt": "2022-10-13T00:01:50.427Z",
+    "firstPublishedAt": "2022-08-15T02:41:00.902Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud security guidance",
+        "zh-CN": "云安全指导"
+      },
+      "slug": {
+        "en-US": "pricing-item-security"
+      }
+    }
+  },
+  {
+    "id": "2ZQ8FUF9Adl67gTZoG3K7k",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:40:43.288Z",
+    "updatedAt": "2022-10-13T00:01:04.821Z",
+    "publishedAt": "2022-10-13T00:01:04.821Z",
+    "firstPublishedAt": "2022-08-15T02:40:49.531Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "High availability guidance",
+        "zh-CN": "高可用性指导"
+      },
+      "slug": {
+        "en-US": "pricing-item-ha"
+      }
+    }
+  },
+  {
+    "id": "1aWo8zbNTVfkv6iyBzvops",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:37:32.628Z",
+    "updatedAt": "2022-10-13T00:00:29.792Z",
+    "publishedAt": "2022-10-13T00:00:29.792Z",
+    "firstPublishedAt": "2022-08-15T02:37:38.071Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "All docs",
+        "zh-CN": "所有文档"
+      },
+      "slug": {
+        "en-US": "pricing-item-free-docs"
+      }
+    }
+  },
+  {
+    "id": "F55cSv3FdykIxVoq4SO2G",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:40:32.701Z",
+    "updatedAt": "2022-10-12T23:59:49.358Z",
+    "publishedAt": "2022-10-12T23:59:49.358Z",
+    "firstPublishedAt": "2022-08-15T02:40:37.392Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Backup and upgrade support",
+        "zh-CN": "备份与升级指导"
+      },
+      "slug": {
+        "en-US": "pricing-item-upgrade"
+      }
+    }
+  },
+  {
+    "id": "7kfFnaQ2jE82oVdpw6B8gG",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:40:22.052Z",
+    "updatedAt": "2022-10-12T23:59:14.833Z",
+    "publishedAt": "2022-10-12T23:59:14.833Z",
+    "firstPublishedAt": "2022-08-15T02:40:27.032Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Support for configuration",
+        "zh-CN": "技术配置支持与指导"
+      },
+      "slug": {
+        "en-US": "pricing-item-configuration"
+      }
+    }
+  },
+  {
+    "id": "5uga0PxU0sDktoyo0B4r2N",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:40:10.584Z",
+    "updatedAt": "2022-10-12T23:58:19.483Z",
+    "publishedAt": "2022-10-12T23:58:19.483Z",
+    "firstPublishedAt": "2022-08-15T02:40:15.382Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "One-on-one customer service manager",
+        "zh-CN": "一对一客服经理"
+      },
+      "slug": {
+        "en-US": "pricing-item-server-manager"
+      }
+    }
+  },
+  {
+    "id": "4f9AnsXiupQhjHtErdbZnE",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:39:48.158Z",
+    "updatedAt": "2022-10-12T23:56:59.312Z",
+    "publishedAt": "2022-10-12T23:56:59.312Z",
+    "firstPublishedAt": "2022-08-15T02:39:53.089Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Create VIP support records",
+        "zh-CN": "建立专属客服记录"
+      },
+      "slug": {
+        "en-US": "pricing-item-vip"
+      }
+    }
+  },
+  {
+    "id": "1Jnh4pUqbuhZDDaYdjBVAU",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:39:24.875Z",
+    "updatedAt": "2022-10-12T23:54:32.581Z",
+    "publishedAt": "2022-10-12T23:54:32.581Z",
+    "firstPublishedAt": "2022-08-15T02:39:30.691Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Technology consultant",
+        "zh-CN": "技术咨询建议"
+      },
+      "slug": {
+        "en-US": "pricing-item-consultant"
+      }
+    }
+  },
+  {
+    "id": "6SZKK5ubwMkh6Nd9STdptW",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:39:11.736Z",
+    "updatedAt": "2022-10-12T23:53:14.686Z",
+    "publishedAt": "2022-10-12T23:53:14.686Z",
+    "firstPublishedAt": "2022-08-15T02:39:17.598Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "5×8 online chat",
+        "zh-CN": "5×8 在线聊天客服"
+      },
+      "slug": {
+        "en-US": "pricing-item-chat"
+      }
+    }
+  },
+  {
+    "id": "5CQ8yFQsZgjte3tImUPtTs",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:38:56.430Z",
+    "updatedAt": "2022-10-12T23:52:18.584Z",
+    "publishedAt": "2022-10-12T23:52:18.584Z",
+    "firstPublishedAt": "2022-08-15T02:39:01.853Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "7×8 support by phone",
+        "zh-CN": "7×8 电话客服"
+      },
+      "slug": {
+        "en-US": "pricing-item-phone"
+      }
+    }
+  },
+  {
+    "id": "7zsadW9nHhWzBu65mfejBG",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:38:44.404Z",
+    "updatedAt": "2022-10-12T23:51:43.375Z",
+    "publishedAt": "2022-10-12T23:51:43.375Z",
+    "firstPublishedAt": "2022-08-15T02:38:50.397Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "7×24 support by Ticket or Email",
+        "zh-CN": "7×24 工单、邮件支持"
+      },
+      "slug": {
+        "en-US": "pricing-item-7and24"
+      }
+    }
+  },
+  {
+    "id": "6v14wm1RInIl9h30tEeTfj",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:38:33.264Z",
+    "updatedAt": "2022-10-12T23:51:03.375Z",
+    "publishedAt": "2022-10-12T23:51:03.375Z",
+    "firstPublishedAt": "2022-08-15T02:38:37.927Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Can cancel the subscription any time",
+        "zh-CN": "订阅收费，随时取消"
+      },
+      "slug": {
+        "en-US": "pricing-item-cancel-subscription"
+      }
+    }
+  },
+  {
+    "id": "pdwSf5oUqj1MkuPBoWHMQ",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:38:20.360Z",
+    "updatedAt": "2022-10-12T23:49:52.787Z",
+    "publishedAt": "2022-10-12T23:49:52.787Z",
+    "firstPublishedAt": "2022-08-15T02:38:27.089Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "【Free Edition】+",
+        "zh-CN": "【免费版】所有功能 +"
+      },
+      "slug": {
+        "en-US": "pricing-item-includefree"
+      }
+    }
+  },
+  {
+    "id": "6yYMD1IVAbX8CdaRtQY5Hr",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:37:53.445Z",
+    "updatedAt": "2022-10-12T23:48:27.299Z",
+    "publishedAt": "2022-10-12T23:48:27.299Z",
+    "firstPublishedAt": "2022-08-15T02:37:58.875Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Submit issue by Github",
+        "zh-CN": "通过 Github 提交故障"
+      },
+      "slug": {
+        "en-US": "pricing-item-github"
+      }
+    }
+  },
+  {
+    "id": "1ndChKlfwKklBSRNsI5lhw",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:38:05.345Z",
+    "updatedAt": "2022-10-12T23:46:47.960Z",
+    "publishedAt": "2022-10-12T23:46:47.960Z",
+    "firstPublishedAt": "2022-08-15T02:38:11.077Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Paid for Support",
+        "zh-CN": "可付费获得支持"
+      },
+      "slug": {
+        "en-US": "pricing-item-payforsupport"
+      }
+    }
+  },
+  {
+    "id": "5nJxxbsWOXRr2lykecjuUj",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-15T02:37:43.775Z",
+    "updatedAt": "2022-10-12T23:45:56.219Z",
+    "publishedAt": "2022-10-12T23:45:56.219Z",
+    "firstPublishedAt": "2022-08-15T02:37:47.865Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Pricing"
+        ]
+      },
+      "title": {
+        "en-US": "Community",
+        "zh-CN": "开源社区"
+      },
+      "slug": {
+        "en-US": "pricing-item-community"
+      }
+    }
+  },
+  {
+    "id": "30faARL1f0brApixsVgt68",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-12T07:53:41.017Z",
+    "updatedAt": "2022-10-12T07:55:33.909Z",
+    "publishedAt": "2022-10-12T07:55:33.909Z",
+    "firstPublishedAt": "2022-10-12T07:55:33.909Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "FAQ"
+        ]
+      },
+      "title": {
+        "en-US": "Can I use Websoft9 on my Server which have not Internet?",
+        "zh-CN": "服务器没有网络，如何使用你们的产品？"
+      },
+      "slug": {
+        "en-US": "faq-pricing-have-not-internet"
+      },
+      "description": {
+        "en-US": "We can provide offline installation packages for server environments without network. If you have this need, please contact our Customer Success team first",
+        "zh-CN": "我们可以为无网络的服务器环境提供离线安装包。如果您有此方面的需求，请先联系我们的客户成功团队"
+      }
+    }
+  },
+  {
+    "id": "KzikswT7eYuRgaZcvHhRY",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-12T07:51:39.586Z",
+    "updatedAt": "2022-10-12T07:53:25.335Z",
+    "publishedAt": "2022-10-12T07:53:25.335Z",
+    "firstPublishedAt": "2022-10-12T07:53:25.335Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "FAQ"
+        ]
+      },
+      "title": {
+        "en-US": "Can I use Websoft9 on my Private Cloud?",
+        "zh-CN": "私有云如何使用你们的产品？"
+      },
+      "slug": {
+        "en-US": "faq-pricing-can-i-use-websoft9-on-my-private-cloud"
+      },
+      "description": {
+        "en-US": "We can provide service for you, you should contact us before",
+        "zh-CN": "我们可以为私有云提供服务，如果有需要建议联系我们的客户成功团队"
+      }
+    }
+  },
+  {
+    "id": "GgXovFthZb7qeP0ZhW1Xu",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-12T07:49:41.875Z",
+    "updatedAt": "2022-10-12T07:51:14.358Z",
+    "publishedAt": "2022-10-12T07:51:14.358Z",
+    "firstPublishedAt": "2022-10-12T07:51:14.358Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "FAQ"
+        ]
+      },
+      "title": {
+        "en-US": "I don't want to manage the server, do you offer hosting?",
+        "zh-CN": "我不想管理服务器，你们提供托管服务吗？"
+      },
+      "slug": {
+        "en-US": "faq-pricing-have-hosting"
+      },
+      "description": {
+        "en-US": "We can provide you with server hosting services",
+        "zh-CN": "我们可以为您提供服务器托管服务"
+      }
+    }
+  },
+  {
+    "id": "ILY1D7yE91xhFQngaKhUe",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-12T07:45:36.706Z",
+    "updatedAt": "2022-10-12T07:49:23.448Z",
+    "publishedAt": "2022-10-12T07:49:23.448Z",
+    "firstPublishedAt": "2022-10-12T07:49:12.879Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "FAQ"
+        ]
+      },
+      "title": {
+        "en-US": "Do you provide invoice and contract?",
+        "zh-CN": "你们提供合同和发票吗？"
+      },
+      "slug": {
+        "en-US": "faq-pricing-do-you-provide-invoice-and-contract"
+      },
+      "description": {
+        "en-US": "Yes",
+        "zh-CN": "是的，我们针对任何订阅均提供合同和发票，哪怕您仅仅使用了一小时（付费0.3元），我们也有义务为您开具发票。"
+      }
+    }
+  },
+  {
+    "id": "560fpUzyxVk6ghsM6gXc49",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-10-12T07:41:27.140Z",
+    "updatedAt": "2022-10-12T07:45:21.882Z",
+    "publishedAt": "2022-10-12T07:45:21.882Z",
+    "firstPublishedAt": "2022-10-12T07:45:21.882Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "FAQ"
+        ]
+      },
+      "title": {
+        "en-US": "Which public cloud platforms can I subscribe to Websoft9's products?",
+        "zh-CN": "在哪些公有云平台可以订阅 Websoft9 的产品？"
+      },
+      "slug": {
+        "en-US": "faq-pricing-which-public-cloud-platforms"
+      },
+      "description": {
+        "en-US": "我们在 Azure, AWS, 阿里云，华为云，腾讯云等全球主流的云平台发布了可以[订阅](https://support.websoft9.com/docs/buy/subscription)的商品",
+        "zh-CN": "我们在 Azure, AWS, 阿里云，华为云，腾讯云等全球主流的云平台发布了可以[订阅](https://support.websoft9.com/docs/buy/subscription)的商品"
+      }
+    }
+  },
+  {
+    "id": "2ppgX8sjf68wXSVHc9Nz4N",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-18T07:49:52.263Z",
+    "updatedAt": "2022-10-12T07:41:20.708Z",
+    "publishedAt": "2022-10-12T07:41:20.708Z",
+    "firstPublishedAt": "2022-08-18T07:50:10.072Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "FAQ"
+        ]
+      },
+      "title": {
+        "en-US": "I do not want to use it, can I unsubscribe?",
+        "zh-CN": "不想使用了，可以退订吗?"
+      },
+      "slug": {
+        "en-US": "faq-pricing-unsubscribed"
+      },
+      "description": {
+        "en-US": "Pay-as-you-go can unsubscribe at any time, and the annual subscription is negotiated and unsubscribed according to the actual situation.",
+        "zh-CN": "按量付费可以随时退订，包年订阅根据可以退换未使用部分。"
+      }
+    }
+  },
+  {
+    "id": "4vAeX0sArHtBsJNNxtIaDb",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-18T07:50:23.761Z",
+    "updatedAt": "2022-10-12T07:39:29.380Z",
+    "publishedAt": "2022-10-12T07:39:29.380Z",
+    "firstPublishedAt": "2022-08-18T07:50:37.041Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "FAQ"
+        ]
+      },
+      "title": {
+        "en-US": "How to get manual support for the free version?",
+        "zh-CN": "免费版如何获取人工支持？"
+      },
+      "slug": {
+        "en-US": "faq-pricing-freeversion-support"
+      },
+      "description": {
+        "en-US": "虽然我们不针对免费版用户提供免费的人工支持服务，但是您可以作出行动判断：\n\n- 如何您认为是产品故障，请向我们的 GitHub 项目中提交 Issue\n- 如果您需要的是个性化服务，请到我们网站的服务页面中购买合适的服务",
+        "zh-CN": "虽然我们不针对免费版用户提供免费的人工支持服务，但是您可以作出行动判断：\n\n- 如何您认为是产品故障，请向我们的 GitHub 项目中提交 Issue\n- 如果您需要的是个性化服务，请到我们网站的服务页面中购买合适的服务\n"
+      }
+    }
+  },
+  {
+    "id": "75z3I6GRoNuWJH5COEjEph",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-18T07:47:07.225Z",
+    "updatedAt": "2022-10-12T07:32:52.785Z",
+    "publishedAt": "2022-10-12T07:32:52.785Z",
+    "firstPublishedAt": "2022-08-18T07:49:38.595Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "FAQ"
+        ]
+      },
+      "title": {
+        "en-US": "Do I still need to pay for technical support with the paid version?",
+        "zh-CN": "使用付费版本，技术支持还需付费吗？"
+      },
+      "slug": {
+        "en-US": "faq-pricing-need-pay-for-support"
+      },
+      "description": {
+        "en-US": "You can get most of free support",
+        "zh-CN": "使用付费版本，我们提供标准化的免费技术支持服务。"
+      }
+    }
+  },
+  {
+    "id": "3wj2YzRICy5pLNQGiAZnJ4",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-19T02:59:09.012Z",
+    "updatedAt": "2022-10-12T06:43:39.929Z",
+    "publishedAt": "2022-10-12T06:43:39.929Z",
+    "firstPublishedAt": "2022-08-19T02:59:20.323Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "On-demand subscription with no financial risk",
+        "zh-CN": "按需订阅没有财务风险"
+      },
+      "slug": {
+        "en-US": "on-demand-norisk"
+      },
+      "subtitle": {
+        "en-US": "按需订阅使用应用，没有用户数限制，大大降低财务风险和支付成本",
+        "zh-CN": "按需订阅使用应用，没有用户数限制，大大降低财务风险和支付成本"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-roi-feature-lowrisk-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "1qXseYlYbzvLp1mlDU8EfE",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-19T02:58:50.710Z",
+    "updatedAt": "2022-10-12T06:40:06.416Z",
+    "publishedAt": "2022-10-12T06:40:06.416Z",
+    "firstPublishedAt": "2022-08-19T02:59:01.016Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Have comprehensive cloud-native options",
+        "zh-CN": "全面云原生化应用选择"
+      },
+      "slug": {
+        "en-US": "cloud-native-selection"
+      },
+      "subtitle": {
+        "en-US": "数千个云原生应用匹配业务，快速实现业务的数字化、在线化",
+        "zh-CN": "数千个云原生应用匹配业务，快速实现业务的数字化、在线化"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-roi-feature-cloudnative-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "15BqcrgNvUIFaGwTiyzrN1",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-19T02:58:14.617Z",
+    "updatedAt": "2022-10-12T06:36:08.873Z",
+    "publishedAt": "2022-10-12T06:36:08.873Z",
+    "firstPublishedAt": "2022-08-19T02:58:42.981Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "No need to hire expensive IT teams",
+        "zh-CN": "无需雇佣昂贵的IT团队"
+      },
+      "slug": {
+        "en-US": "noneed-hire-itteam"
+      },
+      "subtitle": {
+        "en-US": "中小企业的 IT 支出只能是业务数字化的实现，而不是让昂贵的IT部门吞噬利润",
+        "zh-CN": "中小企业的 IT 支出只能是业务数字化的实现，而不是让昂贵的IT部门吞噬利润"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-roi-feature-nohireit-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "2O1kxFzkiWjNA4riy0yXpx",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-19T06:19:11.290Z",
+    "updatedAt": "2022-10-11T09:28:15.967Z",
+    "publishedAt": "2022-10-11T09:28:15.967Z",
+    "firstPublishedAt": "2022-08-19T06:20:05.369Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Partner"
+        ]
+      },
+      "title": {
+        "en-US": "ISV",
+        "zh-CN": "软件提供商"
+      },
+      "slug": {
+        "en-US": "partner-isv"
+      },
+      "subtitle": {
+        "en-US": "软件提供商通过与 Websoft9 合作，可以将产品分发到全球云平台，快速获客，并实现在线的软件交付与订阅商业模式。",
+        "zh-CN": "软件提供商通过与 Websoft9 合作，可以将产品分发到全球云平台，快速获客，并实现在线的软件交付与订阅商业模式。"
+      },
+      "description": {
+        "zh-CN": "- 企业应用软件\n- 工业软件\n- 中间件\n- 数据软件\n- 云桌面软件"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-type-feature-isv-websoft9.png"
+      },
+      "link": {
+        "zh-CN": [
+          {
+            "id": "04a86f9f-5223-49dc-9657-23b581286417",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "75zm1P0yuHAh5mdtTY5EDo",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-19T06:24:08.164Z",
+    "updatedAt": "2022-10-11T09:26:04.532Z",
+    "publishedAt": "2022-10-11T09:26:04.532Z",
+    "firstPublishedAt": "2022-08-19T06:24:44.403Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Partner"
+        ]
+      },
+      "title": {
+        "en-US": "Channel Partner",
+        "zh-CN": "渠道伙伴"
+      },
+      "slug": {
+        "en-US": "channel-partner"
+      },
+      "subtitle": {
+        "en-US": "渠道伙伴可以直接或间接的转授 Websoft9 产品/服务，获取销售差价。与此同时，Websoft9 提供全面的渠道支持，包括：销售线索、方案等",
+        "zh-CN": "渠道伙伴可以直接或间接的转授 Websoft9 产品/服务，获取销售差价。与此同时，Websoft9 提供全面的渠道支持，包括：销售线索、方案等"
+      },
+      "description": {
+        "zh-CN": "- 经销商\n- 积分器\n- MSP\n- 培训伙伴"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-type-feature-channel-websoft9.png"
+      },
+      "link": {
+        "zh-CN": [
+          {
+            "id": "d5336e8f-69d3-4da4-bb1a-e553ba8ea686",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "39ndD3qgaQWoZytubco358",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-19T06:23:06.430Z",
+    "updatedAt": "2022-10-11T09:23:58.556Z",
+    "publishedAt": "2022-10-11T09:23:58.556Z",
+    "firstPublishedAt": "2022-08-19T06:23:53.868Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Partner"
+        ]
+      },
+      "title": {
+        "en-US": "Alliance partner",
+        "zh-CN": "联盟伙伴"
+      },
+      "slug": {
+        "en-US": "alliance-partner"
+      },
+      "subtitle": {
+        "en-US": "与云平台、操作系统、私有云等伙伴建立联盟伙伴关系，满足伙伴生态中客户对云原生应用的需求",
+        "zh-CN": "与云平台、操作系统、私有云等伙伴建立联盟伙伴关系，满足伙伴生态中客户对云原生应用的需求"
+      },
+      "description": {
+        "zh-CN": "\n- 云合作伙伴（公共云提供商）\n- 平台合作伙伴（私有云、操作系统软件）"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-type-feature-alliance-websoft9.png"
+      },
+      "link": {
+        "zh-CN": [
+          {
+            "id": "3469b809-f163-46e0-b977-2fcb286f900e",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "48j3zLWrk0nDkimJDmEq04",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-18T02:52:42.512Z",
+    "updatedAt": "2022-10-11T09:06:53.480Z",
+    "publishedAt": "2022-10-11T09:06:53.480Z",
+    "firstPublishedAt": "2022-08-18T02:54:36.098Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Menu"
+        ]
+      },
+      "title": {
+        "en-US": "Partner Program",
+        "zh-CN": "合作伙伴计划"
+      },
+      "slug": {
+        "en-US": "menu-block-partner"
+      },
+      "subtitle": {
+        "en-US": "合作伙伴网络是 Websoft9 业务的战略组成部分，我们坚信只有与合作伙伴联合，才能更好的服务客户",
+        "zh-CN": "合作伙伴网络是 Websoft9 业务的战略组成部分，我们坚信只有与合作伙伴联合，才能更好的服务客户"
+      },
+      "description": {
+        "en-US": "与合作伙伴分享技术资源、销售线索和运营经验，是我们一直遵循的运营之道。\n\n如果您的业务如下，那么您非常合适成为我们的合作伙伴：\n\n- 公有云平台\n- 独立软件商\n- 系统集成商\n- 数字化咨询商\n- 综合云服务商",
+        "zh-CN": "与合作伙伴分享技术资源、销售线索和运营经验，是我们一直遵循的运营之道。\n\n如果您的业务如下，那么您非常合适成为我们的合作伙伴：\n\n- 公有云平台\n- 独立软件商\n- 系统集成商\n- 数字化咨询商\n- 综合云服务商"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-hero-websoft9.jpg"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "da351f17-02b9-4acb-a28f-30d7e3dfe944",
+            "key": "Become Partner",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "d1607d1c-61cc-4131-9d24-17b7253dfbe9",
+            "key": "成为伙伴",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5AeAOPQrUInzsgT8UP5P30",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T01:44:49.484Z",
+    "updatedAt": "2022-10-11T07:06:00.489Z",
+    "publishedAt": "2022-10-11T07:06:00.489Z",
+    "firstPublishedAt": "2022-09-16T01:46:34.041Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Sales",
+        "zh-CN": "销售"
+      },
+      "slug": {
+        "en-US": "hr-sales"
+      },
+      "subtitle": {
+        "en-US": "岗位包括：合作伙伴经理、大客户销售经理、区域拓展经理、客户成功经理等",
+        "zh-CN": "岗位包括：合作伙伴经理、大客户销售经理、区域拓展经理、客户成功经理等"
+      },
+      "icon": {
+        "en-US": "point_of_sale"
+      }
+    }
+  },
+  {
+    "id": "6umP7D8Odk0rsNptACupjo",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T01:46:39.773Z",
+    "updatedAt": "2022-10-11T07:05:38.003Z",
+    "publishedAt": "2022-10-11T07:05:38.003Z",
+    "firstPublishedAt": "2022-09-16T01:47:58.014Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Marketing",
+        "zh-CN": "市场"
+      },
+      "slug": {
+        "en-US": "hr-marketing"
+      },
+      "subtitle": {
+        "en-US": "岗位包括：品牌经理、内容营销、活动营销、媒体通讯、开源社区维护等",
+        "zh-CN": "岗位包括：品牌经理、内容营销、活动营销、媒体通讯、开源社区维护等"
+      },
+      "icon": {
+        "en-US": "phone_in_talk"
+      }
+    }
+  },
+  {
+    "id": "6glEShUKY9WLCGtmEaKbm4",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T01:48:03.575Z",
+    "updatedAt": "2022-10-11T07:05:12.553Z",
+    "publishedAt": "2022-10-11T07:05:12.553Z",
+    "firstPublishedAt": "2022-09-16T01:52:38.654Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Product and UX",
+        "zh-CN": "产品与用户体验"
+      },
+      "slug": {
+        "en-US": "product-ux-hr"
+      },
+      "subtitle": {
+        "en-US": "岗位包括：产品经理、用户体验设计师、用户研究、云原生架构师",
+        "zh-CN": "岗位包括：产品经理、用户体验设计师、用户研究、云原生架构师"
+      },
+      "icon": {
+        "en-US": "monitor_heart"
+      }
+    }
+  },
+  {
+    "id": "730ggZfV7xmZPwdqmeVSvX",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T01:52:44.874Z",
+    "updatedAt": "2022-10-11T07:04:34.751Z",
+    "publishedAt": "2022-10-11T07:04:34.751Z",
+    "firstPublishedAt": "2022-09-16T01:53:06.398Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Engineer",
+        "zh-CN": "工程"
+      },
+      "slug": {
+        "en-US": "engineer"
+      },
+      "subtitle": {
+        "en-US": "岗位包括：全栈工程师、前端开发、运维开发、云原生、客户支持、安全等",
+        "zh-CN": "岗位包括：全栈工程师、前端开发、运维开发、云原生、客户支持、安全等"
+      },
+      "icon": {
+        "en-US": "build"
+      }
+    }
+  },
+  {
+    "id": "4GbIxyTLRxspvElySzarHh",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T01:53:12.960Z",
+    "updatedAt": "2022-10-11T07:03:50.532Z",
+    "publishedAt": "2022-10-11T07:03:50.532Z",
+    "firstPublishedAt": "2022-09-16T01:55:15.380Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Business",
+        "zh-CN": "商务支持"
+      },
+      "slug": {
+        "en-US": "hr-business"
+      },
+      "subtitle": {
+        "en-US": "岗位包括：财务与会计、业务流程自动化、合规专员、HR等",
+        "zh-CN": "岗位包括：财务与会计、业务流程自动化、合规专员、HR等"
+      },
+      "icon": {
+        "en-US": "support"
+      }
+    }
+  },
+  {
+    "id": "1dLP0a4dZrE1ZCi0DJIngv",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T01:55:22.064Z",
+    "updatedAt": "2022-10-11T07:03:16.344Z",
+    "publishedAt": "2022-10-11T07:03:16.344Z",
+    "firstPublishedAt": "2022-09-16T01:56:04.214Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Venture partner",
+        "zh-CN": "管理层与合伙人"
+      },
+      "slug": {
+        "en-US": "venture-partner"
+      },
+      "subtitle": {
+        "en-US": "我们需要顶级的人才加盟到合伙人体系，包括：合作关系、营销、工程等",
+        "zh-CN": "我们需要顶级的人才加盟到合伙人体系，包括：合作关系、营销、工程等"
+      },
+      "icon": {
+        "en-US": "manage_accounts"
+      }
+    }
+  },
+  {
+    "id": "3TJchEPSA8SCumxBb5qfMW",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T09:10:02.699Z",
+    "updatedAt": "2022-10-11T07:01:35.811Z",
+    "publishedAt": "2022-10-11T07:01:35.811Z",
+    "firstPublishedAt": "2022-09-16T01:28:15.355Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Reject 996",
+        "zh-CN": "拒绝 996"
+      },
+      "slug": {
+        "en-US": "reject-996"
+      },
+      "subtitle": {
+        "en-US": "坚决反对 996 的时间制度，因为这是伤害创造力的罪魁祸首",
+        "zh-CN": "坚决反对 996 的时间制度，因为这是伤害创造力的罪魁祸首"
+      },
+      "icon": {
+        "en-US": "front_hand"
+      }
+    }
+  },
+  {
+    "id": "6EyCMLAV4hqcydGyu5CfKo",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T01:28:21.979Z",
+    "updatedAt": "2022-10-11T07:00:37.534Z",
+    "publishedAt": "2022-10-11T07:00:37.534Z",
+    "firstPublishedAt": "2022-09-16T01:28:34.096Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Ultimate efficiency",
+        "zh-CN": "极致效率"
+      },
+      "slug": {
+        "en-US": "ultimate-efficiency"
+      },
+      "subtitle": {
+        "en-US": "我们让沟通效率、协作效率、知识创造效率为一切之根本",
+        "zh-CN": "我们让沟通效率、协作效率、知识创造效率为一切之根本"
+      },
+      "icon": {
+        "en-US": "forum"
+      }
+    }
+  },
+  {
+    "id": "8tj1DAFM0W5jFHyqnUHdj",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T01:28:41.312Z",
+    "updatedAt": "2022-10-11T06:59:51.330Z",
+    "publishedAt": "2022-10-11T06:59:51.330Z",
+    "firstPublishedAt": "2022-09-16T01:28:51.610Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Unlimited leave",
+        "zh-CN": "无限制请假"
+      },
+      "slug": {
+        "en-US": "unlimited-leave"
+      },
+      "subtitle": {
+        "en-US": "卓越的你，只要需要，我们对请假不设置上限",
+        "zh-CN": "卓越的你，只要需要，我们对请假不设置上限"
+      },
+      "icon": {
+        "en-US": "browse_gallery"
+      }
+    }
+  },
+  {
+    "id": "5xLJ5UJ24hkMUDOKVlmETJ",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T01:28:58.821Z",
+    "updatedAt": "2022-10-11T06:58:15.077Z",
+    "publishedAt": "2022-10-11T06:58:15.077Z",
+    "firstPublishedAt": "2022-09-16T01:29:09.614Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "HR"
+        ]
+      },
+      "title": {
+        "en-US": "Eliminate repetitive work",
+        "zh-CN": "消除重复劳动"
+      },
+      "slug": {
+        "en-US": "eliminate-repetitive-work"
+      },
+      "subtitle": {
+        "en-US": "我们充分采用自动化与AI技术，消除非创造性的重复劳动",
+        "zh-CN": "我们充分采用自动化与AI技术，消除非创造性的重复劳动"
+      },
+      "icon": {
+        "en-US": "south"
+      }
+    }
+  },
+  {
+    "id": "3DOSwKflNu7nQUtgzfLDfJ",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-17T05:52:12.332Z",
+    "updatedAt": "2022-10-11T06:53:50.716Z",
+    "publishedAt": "2022-10-11T06:53:50.716Z",
+    "firstPublishedAt": "2022-09-17T05:56:23.338Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Partner"
+        ]
+      },
+      "title": {
+        "en-US": "Lead sharing",
+        "zh-CN": "销售线索共享"
+      },
+      "slug": {
+        "en-US": "lead-sharing"
+      },
+      "subtitle": {
+        "en-US": "我们的网站平台上每天有大量的销售线索产生，而这些线索我们都会与合作伙伴共同推进",
+        "zh-CN": "我们的网站平台上每天有大量的销售线索产生，而这些线索我们都会与合作伙伴共同推进"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-feature-sharelead-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "4ZTYCzKqLasHAwh7FuvT9T",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-17T05:57:02.870Z",
+    "updatedAt": "2022-10-11T06:50:20.450Z",
+    "publishedAt": "2022-10-11T06:50:20.450Z",
+    "firstPublishedAt": "2022-09-17T05:57:49.161Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Partner"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud Native is key operational elements",
+        "zh-CN": "云原生成为企业的运营要素"
+      },
+      "slug": {
+        "en-US": "cloud-native-elements"
+      },
+      "subtitle": {
+        "en-US": "作为这个时代重要的生产要素之一的云原生技术，无疑也是热门的生意机会",
+        "zh-CN": "作为这个时代重要的生产要素之一的云原生技术，无疑也是热门的生意机会"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-feature-cloudnative-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "4NJkScfcwu7egKVdM7lajt",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-17T05:58:12.622Z",
+    "updatedAt": "2022-10-11T06:32:01.052Z",
+    "publishedAt": "2022-10-11T06:32:01.052Z",
+    "firstPublishedAt": "2022-09-17T05:59:04.185Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Partner"
+        ]
+      },
+      "title": {
+        "en-US": "Perfect data security ",
+        "zh-CN": "数据安全保护"
+      },
+      "slug": {
+        "en-US": "security-data"
+      },
+      "subtitle": {
+        "en-US": "我们高度重视信息安全，确保用户的数据万无一失",
+        "zh-CN": "我们高度重视信息安全，确保用户的数据万无一失"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-feature-security-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "nr5uyOokbuOpRcokhXpp7",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-17T05:59:31.062Z",
+    "updatedAt": "2022-10-11T06:28:10.801Z",
+    "publishedAt": "2022-10-11T06:28:10.801Z",
+    "firstPublishedAt": "2022-09-17T06:00:49.855Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Partner"
+        ]
+      },
+      "title": {
+        "en-US": "Global distribution",
+        "zh-CN": "全球软件分发渠道"
+      },
+      "slug": {
+        "en-US": "global-distribution"
+      },
+      "subtitle": {
+        "en-US": "已经建立的面向全球的软件云分销渠道",
+        "zh-CN": "已经建立的面向全球的软件云分销渠道"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-feature-global-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "64xoTktf8vQXKWCiB7npR0",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-17T06:00:55.502Z",
+    "updatedAt": "2022-10-11T06:25:09.521Z",
+    "publishedAt": "2022-10-11T06:25:09.521Z",
+    "firstPublishedAt": "2022-09-17T06:01:17.607Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Partner"
+        ]
+      },
+      "title": {
+        "en-US": "Direct access to 40 million cloud customers",
+        "zh-CN": "直达4000万云上客户"
+      },
+      "slug": {
+        "en-US": "access-40m-customers"
+      },
+      "subtitle": {
+        "en-US": "我们全面的云平台渠道，让ISV可以轻易向 4000 万云客户展示自己的解决方案",
+        "zh-CN": "我们全面的云平台渠道，让ISV可以轻易向 4000 万云客户展示自己的解决方案"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-feature-40mcustomer-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "69tmLBqsM0yYRzuNX5KW6c",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-17T06:02:00.822Z",
+    "updatedAt": "2022-10-11T06:17:00.478Z",
+    "publishedAt": "2022-10-11T06:17:00.478Z",
+    "firstPublishedAt": "2022-09-17T06:02:59.970Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Partner"
+        ]
+      },
+      "title": {
+        "en-US": "Standard support system",
+        "zh-CN": "健全的售后服务体系"
+      },
+      "slug": {
+        "en-US": "standard-support-system"
+      },
+      "subtitle": {
+        "en-US": "我们提供标准化的技术支持手段和支持计划，满足各种不同层面客户的技术请求",
+        "zh-CN": "我们提供标准化的技术支持手段和支持计划，满足各种不同层面客户的技术请求"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/partner-feature-standardsupport-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "5NtPxsBc7ODJ7qzMh4y2EX",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T02:43:16.031Z",
+    "updatedAt": "2022-10-11T06:06:17.705Z",
+    "publishedAt": "2022-10-11T06:06:17.705Z",
+    "firstPublishedAt": "2022-09-15T02:44:06.511Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Open Source image on Cloud Platform",
+        "zh-CN": "云平台开源镜像提供商"
+      },
+      "slug": {
+        "en-US": "open-source-image-on-cloud-platform"
+      },
+      "subtitle": {
+        "en-US": "2017-2020",
+        "zh-CN": "2017-2020"
+      },
+      "description": {
+        "en-US": "Websoft9 与全球主流的云平台 Azure, AWS, Google Cloud, 阿里云, 腾讯云, 华为云 均达成合作伙伴关系。我们通过 Cloud Installer 技术，向云平台客户提供流行的开源软件镜像和商业支持服务，获得了市场份额和客户口碑，并多次获得行业嘉奖。",
+        "zh-CN": "Websoft9 与全球主流的云平台 Azure, AWS, Google Cloud, 阿里云, 腾讯云, 华为云 均达成合作伙伴关系。我们通过 Cloud Installer 技术，向云平台客户提供流行的开源软件镜像和商业支持服务，获得了市场份额和客户口碑，并多次获得行业嘉奖。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/bz-milestone-imageprovider-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "7BxkKpKfY3KBjsiDwsh2Uk",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T02:44:29.129Z",
+    "updatedAt": "2022-10-11T06:04:55.153Z",
+    "publishedAt": "2022-10-11T06:04:55.153Z",
+    "firstPublishedAt": "2022-09-15T02:45:25.259Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud Native Application Store",
+        "zh-CN": "云原生应用商店"
+      },
+      "slug": {
+        "en-US": "cloud-native-appstore"
+      },
+      "subtitle": {
+        "en-US": "2021-now",
+        "zh-CN": "2021-至今"
+      },
+      "description": {
+        "en-US": "基于云原生和容器技术的云原生应用商店解决方案，为客户提供主流开源应用的部署、监控和运维服务，保护用户的宝贵的计算资产，同时降低用户对IT技术的依赖，节省大量成本。",
+        "zh-CN": "基于云原生和容器技术的云原生应用商店解决方案，为客户提供主流开源应用的部署、监控和运维服务，保护用户的宝贵的计算资产，同时降低用户对IT技术的依赖，节省大量成本。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/bz-milestone-stacks-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "4CKKFgGr7qos1xPuv8QO3m",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T02:45:45.712Z",
+    "updatedAt": "2022-10-11T06:00:06.221Z",
+    "publishedAt": "2022-10-11T06:00:06.221Z",
+    "firstPublishedAt": "2022-09-15T02:47:07.977Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Walk with you in the future",
+        "zh-CN": "未来仍然与您同行"
+      },
+      "slug": {
+        "en-US": "for-future"
+      },
+      "subtitle": {
+        "en-US": "Future...",
+        "zh-CN": "未来..."
+      },
+      "description": {
+        "en-US": "未来虽然不可预测，但是我们始终坚持专注于一个方向。那就是：简化云原生技术的使用",
+        "zh-CN": "未来虽然不可预测，当时我们力求在同一个路上走得更深更远"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/bz-milestone-future-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "78J8cjGlVCEDqQyiqN3z3U",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:21:22.210Z",
+    "updatedAt": "2022-10-08T09:27:05.063Z",
+    "publishedAt": "2022-10-08T09:27:05.063Z",
+    "firstPublishedAt": "2022-09-16T06:21:53.783Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "Remote Home Office",
+        "zh-CN": "远程办公"
+      },
+      "slug": {
+        "en-US": "address-remote"
+      },
+      "subtitle": {
+        "en-US": "Eastern Europe and India have our remote working staff",
+        "zh-CN": "东欧、印度都有我们远程办公的工作人员"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/address-icon-remote-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "6RliwffE5P49pfpBfKRArE",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:20:33.431Z",
+    "updatedAt": "2022-10-08T09:22:22.066Z",
+    "publishedAt": "2022-10-08T09:22:22.066Z",
+    "firstPublishedAt": "2022-09-16T06:21:15.292Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "California, United States",
+        "zh-CN": "美国. 加州"
+      },
+      "slug": {
+        "en-US": "address-usa"
+      },
+      "subtitle": {
+        "en-US": "18351 Colima Road Ste 2896, Rowland Heights, CA 91748",
+        "zh-CN": "18351 Colima Road Ste 2896, Rowland Heights, CA 91748"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/address-icon-usa-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "cS2pFaAqqu08pqiMyobRZ",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:17:40.284Z",
+    "updatedAt": "2022-10-08T08:49:31.092Z",
+    "publishedAt": "2022-10-08T08:49:31.092Z",
+    "firstPublishedAt": "2022-09-16T06:18:06.386Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "WeChat Official Account",
+        "zh-CN": "微信公众号"
+      },
+      "slug": {
+        "en-US": "wechat-woa"
+      },
+      "icon": {
+        "en-US": "description"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/icon-official-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "5dSSeVqvCNmalGZJEFN9eS",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:17:07.578Z",
+    "updatedAt": "2022-10-08T08:48:20.705Z",
+    "publishedAt": "2022-10-08T08:48:20.705Z",
+    "firstPublishedAt": "2022-09-16T06:17:35.839Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "Support Manager",
+        "zh-CN": "客服经理（加微信好友）"
+      },
+      "slug": {
+        "en-US": "contact-manager"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/icon-chat-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "kWAgOWVPrHQKRqhvMnH0X",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:12:23.382Z",
+    "updatedAt": "2022-10-08T07:54:58.081Z",
+    "publishedAt": "2022-10-08T07:54:58.081Z",
+    "firstPublishedAt": "2022-09-16T06:13:22.003Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "7×24 Ticket",
+        "zh-CN": "7×24 工单"
+      },
+      "slug": {
+        "en-US": "contact-ticket"
+      },
+      "icon": {
+        "en-US": "list_alt"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/icon-ticket-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "6a87rewfXO02zdValgYv0l",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:10:44.122Z",
+    "updatedAt": "2022-10-08T07:54:10.965Z",
+    "publishedAt": "2022-10-08T07:54:10.965Z",
+    "firstPublishedAt": "2022-09-16T06:11:17.495Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "help@websoft9.com",
+        "zh-CN": "help@websoft9.com"
+      },
+      "slug": {
+        "en-US": "contact-email"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/icon-mail-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "3q2ed7ADwa8bi9GRXrQj1G",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:09:50.986Z",
+    "updatedAt": "2022-10-08T07:53:35.139Z",
+    "publishedAt": "2022-10-08T07:53:35.139Z",
+    "firstPublishedAt": "2022-09-16T06:10:06.888Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "0731-89572759",
+        "zh-CN": "0731-89572759"
+      },
+      "slug": {
+        "en-US": "contact-phone"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/icon-phone-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "6WfJFUsE3PVWV0BtRKy3Vn",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:07:21.987Z",
+    "updatedAt": "2022-10-08T04:55:57.746Z",
+    "publishedAt": "2022-10-08T04:55:57.746Z",
+    "firstPublishedAt": "2022-09-16T06:07:51.850Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "Contact Support",
+        "zh-CN": "联系客户服务"
+      },
+      "slug": {
+        "en-US": "untitled-entry-2022-09-16-at-06-07-21"
+      },
+      "subtitle": {
+        "zh-CN": "需要技术帮助？创建支持票是最快的方法。您也可以在此处为我们的客户服务团队留言。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/contact-features-support-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "3NeamgHRtrP591In4CYjHB",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:08:04.669Z",
+    "updatedAt": "2022-10-08T04:55:49.908Z",
+    "publishedAt": "2022-10-08T04:55:49.908Z",
+    "firstPublishedAt": "2022-09-16T06:08:33.997Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "Contact Partnership",
+        "zh-CN": "联系合作"
+      },
+      "slug": {
+        "en-US": "contact-partership"
+      },
+      "subtitle": {
+        "en-US": "如何与Websoft9 合作，更好的服务云原生生态，更好的集成解决方案 。",
+        "zh-CN": "如何与Websoft9 合作，更好的服务云原生生态，更好的集成解决方案 。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/contact-features-partership-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "UBV2m4M9KgvyJiRQkRyhH",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-16T06:06:19.344Z",
+    "updatedAt": "2022-10-08T04:55:39.673Z",
+    "publishedAt": "2022-10-08T04:55:39.673Z",
+    "firstPublishedAt": "2022-09-16T06:07:16.740Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Contact"
+        ]
+      },
+      "title": {
+        "en-US": "Contact Sales",
+        "zh-CN": "联系销售"
+      },
+      "slug": {
+        "en-US": "contact-sales"
+      },
+      "subtitle": {
+        "en-US": "如何帮助您的公司或组织？我们的客户倡导者可以帮助您找到正确的解决方案。",
+        "zh-CN": "如何帮助您的公司或组织？我们的客户倡导者可以帮助您找到正确的解决方案。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/contact-features-sales-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "GHjthPV4TSAUrUv56Tcho",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:26:55.903Z",
+    "updatedAt": "2022-10-08T01:06:29.331Z",
+    "publishedAt": "2022-10-08T01:06:29.331Z",
+    "firstPublishedAt": "2022-09-15T06:33:34.480Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud Ecosystem",
+        "zh-CN": "生态定位"
+      },
+      "slug": {
+        "en-US": "cloud-ecosystem"
+      },
+      "subtitle": {
+        "en-US": "Link ISV and Enterprise customer",
+        "zh-CN": "软件提供商与客户之间的云原生连接者"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-philosophy-ecosystem-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "3xNLPJlz9wYvNaa6eGDtRM",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:33:41.628Z",
+    "updatedAt": "2022-10-08T01:06:18.770Z",
+    "publishedAt": "2022-10-08T01:06:18.770Z",
+    "firstPublishedAt": "2022-09-15T06:34:07.937Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Mission & Vision",
+        "zh-CN": "使命与愿景"
+      },
+      "slug": {
+        "en-US": "mission-vision"
+      },
+      "subtitle": {
+        "en-US": "Bring Cloud-Native to small business",
+        "zh-CN": "将云原生技术普惠至全球小微企业"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-philosophy-mission-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "Clu3BXpLnori7iwD3NDrb",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:34:14.674Z",
+    "updatedAt": "2022-10-08T01:06:05.491Z",
+    "publishedAt": "2022-10-08T01:06:05.491Z",
+    "firstPublishedAt": "2022-09-15T06:34:42.991Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Values",
+        "zh-CN": "价值观"
+      },
+      "slug": {
+        "en-US": "company-values"
+      },
+      "subtitle": {
+        "en-US": "Long-term perseverance, Self-reliance",
+        "zh-CN": "战略正确，长期坚守；艰苦奋斗，自立更生。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-philosophy-value-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "moUFPFKXF1k6YOLSNqGrI",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-09T05:55:02.131Z",
+    "updatedAt": "2022-10-07T08:36:33.248Z",
+    "publishedAt": "2022-10-07T08:36:33.248Z",
+    "firstPublishedAt": "2022-08-09T05:55:31.472Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Private Cloud deployment",
+        "zh-CN": "私有云部署"
+      },
+      "slug": {
+        "en-US": "private-cloud-deployment"
+      },
+      "subtitle": {
+        "en-US": "对于私有云客户，甚至无网络的服务器环境，我们提供了便捷的部署手段和企业级支持计划",
+        "zh-CN": "对于私有云客户，甚至无网络的服务器环境，我们提供了便捷的部署手段和企业级支持计划"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-privatecloud-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "2SdnVdg85R0AVepW3tVcWK",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:40:31.062Z",
+    "updatedAt": "2022-10-07T02:42:34.020Z",
+    "publishedAt": "2022-10-07T02:42:34.020Z",
+    "firstPublishedAt": "2022-09-15T06:41:05.685Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Cumulative number of service customers",
+        "zh-CN": "服务客户数量"
+      },
+      "slug": {
+        "en-US": "customer-number"
+      },
+      "subtitle": {
+        "en-US": "We can service from start-ups to Global 500",
+        "zh-CN": "从初创企业到全球500强，都有我们客户的身影"
+      },
+      "description": {
+        "en-US": "20000+",
+        "zh-CN": "20000+"
+      }
+    }
+  },
+  {
+    "id": "2bAytXgaZ8NretSZXburK7",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:41:16.040Z",
+    "updatedAt": "2022-10-07T02:42:21.660Z",
+    "publishedAt": "2022-10-07T02:42:21.660Z",
+    "firstPublishedAt": "2022-09-15T06:41:31.063Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud Platform Partner",
+        "zh-CN": "云平台伙伴"
+      },
+      "slug": {
+        "en-US": "cloudplatform-partner"
+      },
+      "subtitle": {
+        "en-US": "Established partnerships with major Cloud",
+        "zh-CN": "我们与全球主流的云平台建立了合作关系"
+      },
+      "description": {
+        "en-US": "10+",
+        "zh-CN": "10+"
+      }
+    }
+  },
+  {
+    "id": "1EfDEsu3HqZ4UpDNnbozGn",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:41:40.458Z",
+    "updatedAt": "2022-10-07T02:42:12.952Z",
+    "publishedAt": "2022-10-07T02:42:12.952Z",
+    "firstPublishedAt": "2022-09-15T06:41:56.001Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Customer satisfaction",
+        "zh-CN": "客户满意度"
+      },
+      "slug": {
+        "en-US": "customer-satisfaction"
+      },
+      "subtitle": {
+        "en-US": "We are always improving customer satisfaction",
+        "zh-CN": "我们一直在努力提高客户满意度"
+      },
+      "description": {
+        "en-US": "98%",
+        "zh-CN": "98%"
+      }
+    }
+  },
+  {
+    "id": "3d6jhEygfVM7oKRI72xF9g",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:42:02.924Z",
+    "updatedAt": "2022-10-07T02:42:02.941Z",
+    "publishedAt": "2022-10-07T02:42:02.941Z",
+    "firstPublishedAt": "2022-09-15T06:42:18.253Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Global coverage",
+        "zh-CN": "全球化覆盖"
+      },
+      "slug": {
+        "en-US": "global-coverage"
+      },
+      "subtitle": {
+        "en-US": "Our customers in most countries around the world",
+        "zh-CN": "我们客户遍布全球大多数国家"
+      },
+      "description": {
+        "en-US": "86",
+        "zh-CN": "86"
+      }
+    }
+  },
+  {
+    "id": "49mTamMwgQQYIYnCy87DUG",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:42:26.044Z",
+    "updatedAt": "2022-10-07T02:41:54.122Z",
+    "publishedAt": "2022-10-07T02:41:54.122Z",
+    "firstPublishedAt": "2022-09-15T06:42:40.691Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Cumulative number of install",
+        "zh-CN": "产品累计安装次数"
+      },
+      "slug": {
+        "en-US": "product-download"
+      },
+      "subtitle": {
+        "en-US": "Customer download or install our product by different channel",
+        "zh-CN": "我们的产品被客户通过各种不同的方式安装"
+      },
+      "description": {
+        "zh-CN": "100M"
+      }
+    }
+  },
+  {
+    "id": "4Ak30yZa7co6UhOldHJn2T",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T06:42:49.014Z",
+    "updatedAt": "2022-10-07T02:41:38.269Z",
+    "publishedAt": "2022-10-07T02:41:38.269Z",
+    "firstPublishedAt": "2022-09-15T06:43:03.047Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Repositories on Github",
+        "zh-CN": "Github 开源项目数量"
+      },
+      "slug": {
+        "en-US": "number-repositories"
+      },
+      "subtitle": {
+        "en-US": "We work with open source community",
+        "zh-CN": "我们致力于与开源社区一起驱动产品的发展"
+      },
+      "description": {
+        "en-US": "300+",
+        "zh-CN": "300+"
+      }
+    }
+  },
+  {
+    "id": "2S3PaJDgeFYrKFfaAJ8X7Z",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T02:34:41.441Z",
+    "updatedAt": "2022-10-07T02:37:45.714Z",
+    "publishedAt": "2022-10-07T02:37:45.714Z",
+    "firstPublishedAt": "2022-09-15T02:40:03.183Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Start Business",
+        "zh-CN": "公司成立"
+      },
+      "slug": {
+        "en-US": "business-start"
+      },
+      "subtitle": {
+        "en-US": "2016",
+        "zh-CN": "2016"
+      },
+      "description": {
+        "en-US": "After working in the field of enterprise management software for more than ten years, our founder team found that the sales and delivery model of management software products is very inefficient. The cloud era has clearly arrived, and the value of cloud native has been deeply rooted in the hearts of the people. For the future, we must make changes...",
+        "zh-CN": "我们创始人团队在企业级管理软件领域耕耘十几年后，发现管理软件的产品的销售和交付模式非常低效。而云时代显然已经来临，云原生的价值已经深入人心。面向未来，我们必须做出改变..."
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/bz-milestone-start-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "2t62AIku3XfgjzVU11E1tu",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-12T01:09:15.797Z",
+    "updatedAt": "2022-10-07T02:29:10.487Z",
+    "publishedAt": "2022-10-07T02:29:10.487Z",
+    "firstPublishedAt": "2022-08-12T01:09:34.550Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "IT Team",
+        "zh-CN": "IT 团队"
+      },
+      "slug": {
+        "en-US": "it-team"
+      },
+      "subtitle": {
+        "en-US": "应用商店消除了云设施和运维的复杂性，让 IT 团队更好的理解业务，支持业务部门",
+        "zh-CN": "应用商店消除了云设施和运维的复杂性，让 IT 团队更好的理解业务，支持业务部门"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/userrole-cio-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "5xUbr8jPu03bsCjgnn3EIK",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-12T01:08:43.146Z",
+    "updatedAt": "2022-10-07T02:28:04.632Z",
+    "publishedAt": "2022-10-07T02:28:04.632Z",
+    "firstPublishedAt": "2022-08-12T01:09:06.129Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Marketing Manager",
+        "zh-CN": "营销经理"
+      },
+      "slug": {
+        "en-US": "marketing-manager"
+      },
+      "subtitle": {
+        "en-US": "应用商店预装市场营销所需的工具，让市场营销部门的用户完全不需要 IT 部门的支持下自主选择软件，快速展开业务",
+        "zh-CN": "应用商店预装市场营销所需的工具，让市场营销部门的用户完全不需要 IT 部门的支持下自主选择软件，快速展开业务"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/userrole-marketing-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "3Av2BByj29NwUwL5PORa5W",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-12T01:07:00.911Z",
+    "updatedAt": "2022-10-07T02:26:41.242Z",
+    "publishedAt": "2022-10-07T02:26:41.242Z",
+    "firstPublishedAt": "2022-08-12T01:07:45.297Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "CEO",
+        "zh-CN": "CEO"
+      },
+      "slug": {
+        "en-US": "ceo"
+      },
+      "subtitle": {
+        "en-US": "云时代的 CEO 大多承担企业架构师的角色，而应用商店的各种应用可以帮助CEO直观的了解各种技术工具",
+        "zh-CN": "云时代的 CEO 大多承担企业架构师的角色，而应用商店的各种应用可以帮助CEO直观的了解各种技术工具"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/userrole-ceo-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "6YdGQyOdvywugFEh3ZewQr",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-08-12T01:08:03.901Z",
+    "updatedAt": "2022-10-07T02:25:42.194Z",
+    "publishedAt": "2022-10-07T02:25:42.194Z",
+    "firstPublishedAt": "2022-08-12T01:08:33.420Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud Architect",
+        "zh-CN": "云架构师"
+      },
+      "slug": {
+        "en-US": "cloud-architect"
+      },
+      "subtitle": {
+        "en-US": "云架构师是辅助 CEO 进行数字化落地的重要角色，应用商店帮助云架构师快速测试不同的应用，为选型做好充分的准备",
+        "zh-CN": "云架构师是辅助 CEO 进行数字化落地的重要角色，应用商店帮助云架构师快速测试不同的应用，为选型做好充分的准备"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/userrole-architect-websoft9.webp"
+      }
+    }
+  },
+  {
+    "id": "7r6qYGW1rKI1lAQDsH0eoK",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-30T05:07:04.705Z",
+    "updatedAt": "2022-09-30T05:54:39.132Z",
+    "publishedAt": "2022-09-30T05:54:39.132Z",
+    "firstPublishedAt": "2022-09-30T05:54:39.132Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Easy Upgrade",
+        "zh-CN": "易升级"
+      },
+      "slug": {
+        "en-US": "easy-upgrade"
+      },
+      "subtitle": {
+        "en-US": "基于容器镜像的部署方式，让升级变得非常容易",
+        "zh-CN": "基于容器镜像的部署方式，让升级变得非常容易"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-upgrade-websoft9.jpg"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "a3fc927a-a248-4993-b038-7ce77350539c",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "67c516d3-81b5-498a-a59c-be443b689799",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4y5KmwtkITNQwMnQfQkUds",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T09:09:03.549Z",
+    "updatedAt": "2022-09-30T05:16:47.808Z",
+    "publishedAt": "2022-09-30T05:16:47.808Z",
+    "firstPublishedAt": "2022-09-15T09:09:30.135Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Small Technology Company",
+        "zh-CN": "中小型科技企业"
+      },
+      "slug": {
+        "en-US": "small-technology-company"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-qualification-smalltech-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "4GeptzAAIjs24BgiDmPdlb",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T09:09:39.249Z",
+    "updatedAt": "2022-09-30T05:16:36.051Z",
+    "publishedAt": "2022-09-30T05:16:36.051Z",
+    "firstPublishedAt": "2022-09-15T09:09:55.056Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "\"Red Maple Project\" incubates",
+        "zh-CN": "“红枫计划”孵化企业"
+      },
+      "slug": {
+        "en-US": "redmaple-project-incubate"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-qualification-hongfeng-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "1dxuxLrqpHSveTHTfM21sK",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-29T04:44:53.176Z",
+    "updatedAt": "2022-09-30T05:16:23.281Z",
+    "publishedAt": "2022-09-30T05:16:23.281Z",
+    "firstPublishedAt": "2022-09-29T04:46:46.302Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Software Copyright",
+        "zh-CN": "软件著作权"
+      },
+      "slug": {
+        "en-US": "software-copyright"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-qualification-softcopyright-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "83UZILC4g37jO6vwgZR7t",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-29T04:50:28.328Z",
+    "updatedAt": "2022-09-30T05:16:11.574Z",
+    "publishedAt": "2022-09-30T05:16:11.574Z",
+    "firstPublishedAt": "2022-09-29T04:51:13.756Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Patent certificate",
+        "zh-CN": "专利证书"
+      },
+      "slug": {
+        "en-US": "patent-certificate"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-qualification-patent-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "6rm7R5ISPdICYvl1dglC9f",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-29T04:53:54.049Z",
+    "updatedAt": "2022-09-30T05:16:01.624Z",
+    "publishedAt": "2022-09-30T05:16:01.624Z",
+    "firstPublishedAt": "2022-09-29T04:54:43.860Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "KunPeng Adaptation",
+        "zh-CN": "鲲鹏适配"
+      },
+      "slug": {
+        "en-US": "kunpeng-adaptation"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-qualification-kunpeng-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "5siCItZ9jygijEVqaiV2tu",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-29T04:57:17.295Z",
+    "updatedAt": "2022-09-30T05:15:50.640Z",
+    "publishedAt": "2022-09-30T05:15:50.640Z",
+    "firstPublishedAt": "2022-09-29T05:00:15.269Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Alibaba Cloud Technology Excellence Award",
+        "zh-CN": "阿里云出海峰会卓越技术奖"
+      },
+      "slug": {
+        "en-US": "alibaba-cloud-technology-excellence-award"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-honor-aliyuntechexcellence-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "1O1Of3W33iqR2XcusGF5GW",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-29T05:00:38.727Z",
+    "updatedAt": "2022-09-30T05:15:22.346Z",
+    "publishedAt": "2022-09-30T05:15:22.346Z",
+    "firstPublishedAt": "2022-09-29T05:05:24.824Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Company"
+        ]
+      },
+      "title": {
+        "en-US": "Huawei Cloud Excellent image provider Award",
+        "zh-CN": "华为云优秀镜像服务商"
+      },
+      "slug": {
+        "en-US": "huawei-cloud-excellent-image-provider"
+      },
+      "description": {
+        "zh-CN": "2018年度"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/company-honor-huaweicloud2018image-websoft9.jpg"
+      }
+    }
+  },
+  {
+    "id": "2u6icVZ9m1OSZtDoCB9VIL",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-30T05:04:30.955Z",
+    "updatedAt": "2022-09-30T05:06:39.003Z",
+    "publishedAt": "2022-09-30T05:06:39.003Z",
+    "firstPublishedAt": "2022-09-30T05:06:39.003Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Enterprise subscription",
+        "zh-CN": "企业订阅"
+      },
+      "slug": {
+        "en-US": "enterprise-subscription"
+      },
+      "subtitle": {
+        "en-US": "提供了订阅收费模式的企业版，企业版=产品化的开源应用+标准化的技术支持服务+安全增强，它满足商业用户企业级需求。",
+        "zh-CN": "提供了订阅收费模式的企业版，企业版=产品化的开源应用+标准化的技术支持服务+安全增强，它满足商业用户企业级需求。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-subscription-websoft9.jpg"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "a3fc927a-a248-4993-b038-7ce77350539c",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "67c516d3-81b5-498a-a59c-be443b689799",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6YGGN9K5CFmrkMo15TRIoT",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-30T05:00:43.685Z",
+    "updatedAt": "2022-09-30T05:04:20.611Z",
+    "publishedAt": "2022-09-30T05:04:20.611Z",
+    "firstPublishedAt": "2022-09-30T05:04:20.611Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Product"
+        ]
+      },
+      "title": {
+        "en-US": "Cloud Native",
+        "zh-CN": "原云生"
+      },
+      "slug": {
+        "en-US": "cloud-native"
+      },
+      "subtitle": {
+        "en-US": "原云生架构设计，在云上以最佳姿势运行，充分利用和发挥云平台的弹性+分布式优势。",
+        "zh-CN": "原云生架构设计，在云上以最佳姿势运行，充分利用和发挥云平台的弹性+分布式优势。"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/product-features-cloudnative-websoft9.jpg"
+      },
+      "link": {
+        "en-US": [
+          {
+            "id": "a3fc927a-a248-4993-b038-7ce77350539c",
+            "key": "Learn More",
+            "value": "/"
+          }
+        ],
+        "zh-CN": [
+          {
+            "id": "67c516d3-81b5-498a-a59c-be443b689799",
+            "key": "获取更多",
+            "value": "/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7qFuyLA3wq6UNyBiwdbcMN",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T03:57:24.335Z",
+    "updatedAt": "2022-09-29T02:11:52.580Z",
+    "publishedAt": "2022-09-29T02:11:52.580Z",
+    "firstPublishedAt": "2022-09-15T04:02:39.809Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Gallery"
+        ]
+      },
+      "title": {
+        "en-US": "Office Picture 01",
+        "zh-CN": "办公环境照片 01"
+      },
+      "slug": {
+        "en-US": "office-pic001"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/office-pic001-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "52oSwh4b6cssJMzlHC6CTp",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T04:02:45.937Z",
+    "updatedAt": "2022-09-29T02:11:41.616Z",
+    "publishedAt": "2022-09-29T02:11:41.616Z",
+    "firstPublishedAt": "2022-09-15T04:03:13.962Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Gallery"
+        ]
+      },
+      "title": {
+        "en-US": "Office Picture 02",
+        "zh-CN": "办公环境照片 02"
+      },
+      "slug": {
+        "en-US": "office-pic02"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/office-pic002-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "2aOHABgu1vQiSS7cx3JFAk",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T04:03:55.111Z",
+    "updatedAt": "2022-09-29T02:11:26.155Z",
+    "publishedAt": "2022-09-29T02:11:26.155Z",
+    "firstPublishedAt": "2022-09-15T04:04:11.518Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Gallery"
+        ]
+      },
+      "title": {
+        "en-US": "Office Picture 04",
+        "zh-CN": "办公环境照片 04"
+      },
+      "slug": {
+        "en-US": "office-pic04"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/office-pic004-websoft9.png"
+      }
+    }
+  },
+  {
+    "id": "3pdqz6MbdLXeoWBxDTm33Z",
+    "type": "Entry",
+    "contentType": "baseFeature",
+    "createdAt": "2022-09-15T04:03:27.440Z",
+    "updatedAt": "2022-09-29T02:11:10.854Z",
+    "publishedAt": "2022-09-29T02:11:10.854Z",
+    "firstPublishedAt": "2022-09-15T04:03:49.771Z",
+    "fields": {
+      "type": {
+        "en-US": [
+          "Gallery"
+        ]
+      },
+      "title": {
+        "en-US": "Office Picture 03",
+        "zh-CN": "办公环境照片 03"
+      },
+      "slug": {
+        "en-US": "office-pic03"
+      },
+      "image": {
+        "en-US": "https://libs.websoft9.com/Websoft9/feature/office-pic003-websoft9.png"
+      }
+    }
+  }
+]

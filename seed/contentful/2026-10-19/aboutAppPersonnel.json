@@ -1,0 +1,420 @@
+[
+  {
+    "id": "79sW6fIZmgeWRjeXqRs1RM",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:41:36.546Z",
+    "updatedAt": "2022-09-02T06:41:57.187Z",
+    "publishedAt": "2022-09-02T06:41:57.187Z",
+    "firstPublishedAt": "2022-09-02T06:41:57.187Z",
+    "fields": {
+      "title": {
+        "en-US": "Project Manager",
+        "zh-CN": "项目经理"
+      },
+      "key": {
+        "en-US": "project-manager"
+      },
+      "description": {
+        "en-US": "Project Manager",
+        "zh-CN": "项目经理"
+      }
+    }
+  },
+  {
+    "id": "1MNlRXKNJmgwc9tUS5C8kD",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-08-29T00:17:51.879Z",
+    "updatedAt": "2022-09-02T06:41:01.244Z",
+    "publishedAt": "2022-09-02T06:41:01.244Z",
+    "firstPublishedAt": "2022-08-29T00:18:38.676Z",
+    "fields": {
+      "title": {
+        "en-US": "UI Designer",
+        "zh-CN": "UI 设计师"
+      },
+      "key": {
+        "en-US": "ui-designer"
+      },
+      "description": {
+        "en-US": "Product and UI/UE designer",
+        "zh-CN": "UI设计"
+      }
+    }
+  },
+  {
+    "id": "3QlkgARyx6qWODzbp2zwOY",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:40:14.099Z",
+    "updatedAt": "2022-09-02T06:40:31.620Z",
+    "publishedAt": "2022-09-02T06:40:31.620Z",
+    "firstPublishedAt": "2022-09-02T06:40:31.620Z",
+    "fields": {
+      "title": {
+        "en-US": "User Experience",
+        "zh-CN": "用户体验师"
+      },
+      "key": {
+        "en-US": "user-experience"
+      },
+      "description": {
+        "en-US": "User Experience",
+        "zh-CN": "用户体验设计师"
+      }
+    }
+  },
+  {
+    "id": "1khB3UdFfSkwndBbZhXTux",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:39:41.469Z",
+    "updatedAt": "2022-09-02T06:39:59.525Z",
+    "publishedAt": "2022-09-02T06:39:59.525Z",
+    "firstPublishedAt": "2022-09-02T06:39:59.525Z",
+    "fields": {
+      "title": {
+        "en-US": "Product Management",
+        "zh-CN": "产品经理"
+      },
+      "key": {
+        "en-US": "product-management"
+      },
+      "description": {
+        "en-US": "Product Management",
+        "zh-CN": "产品经理"
+      }
+    }
+  },
+  {
+    "id": "4rqwdinfu5GMYieb5agezJ",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:35:45.115Z",
+    "updatedAt": "2022-09-02T06:36:04.969Z",
+    "publishedAt": "2022-09-02T06:36:04.969Z",
+    "firstPublishedAt": "2022-09-02T06:35:57.405Z",
+    "fields": {
+      "title": {
+        "en-US": "Worker",
+        "zh-CN": "工人"
+      },
+      "key": {
+        "en-US": "worker"
+      },
+      "description": {
+        "en-US": "Worker",
+        "zh-CN": "工厂工人"
+      }
+    }
+  },
+  {
+    "id": "ANUuuUmob0lrfiQPlOdoX",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:34:48.403Z",
+    "updatedAt": "2022-09-02T06:35:06.233Z",
+    "publishedAt": "2022-09-02T06:35:06.233Z",
+    "firstPublishedAt": "2022-09-02T06:35:06.233Z",
+    "fields": {
+      "title": {
+        "en-US": "Teacher",
+        "zh-CN": "教师"
+      },
+      "key": {
+        "en-US": "teacher"
+      },
+      "description": {
+        "en-US": "Teacher",
+        "zh-CN": "教师"
+      }
+    }
+  },
+  {
+    "id": "4zs1RAViCqbskgaB7eTJtI",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:33:55.601Z",
+    "updatedAt": "2022-09-02T06:34:09.066Z",
+    "publishedAt": "2022-09-02T06:34:09.066Z",
+    "firstPublishedAt": "2022-09-02T06:34:09.066Z",
+    "fields": {
+      "title": {
+        "en-US": "Business Analyst",
+        "zh-CN": "业务分析师"
+      },
+      "key": {
+        "en-US": "business-analyst"
+      },
+      "description": {
+        "en-US": "Business Analyst",
+        "zh-CN": "业务分析师"
+      }
+    }
+  },
+  {
+    "id": "6PAPQ68qroHDGba7O9DQQ5",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:32:51.435Z",
+    "updatedAt": "2022-09-02T06:33:26.669Z",
+    "publishedAt": "2022-09-02T06:33:26.669Z",
+    "firstPublishedAt": "2022-09-02T06:33:26.669Z",
+    "fields": {
+      "title": {
+        "en-US": "Administrative",
+        "zh-CN": "行政支持"
+      },
+      "key": {
+        "en-US": "administrative"
+      },
+      "description": {
+        "en-US": "Administrative Assistant",
+        "zh-CN": "新增支持人员"
+      }
+    }
+  },
+  {
+    "id": "4Oqmqcy8Mc0BKH3SglB990",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:32:00.368Z",
+    "updatedAt": "2022-09-02T06:32:22.388Z",
+    "publishedAt": "2022-09-02T06:32:22.388Z",
+    "firstPublishedAt": "2022-09-02T06:32:22.388Z",
+    "fields": {
+      "title": {
+        "en-US": "Accounting",
+        "zh-CN": "财务"
+      },
+      "key": {
+        "en-US": "accounting"
+      },
+      "description": {
+        "en-US": "Accounting person",
+        "zh-CN": "财务人员"
+      }
+    }
+  },
+  {
+    "id": "HLzuo36B0v5nappGJtWyB",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:30:15.042Z",
+    "updatedAt": "2022-09-02T06:31:10.929Z",
+    "publishedAt": "2022-09-02T06:31:10.929Z",
+    "firstPublishedAt": "2022-09-02T06:30:47.937Z",
+    "fields": {
+      "title": {
+        "en-US": "Marketing Team",
+        "zh-CN": "市场人员"
+      },
+      "key": {
+        "en-US": "marketing-team"
+      },
+      "description": {
+        "en-US": "Marketing Team",
+        "zh-CN": "市场营销团队"
+      }
+    }
+  },
+  {
+    "id": "vbbiHNKxaNXh8noSStJfB",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:29:39.118Z",
+    "updatedAt": "2022-09-02T06:29:54.406Z",
+    "publishedAt": "2022-09-02T06:29:54.406Z",
+    "firstPublishedAt": "2022-09-02T06:29:54.406Z",
+    "fields": {
+      "title": {
+        "en-US": "Sales",
+        "zh-CN": "销售"
+      },
+      "key": {
+        "en-US": "sales"
+      },
+      "description": {
+        "en-US": "Sales",
+        "zh-CN": "销售人员"
+      }
+    }
+  },
+  {
+    "id": "7rNeLNZpc0T7Dd0qJzFn7k",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:28:35.856Z",
+    "updatedAt": "2022-09-02T06:29:32.625Z",
+    "publishedAt": "2022-09-02T06:29:32.625Z",
+    "firstPublishedAt": "2022-09-02T06:29:32.625Z",
+    "fields": {
+      "title": {
+        "en-US": "Customer Success Team",
+        "zh-CN": "客户成功团队"
+      },
+      "key": {
+        "en-US": "customer-success-team"
+      },
+      "description": {
+        "en-US": "Customer success teams are in the business of improving the customer’s experience to meet desired outcomes when they are using a product or service. ",
+        "zh-CN": "客户成功团队致力于改善客户体验，以在使用产品或服务时达到预期结果。"
+      }
+    }
+  },
+  {
+    "id": "72X8EHkmIJuRPftrB2y4WV",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:26:04.049Z",
+    "updatedAt": "2022-09-02T06:26:54.871Z",
+    "publishedAt": "2022-09-02T06:26:54.871Z",
+    "firstPublishedAt": "2022-09-02T06:26:54.871Z",
+    "fields": {
+      "title": {
+        "en-US": "Consultant",
+        "zh-CN": "咨询顾问"
+      },
+      "key": {
+        "en-US": "consultant"
+      },
+      "description": {
+        "en-US": "A person who provides expert advice professionally",
+        "zh-CN": "为企业提供咨询、业务诊断的内部人员或外部人员"
+      }
+    }
+  },
+  {
+    "id": "52ZGmeDcuMPlYTbNu2sW0C",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T06:04:28.402Z",
+    "updatedAt": "2022-09-02T06:25:59.931Z",
+    "publishedAt": "2022-09-02T06:25:59.931Z",
+    "firstPublishedAt": "2022-09-02T06:25:59.931Z",
+    "fields": {
+      "title": {
+        "en-US": "Architect",
+        "zh-CN": "架构师"
+      },
+      "key": {
+        "en-US": "architect"
+      },
+      "description": {
+        "en-US": "A person who is qualified to design buildings and to plan and supervise their construction",
+        "zh-CN": "企业中将业务战略设计成可以系统化的人员"
+      }
+    }
+  },
+  {
+    "id": "2V5Sey9mCVvizDs6ikr7ig",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T04:34:41.851Z",
+    "updatedAt": "2022-09-02T04:35:11.095Z",
+    "publishedAt": "2022-09-02T04:35:11.095Z",
+    "firstPublishedAt": "2022-09-02T04:35:11.095Z",
+    "fields": {
+      "title": {
+        "en-US": "Data Analyst",
+        "zh-CN": "数据分析师"
+      },
+      "key": {
+        "en-US": "data-analyst"
+      },
+      "description": {
+        "en-US": "Data Analyst",
+        "zh-CN": "数据分析师"
+      }
+    }
+  },
+  {
+    "id": "1VXky9TPc6JBCS6Gorxnzl",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T04:33:39.247Z",
+    "updatedAt": "2022-09-02T04:34:19.483Z",
+    "publishedAt": "2022-09-02T04:34:19.483Z",
+    "firstPublishedAt": "2022-09-02T04:34:19.483Z",
+    "fields": {
+      "title": {
+        "en-US": "Editor",
+        "zh-CN": "内容编辑"
+      },
+      "key": {
+        "en-US": "editor"
+      },
+      "description": {
+        "en-US": "Content Creator and Editor",
+        "zh-CN": "内容营销创造者或编辑人员"
+      }
+    }
+  },
+  {
+    "id": "5G92v7QLnQPGywCFTCFmfA",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-08-29T00:18:44.125Z",
+    "updatedAt": "2022-09-02T04:33:22.507Z",
+    "publishedAt": "2022-09-02T04:33:22.507Z",
+    "firstPublishedAt": "2022-08-29T00:19:02.231Z",
+    "fields": {
+      "title": {
+        "en-US": "Developer",
+        "zh-CN": "开发者"
+      },
+      "key": {
+        "en-US": "developer"
+      },
+      "description": {
+        "en-US": "Software Developer",
+        "zh-CN": "软件开发者"
+      }
+    }
+  },
+  {
+    "id": "5nnWNotOqyUr46d2ZEQzsA",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T04:31:40.666Z",
+    "updatedAt": "2022-09-02T04:32:20.596Z",
+    "publishedAt": "2022-09-02T04:32:20.596Z",
+    "firstPublishedAt": "2022-09-02T04:32:20.596Z",
+    "fields": {
+      "title": {
+        "en-US": "Student",
+        "zh-CN": "学生"
+      },
+      "key": {
+        "en-US": "student"
+      },
+      "description": {
+        "en-US": "Beginners or current students",
+        "zh-CN": "初学者或在校学生"
+      }
+    }
+  },
+  {
+    "id": "3vCjbC4LJQgteJ0A8T5eEF",
+    "type": "Entry",
+    "contentType": "aboutAppPersonnel",
+    "createdAt": "2022-09-02T04:30:48.882Z",
+    "updatedAt": "2022-09-02T04:31:33.002Z",
+    "publishedAt": "2022-09-02T04:31:33.002Z",
+    "firstPublishedAt": "2022-09-02T04:31:33.002Z",
+    "fields": {
+      "title": {
+        "en-US": "CXO",
+        "zh-CN": "高管"
+      },
+      "key": {
+        "en-US": "cxo"
+      },
+      "description": {
+        "en-US": "C level person",
+        "zh-CN": "企业高管，CEO，COO 等"
+      }
+    }
+  }
+]

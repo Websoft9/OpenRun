@@ -1,0 +1,36 @@
+{
+  "name": "openrun",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "db:init": "npm run build && node dist/scripts/init-db.js",
+    "db:reset": "npm run build && node dist/scripts/init-db.js --reset",
+    "db:demo": "npm run build && node dist/scripts/demo-data.js",
+    "catalog:import": "npm run build && node dist/scripts/import-catalog.js",
+    "start": "npm run build && node dist/server.js",
+    "dev": "tsx watch src/server.tsx",
+    "check:i18n": "tsx scripts/check-i18n.ts",
+    "check:translations": "tsx scripts/check-translations.ts",
+    "test": "python3 -m unittest discover -s tests",
+    "catalog:contentful:export": "npm run build && node dist/scripts/export-contentful.js",
+    "db:seed:contentful": "npm run build && node dist/scripts/seed-contentful.js",
+    "sync:spdx": "npm run build && node dist/scripts/sync-spdx.js",
+    "db:seed:licenses": "npm run build && node dist/scripts/seed-licenses.js",
+    "sync:languages": "npm run build && node dist/scripts/sync-languages.js",
+    "db:seed:languages": "npm run build && node dist/scripts/seed-languages.js",
+    "sync:markets": "npm run build && node dist/scripts/sync-markets.js",
+    "db:seed:markets": "npm run build && node dist/scripts/seed-markets.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.6",
+    "hono": "^4.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "yaml": "^2.9.1"
+  }
+}

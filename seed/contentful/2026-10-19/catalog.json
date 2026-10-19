@@ -1,0 +1,5628 @@
+[
+  {
+    "id": "cyyHJKjkmP4E7ODCAJk96",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-08T05:02:16.428Z",
+    "updatedAt": "2026-10-17T02:25:40.990Z",
+    "publishedAt": "2026-10-17T02:25:40.990Z",
+    "firstPublishedAt": "2023-06-08T05:02:36.245Z",
+    "fields": {
+      "title": {
+        "en-US": "Email Server",
+        "zh-CN": "企业邮箱"
+      },
+      "key": {
+        "en-US": "email"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Y9smp8fp4hEdZ0dmLINk8"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1fmHNMWYZDyeknD3uaSpAS",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:07:10.206Z",
+    "updatedAt": "2026-10-17T02:23:55.988Z",
+    "publishedAt": "2026-10-17T02:23:55.988Z",
+    "firstPublishedAt": "2021-06-29T08:08:10.124Z",
+    "fields": {
+      "title": {
+        "en-US": "Communication & Meetings",
+        "zh-CN": "即时通讯/会议"
+      },
+      "key": {
+        "en-US": "chat"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Y9smp8fp4hEdZ0dmLINk8"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2YjqiZCkfWnZSjwiIkidYZ",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2025-04-08T08:48:22.298Z",
+    "updatedAt": "2025-04-08T08:50:38.224Z",
+    "publishedAt": "2025-04-08T08:50:38.224Z",
+    "firstPublishedAt": "2025-04-08T08:50:38.224Z",
+    "fields": {
+      "title": {
+        "en-US": "Virtual networking",
+        "zh-CN": "虚拟网络"
+      },
+      "key": {
+        "en-US": "virtual-networking"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6RXVV319OK1hyFQD8W7q3g"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "8eSVF7ACQAZ76qbsLqT66",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:55:32.264Z",
+    "updatedAt": "2025-02-09T05:02:42.890Z",
+    "publishedAt": "2025-02-09T05:02:42.890Z",
+    "firstPublishedAt": "2021-06-29T10:01:28.767Z",
+    "fields": {
+      "title": {
+        "en-US": "Local AI model Service and Runtime",
+        "zh-CN": "本地 AI 模型服务"
+      },
+      "key": {
+        "en-US": "open-llm"
+      },
+      "position": {
+        "en-US": 2
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "554Dn6TI5aUe6PhxY6weWV",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-02T04:40:04.855Z",
+    "updatedAt": "2025-02-09T05:02:20.806Z",
+    "publishedAt": "2025-02-09T05:02:20.806Z",
+    "firstPublishedAt": "2023-06-02T04:40:57.893Z",
+    "fields": {
+      "title": {
+        "en-US": "AI Models Unified Interface",
+        "zh-CN": "AI 多模型统一交互界面"
+      },
+      "key": {
+        "en-US": "aiui"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5BSr621F3ldbOB4bg0OGCy",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-01-19T00:26:33.169Z",
+    "updatedAt": "2025-02-07T08:27:29.527Z",
+    "publishedAt": "2025-02-07T08:27:29.527Z",
+    "firstPublishedAt": "2024-01-19T00:27:59.804Z",
+    "fields": {
+      "title": {
+        "en-US": "Machine Vision and Industrial AI Applications",
+        "zh-CN": "机器视觉与工业 AI 应用"
+      },
+      "key": {
+        "en-US": "ai-industry"
+      },
+      "position": {
+        "en-US": 1.5
+      },
+      "description": {
+        "zh-CN": "一个用来连接多种人工智能模型的开源工具。 它允许开发者通过一个简单的API接口来访问不同的大语言模型。 "
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4E1J9RrBlNYtQLVuy2p1Ju",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-02-04T10:22:18.597Z",
+    "updatedAt": "2025-02-07T08:25:59.413Z",
+    "publishedAt": "2025-02-07T08:25:59.413Z",
+    "firstPublishedAt": "2024-02-04T10:23:08.078Z",
+    "fields": {
+      "title": {
+        "en-US": "AI Agents/Chatbots/RAG",
+        "zh-CN": "AI 智能体/聊天/知识检索"
+      },
+      "key": {
+        "en-US": "ai-agent-chat"
+      },
+      "position": {
+        "en-US": 1.4
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "F1x1iU9tADGTElFtxbHmp",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T10:02:47.504Z",
+    "updatedAt": "2025-02-07T07:11:29.361Z",
+    "publishedAt": "2025-02-07T07:11:29.361Z",
+    "firstPublishedAt": "2021-06-29T10:08:02.645Z",
+    "fields": {
+      "title": {
+        "en-US": "Digital twins",
+        "zh-CN": "Digital twins"
+      },
+      "key": {
+        "en-US": "digital-twins"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "22IAKOsOzywVrL2jh8Tdh5"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3qYPrhMIqVldt4VKaOAVNm",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T10:01:35.871Z",
+    "updatedAt": "2025-02-07T07:09:12.800Z",
+    "publishedAt": "2025-02-07T07:09:12.800Z",
+    "firstPublishedAt": "2021-06-29T10:02:45.011Z",
+    "fields": {
+      "title": {
+        "en-US": "Machine Learning and Model Training",
+        "zh-CN": "机器学习与模型训练"
+      },
+      "key": {
+        "en-US": "ai-ml"
+      },
+      "position": {
+        "en-US": 3
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "589HMAexpMchGfU0VfqlrP",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-09-26T07:31:35.684Z",
+    "updatedAt": "2025-02-07T06:34:51.023Z",
+    "publishedAt": "2025-02-07T06:34:51.023Z",
+    "firstPublishedAt": "2024-09-26T07:34:10.087Z",
+    "fields": {
+      "title": {
+        "en-US": "AI DevOps",
+        "zh-CN": "AI DevOps"
+      },
+      "key": {
+        "en-US": "ai-devops"
+      },
+      "position": {
+        "en-US": 4
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5l32rnnoCy87vdQ9CcAYV7",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-09-26T07:29:54.512Z",
+    "updatedAt": "2025-02-07T06:34:26.112Z",
+    "publishedAt": "2025-02-07T06:34:26.112Z",
+    "firstPublishedAt": "2024-09-26T07:30:40.717Z",
+    "fields": {
+      "title": {
+        "en-US": "AI Writing and Creative Content Generation",
+        "zh-CN": "AI 写作与创意内容生成"
+      },
+      "key": {
+        "en-US": "ai-for-video"
+      },
+      "position": {
+        "en-US": 1.2
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6z8egY08PT8n8rPjdkjeMD"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6dhUhSf0SPb3swoaJp8nj5",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:01:27.796Z",
+    "updatedAt": "2024-12-10T08:19:55.055Z",
+    "publishedAt": "2024-12-10T08:19:55.055Z",
+    "firstPublishedAt": "2021-06-29T08:04:40.526Z",
+    "fields": {
+      "title": {
+        "en-US": "Home Server",
+        "zh-CN": "家庭服务器"
+      },
+      "key": {
+        "en-US": "home-server"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "35cww3ecSr45ovFjty4IZ"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6CQ3nWNNUrmMj6BjOw173z",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:04:57.051Z",
+    "updatedAt": "2024-12-10T08:12:29.249Z",
+    "publishedAt": "2024-12-10T08:12:29.249Z",
+    "firstPublishedAt": "2021-06-29T08:06:05.642Z",
+    "fields": {
+      "title": {
+        "en-US": "Document Collaboration",
+        "zh-CN": "文档协作/企业网盘"
+      },
+      "key": {
+        "en-US": "document"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "eK7sxDJTcbY6LODUjPj2i",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-02-01T03:13:03.148Z",
+    "updatedAt": "2024-12-10T08:08:04.016Z",
+    "publishedAt": "2024-12-10T08:08:04.016Z",
+    "firstPublishedAt": "2024-02-01T03:15:04.622Z",
+    "fields": {
+      "title": {
+        "en-US": "Files Management",
+        "zh-CN": "文件共享与传输"
+      },
+      "key": {
+        "en-US": "files"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "overview": {
+        "en-US": "Files",
+        "zh-CN": "文件下载、同步与大文件分享"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4KqOWojZmoXeCFvsu0sij5",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:05:18.139Z",
+    "updatedAt": "2024-12-10T07:59:00.937Z",
+    "publishedAt": "2024-12-10T07:59:00.937Z",
+    "firstPublishedAt": "2021-06-29T09:05:52.120Z",
+    "fields": {
+      "title": {
+        "en-US": "Agile Boards",
+        "zh-CN": "需求/看板/缺陷"
+      },
+      "key": {
+        "en-US": "agile"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "description": {
+        "zh-CN": "提供对需求、迭代、缺陷各个维度的协同管理以及相关的统计报告，让研发团队高效协作。"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6cjfHKIUVysyZJ04yZRca5",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-08T09:16:12.374Z",
+    "updatedAt": "2024-12-10T07:57:36.933Z",
+    "publishedAt": "2024-12-10T07:57:36.933Z",
+    "firstPublishedAt": "2023-06-08T09:18:18.219Z",
+    "fields": {
+      "title": {
+        "en-US": "Team Password Management",
+        "zh-CN": "团队密码共享"
+      },
+      "key": {
+        "en-US": "teampassm"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "overview": {
+        "zh-CN": "团队密码管理，将密码数据存放到服务端，然后通过浏览器插件自动使用"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6WADietOzYFgb9uMKFSjts"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "wgrBVU9K63sTF0it5DfIT",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-06T07:07:59.012Z",
+    "updatedAt": "2024-12-10T07:57:09.622Z",
+    "publishedAt": "2024-12-10T07:57:09.622Z",
+    "firstPublishedAt": "2023-06-06T07:08:25.528Z",
+    "fields": {
+      "title": {
+        "en-US": "Project and Task",
+        "zh-CN": "项目/任务/流程"
+      },
+      "key": {
+        "en-US": "pm-task"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6WADietOzYFgb9uMKFSjts",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-26T09:35:31.638Z",
+    "updatedAt": "2024-12-10T04:01:27.330Z",
+    "publishedAt": "2024-12-10T04:01:27.330Z",
+    "firstPublishedAt": "2021-06-26T09:35:47.237Z",
+    "fields": {
+      "title": {
+        "en-US": "IT Security",
+        "zh-CN": "IT 安全"
+      },
+      "key": {
+        "en-US": "security"
+      },
+      "position": {
+        "en-US": 24
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2GectU4rnPJVtEHB8fzz8d",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:52:09.316Z",
+    "updatedAt": "2024-12-10T03:56:45.880Z",
+    "publishedAt": "2024-12-10T03:56:45.880Z",
+    "firstPublishedAt": "2021-06-29T08:53:25.709Z",
+    "fields": {
+      "title": {
+        "en-US": "Enterprise content management",
+        "zh-CN": "企业文档与知识共享"
+      },
+      "key": {
+        "en-US": "ecms"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "35cww3ecSr45ovFjty4IZ"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5yqWwdguLzWOz9SrRQ2Elk",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-05T10:47:55.384Z",
+    "updatedAt": "2024-12-10T03:55:40.093Z",
+    "publishedAt": "2024-12-10T03:55:40.093Z",
+    "firstPublishedAt": "2023-06-05T10:48:12.631Z",
+    "fields": {
+      "title": {
+        "en-US": "Content Marketing",
+        "zh-CN": "内容营销技术"
+      },
+      "key": {
+        "en-US": "marktech"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "35cww3ecSr45ovFjty4IZ"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2FBEv6zDM3Tq2oYewnxE0o",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T09:45:04.834Z",
+    "updatedAt": "2024-12-10T03:53:23.549Z",
+    "publishedAt": "2024-12-10T03:53:23.549Z",
+    "firstPublishedAt": "2022-09-06T09:51:26.485Z",
+    "fields": {
+      "title": {
+        "en-US": "Data survey and collection",
+        "zh-CN": "调研投票与数据采集"
+      },
+      "key": {
+        "en-US": "survey"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "35cww3ecSr45ovFjty4IZ"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "17nBnb3cekP3IkiDLGh1F0",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T09:51:53.913Z",
+    "updatedAt": "2024-12-10T03:49:22.030Z",
+    "publishedAt": "2024-12-10T03:49:22.030Z",
+    "firstPublishedAt": "2022-09-06T09:56:34.166Z",
+    "fields": {
+      "title": {
+        "en-US": "All-in-one DevOps",
+        "zh-CN": "一站式 DevOps 应用"
+      },
+      "key": {
+        "en-US": "devop-case"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "35cww3ecSr45ovFjty4IZ"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5SdnsGA9jschKVnyHKYzck",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T09:54:08.486Z",
+    "updatedAt": "2024-12-10T03:47:42.460Z",
+    "publishedAt": "2024-12-10T03:47:42.460Z",
+    "firstPublishedAt": "2022-09-06T09:55:06.872Z",
+    "fields": {
+      "title": {
+        "en-US": "Digtal for SCM and Operation",
+        "zh-CN": "运营与供应链数字化"
+      },
+      "key": {
+        "en-US": "operation"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "35cww3ecSr45ovFjty4IZ"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3uADBd8l6k8a47o8mDTmWP",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T09:55:11.414Z",
+    "updatedAt": "2024-12-10T03:44:44.829Z",
+    "publishedAt": "2024-12-10T03:44:44.829Z",
+    "firstPublishedAt": "2022-09-06T09:55:38.010Z",
+    "fields": {
+      "title": {
+        "en-US": "Software Labs for High Education",
+        "zh-CN": "高校软件实训"
+      },
+      "key": {
+        "en-US": "education"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "35cww3ecSr45ovFjty4IZ"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "35cww3ecSr45ovFjty4IZ",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-28T05:48:49.023Z",
+    "updatedAt": "2024-12-10T03:42:35.214Z",
+    "publishedAt": "2024-12-10T03:42:35.214Z",
+    "firstPublishedAt": "2021-06-28T06:15:23.672Z",
+    "fields": {
+      "title": {
+        "en-US": "Use Case",
+        "zh-CN": "场景"
+      },
+      "key": {
+        "en-US": "usecase"
+      },
+      "position": {
+        "en-US": 0
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4j19PhmLPnd3Bdn9hJY9Xd",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-12-10T01:08:02.291Z",
+    "updatedAt": "2024-12-10T01:10:43.602Z",
+    "publishedAt": "2024-12-10T01:10:43.602Z",
+    "firstPublishedAt": "2024-12-10T01:10:43.602Z",
+    "fields": {
+      "title": {
+        "en-US": "News Feed",
+        "zh-CN": "文章聚合"
+      },
+      "key": {
+        "en-US": "news-feed"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4mF2lDUt1PNyZ5R6GP1VmF",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-26T09:27:23.605Z",
+    "updatedAt": "2024-12-10T01:06:18.269Z",
+    "publishedAt": "2024-12-10T01:06:18.269Z",
+    "firstPublishedAt": "2021-06-26T09:29:25.930Z",
+    "fields": {
+      "title": {
+        "en-US": "Content Management",
+        "zh-CN": "网站与内容聚合"
+      },
+      "key": {
+        "en-US": "cms"
+      },
+      "position": {
+        "en-US": 5
+      },
+      "description": {
+        "en-US": "This catalog including: Blog, CMS, Wiki, LMS and other web system.",
+        "zh-CN": "内容管理包括建站、知识库、论坛等应用场景"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1zLA51rr6A572NDgWOXbpo",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T07:48:02.891Z",
+    "updatedAt": "2024-09-27T02:38:53.447Z",
+    "publishedAt": "2024-09-27T02:38:53.447Z",
+    "firstPublishedAt": "2021-06-29T07:50:00.513Z",
+    "fields": {
+      "title": {
+        "en-US": "Support & Customer Success",
+        "zh-CN": "客服/售后/支持"
+      },
+      "key": {
+        "en-US": "helpdesk"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39vvq4YfvQuS649SOspzmn"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1wZ51O1lNNKJkfM9eFh1eV",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:52:36.784Z",
+    "updatedAt": "2024-09-26T07:26:35.639Z",
+    "publishedAt": "2024-09-26T07:26:35.639Z",
+    "firstPublishedAt": "2021-06-29T09:53:13.527Z",
+    "fields": {
+      "title": {
+        "en-US": "Log Analytics",
+        "zh-CN": "日志分析"
+      },
+      "key": {
+        "en-US": "logs-Analytics"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65YrBrBlgXbR7BLCe6oP0K"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "63lAclzrEwyy3akHF0l9kH",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-07T00:56:07.155Z",
+    "updatedAt": "2024-09-26T04:10:07.896Z",
+    "publishedAt": "2024-09-26T04:10:07.896Z",
+    "firstPublishedAt": "2023-06-07T00:57:20.738Z",
+    "fields": {
+      "title": {
+        "en-US": "Data Orchestration and Integration",
+        "zh-CN": "数据采集/编排/集成"
+      },
+      "key": {
+        "en-US": "dintegration"
+      },
+      "position": {
+        "en-US": 5
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65YrBrBlgXbR7BLCe6oP0K"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7vKmtdyvwstWRUJ0tGcMN0",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-05-31T02:14:17.861Z",
+    "updatedAt": "2024-09-26T04:02:27.482Z",
+    "publishedAt": "2024-09-26T04:02:27.482Z",
+    "firstPublishedAt": "2023-05-31T02:25:45.741Z",
+    "fields": {
+      "title": {
+        "en-US": "Web Analytics",
+        "zh-CN": "网站访问分析"
+      },
+      "key": {
+        "en-US": "web-analytics"
+      },
+      "position": {
+        "en-US": 11
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65YrBrBlgXbR7BLCe6oP0K"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "25O12xwjoBcnGyQ2pY8gi1",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-02T07:58:29.996Z",
+    "updatedAt": "2024-09-26T03:42:38.824Z",
+    "publishedAt": "2024-09-26T03:42:38.824Z",
+    "firstPublishedAt": "2022-09-02T07:58:53.147Z",
+    "fields": {
+      "title": {
+        "en-US": "Data Insights & BI",
+        "zh-CN": "BI与数据可视化"
+      },
+      "key": {
+        "en-US": "dinsights"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65YrBrBlgXbR7BLCe6oP0K"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5az2WO5YkKr6IUpetZXEZy",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-02T07:52:40.881Z",
+    "updatedAt": "2024-09-26T01:58:39.755Z",
+    "publishedAt": "2024-09-26T01:58:39.755Z",
+    "firstPublishedAt": "2022-09-02T07:54:04.642Z",
+    "fields": {
+      "title": {
+        "en-US": "Data Warehouse and Lake",
+        "zh-CN": "数据仓库/数据湖"
+      },
+      "key": {
+        "en-US": "data-warehouse"
+      },
+      "position": {
+        "en-US": 11
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65YrBrBlgXbR7BLCe6oP0K"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7dLJMk1EjBPVLnsrNVIcYG",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-09-25T08:30:01.701Z",
+    "updatedAt": "2024-09-25T08:32:50.623Z",
+    "publishedAt": "2024-09-25T08:32:50.623Z",
+    "firstPublishedAt": "2024-09-25T08:32:50.623Z",
+    "fields": {
+      "title": {
+        "en-US": "Vector Databases",
+        "zh-CN": "矢量数据库"
+      },
+      "key": {
+        "en-US": "vector-databases"
+      },
+      "position": {
+        "en-US": 5.1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "65YrBrBlgXbR7BLCe6oP0K",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-26T09:24:55.044Z",
+    "updatedAt": "2024-09-25T07:50:38.434Z",
+    "publishedAt": "2024-09-25T07:50:38.434Z",
+    "firstPublishedAt": "2021-06-26T09:26:56.937Z",
+    "fields": {
+      "title": {
+        "en-US": "Data Analytics",
+        "zh-CN": "数据分析"
+      },
+      "key": {
+        "en-US": "analytics"
+      },
+      "position": {
+        "en-US": 2
+      },
+      "description": {
+        "en-US": "Data Collection, Warehousing, Analysis, Visualization",
+        "zh-CN": "数据主要有三种来源：用户互动、商业交易和物联网自动采集。其过程包括：采集、归集、仓库、分析、可视化等"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7EhengWHk8so7BMWjTgPvQ",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-02T07:54:53.097Z",
+    "updatedAt": "2024-09-25T05:26:10.439Z",
+    "publishedAt": "2024-09-25T05:26:10.439Z",
+    "firstPublishedAt": "2022-09-02T07:56:52.084Z",
+    "fields": {
+      "title": {
+        "en-US": "Master Data",
+        "zh-CN": "主数据管理"
+      },
+      "key": {
+        "en-US": "master-data"
+      },
+      "position": {
+        "en-US": 11
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65YrBrBlgXbR7BLCe6oP0K"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7a6iXVFazKHCE4gyvwo2Yx",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-02T08:14:12.342Z",
+    "updatedAt": "2024-09-25T05:21:48.037Z",
+    "publishedAt": "2024-09-25T05:21:48.037Z",
+    "firstPublishedAt": "2022-09-02T08:14:46.552Z",
+    "fields": {
+      "title": {
+        "en-US": "Data Catalog",
+        "zh-CN": "数据门户"
+      },
+      "key": {
+        "en-US": "data-catalog"
+      },
+      "position": {
+        "en-US": 6
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65YrBrBlgXbR7BLCe6oP0K"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3pgr2mz2MsBWGpSNAXORrl",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:33:19.313Z",
+    "updatedAt": "2024-09-25T02:45:53.300Z",
+    "publishedAt": "2024-09-25T02:45:53.300Z",
+    "firstPublishedAt": "2021-06-29T08:34:27.125Z",
+    "fields": {
+      "title": {
+        "en-US": "Data Search Engine",
+        "zh-CN": "数据搜索引擎"
+      },
+      "key": {
+        "en-US": "dataengine"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "overview": {
+        "en-US": "Data search and analytics engine, scalable data store, and vector databas",
+        "zh-CN": "大数据存储、搜索与分析引擎"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65YrBrBlgXbR7BLCe6oP0K"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4lpAUBwj6o54U0b4CfLdbg",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-01T07:37:51.397Z",
+    "updatedAt": "2024-09-25T02:36:12.688Z",
+    "publishedAt": "2024-09-25T02:36:12.688Z",
+    "firstPublishedAt": "2023-06-01T07:38:42.680Z",
+    "fields": {
+      "title": {
+        "en-US": "Real-time Streaming Analysis",
+        "zh-CN": "实时流式分析"
+      },
+      "key": {
+        "en-US": "dstreaming "
+      },
+      "position": {
+        "en-US": 4
+      },
+      "description": {
+        "zh-CN": "实时流式分析处理的是不断流入的实时数据流，需要即时计算和分析结果。注重实时性和低延迟。"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "65YrBrBlgXbR7BLCe6oP0K"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4sQ7pGdSE29pYwCFHBFPVQ",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-07T01:06:40.427Z",
+    "updatedAt": "2024-08-22T09:33:08.235Z",
+    "publishedAt": "2024-08-22T09:33:08.235Z",
+    "firstPublishedAt": "2023-06-07T01:07:26.969Z",
+    "fields": {
+      "title": {
+        "en-US": "Operations Automation",
+        "zh-CN": "运维自动化"
+      },
+      "key": {
+        "en-US": "opsauto"
+      },
+      "position": {
+        "en-US": 12
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "37sCZgeZbNIfKK7jJ2PJ9W",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-08-22T09:22:09.456Z",
+    "updatedAt": "2024-08-22T09:26:46.860Z",
+    "publishedAt": "2024-08-22T09:26:46.860Z",
+    "firstPublishedAt": "2024-08-22T09:26:46.860Z",
+    "fields": {
+      "title": {
+        "en-US": "Business automation",
+        "zh-CN": "业务自动化"
+      },
+      "key": {
+        "en-US": "business-automation"
+      },
+      "position": {
+        "en-US": 12
+      },
+      "overview": {
+        "en-US": "Marketing, Recruiting, Sales, HelpDesk automation",
+        "zh-CN": "企业运营的业务自动化"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "17yJkB6XQXVCd2BSxCxJnC",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:58:36.760Z",
+    "updatedAt": "2024-08-22T08:34:20.791Z",
+    "publishedAt": "2024-08-22T08:34:20.791Z",
+    "firstPublishedAt": "2021-06-29T08:59:07.913Z",
+    "fields": {
+      "title": {
+        "en-US": "CI/CD Pipeline",
+        "zh-CN": "CI/CD 流水线"
+      },
+      "key": {
+        "en-US": "pipeline"
+      },
+      "position": {
+        "en-US": 3
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "TdsvWxQeDCNl1jwOanqG2",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:42:25.876Z",
+    "updatedAt": "2024-08-06T05:12:39.730Z",
+    "publishedAt": "2024-08-06T05:12:39.730Z",
+    "firstPublishedAt": "2021-06-29T08:44:43.858Z",
+    "fields": {
+      "title": {
+        "en-US": "Database Management Tools",
+        "zh-CN": "数据库工具"
+      },
+      "key": {
+        "en-US": "dbtools"
+      },
+      "position": {
+        "en-US": 21
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7IivM9Ft2RQVu3MGPdP1Qj",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:26:23.392Z",
+    "updatedAt": "2024-07-17T03:39:01.833Z",
+    "publishedAt": "2024-07-17T03:39:01.833Z",
+    "firstPublishedAt": "2021-06-29T08:27:21.516Z",
+    "fields": {
+      "title": {
+        "en-US": "App Runtime",
+        "zh-CN": "运行环境"
+      },
+      "key": {
+        "en-US": "runtime"
+      },
+      "position": {
+        "en-US": 11
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1YReaNgNcWJXacH9JBwwST",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-06-12T03:37:00.875Z",
+    "updatedAt": "2024-06-12T03:37:39.808Z",
+    "publishedAt": "2024-06-12T03:37:39.808Z",
+    "firstPublishedAt": "2024-06-12T03:37:39.808Z",
+    "fields": {
+      "title": {
+        "en-US": "Blog",
+        "zh-CN": "博客"
+      },
+      "key": {
+        "en-US": "blog"
+      },
+      "position": {
+        "en-US": 1.2
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2fiWuUVSbYfYT09duqZs7x",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T09:15:26.563Z",
+    "updatedAt": "2024-06-05T08:53:47.023Z",
+    "publishedAt": "2024-06-05T08:53:47.023Z",
+    "firstPublishedAt": "2022-09-06T09:20:37.404Z",
+    "fields": {
+      "title": {
+        "en-US": "Device Management and Monitor",
+        "zh-CN": "设备管理与监控"
+      },
+      "key": {
+        "en-US": "device-management"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "22IAKOsOzywVrL2jh8Tdh5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "47gwM5WVHMgeYiur66PRzI",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-03-30T02:00:19.017Z",
+    "updatedAt": "2024-04-22T04:31:51.639Z",
+    "publishedAt": "2024-04-22T04:31:51.639Z",
+    "firstPublishedAt": "2024-03-30T02:00:39.200Z",
+    "fields": {
+      "title": {
+        "en-US": "HTML",
+        "zh-CN": "HTML"
+      },
+      "key": {
+        "en-US": "html"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "overview": {
+        "en-US": "HTML and JS files",
+        "zh-CN": "静态网站 HTML/JS 文件"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7IivM9Ft2RQVu3MGPdP1Qj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "76bTUScg3iujcTtK8X5HVm",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-04-18T05:53:38.096Z",
+    "updatedAt": "2024-04-18T05:55:39.378Z",
+    "publishedAt": "2024-04-18T05:55:39.378Z",
+    "firstPublishedAt": "2024-04-18T05:55:39.378Z",
+    "fields": {
+      "title": {
+        "en-US": "Docker",
+        "zh-CN": "Docker"
+      },
+      "key": {
+        "en-US": "docker"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7IivM9Ft2RQVu3MGPdP1Qj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "78ZTyW4x4SBbahG4mf2pJ4",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-04-11T05:42:21.952Z",
+    "updatedAt": "2024-04-11T05:43:01.848Z",
+    "publishedAt": "2024-04-11T05:43:01.848Z",
+    "firstPublishedAt": "2024-04-11T05:43:01.848Z",
+    "fields": {
+      "title": {
+        "en-US": ".NET",
+        "zh-CN": ".NET"
+      },
+      "key": {
+        "en-US": "dotnet"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7IivM9Ft2RQVu3MGPdP1Qj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7eF5XSJOQkjwjR9ypTA53s",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-03-30T02:04:19.467Z",
+    "updatedAt": "2024-03-30T02:05:41.730Z",
+    "publishedAt": "2024-03-30T02:05:41.730Z",
+    "firstPublishedAt": "2024-03-30T02:05:41.730Z",
+    "fields": {
+      "title": {
+        "en-US": "Go",
+        "zh-CN": "Go"
+      },
+      "key": {
+        "en-US": "go"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7IivM9Ft2RQVu3MGPdP1Qj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1gsJ7hKBaQZBpxWfDUFErp",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-03-30T01:59:51.478Z",
+    "updatedAt": "2024-03-30T02:00:03.292Z",
+    "publishedAt": "2024-03-30T02:00:03.292Z",
+    "firstPublishedAt": "2024-03-30T02:00:03.292Z",
+    "fields": {
+      "title": {
+        "en-US": "Ruby",
+        "zh-CN": "Ruby"
+      },
+      "key": {
+        "en-US": "ruby"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7IivM9Ft2RQVu3MGPdP1Qj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "533vypx7iiowGgvl2umxpr",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-03-30T01:58:33.881Z",
+    "updatedAt": "2024-03-30T01:58:46.146Z",
+    "publishedAt": "2024-03-30T01:58:46.146Z",
+    "firstPublishedAt": "2024-03-30T01:58:46.146Z",
+    "fields": {
+      "title": {
+        "en-US": "Python",
+        "zh-CN": "Python"
+      },
+      "key": {
+        "en-US": "python"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7IivM9Ft2RQVu3MGPdP1Qj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7CkHxr2Z8P8NL5OeYYCRPC",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-03-30T01:58:04.576Z",
+    "updatedAt": "2024-03-30T01:58:14.940Z",
+    "publishedAt": "2024-03-30T01:58:14.940Z",
+    "firstPublishedAt": "2024-03-30T01:58:14.940Z",
+    "fields": {
+      "title": {
+        "en-US": "Node",
+        "zh-CN": "Node"
+      },
+      "key": {
+        "en-US": "node"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7IivM9Ft2RQVu3MGPdP1Qj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6ReEhDe5ZOzXk9E07Spw6A",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-03-30T01:57:38.487Z",
+    "updatedAt": "2024-03-30T01:57:57.125Z",
+    "publishedAt": "2024-03-30T01:57:57.125Z",
+    "firstPublishedAt": "2024-03-30T01:57:57.125Z",
+    "fields": {
+      "title": {
+        "en-US": "Java",
+        "zh-CN": "Java"
+      },
+      "key": {
+        "en-US": "java"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7IivM9Ft2RQVu3MGPdP1Qj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4OmQKK9EnkOv7j4pQMrbTE",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-03-30T01:56:41.747Z",
+    "updatedAt": "2024-03-30T01:57:31.624Z",
+    "publishedAt": "2024-03-30T01:57:31.624Z",
+    "firstPublishedAt": "2024-03-30T01:57:19.682Z",
+    "fields": {
+      "title": {
+        "en-US": "PHP",
+        "zh-CN": "PHP"
+      },
+      "key": {
+        "en-US": "php"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7IivM9Ft2RQVu3MGPdP1Qj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "22IAKOsOzywVrL2jh8Tdh5",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-26T09:34:31.782Z",
+    "updatedAt": "2024-03-30T01:55:10.488Z",
+    "publishedAt": "2024-03-30T01:55:10.488Z",
+    "firstPublishedAt": "2021-06-26T09:34:58.946Z",
+    "fields": {
+      "title": {
+        "en-US": "IoT",
+        "zh-CN": "物联网"
+      },
+      "key": {
+        "en-US": "iot"
+      },
+      "position": {
+        "en-US": 12
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6RXVV319OK1hyFQD8W7q3g",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-02-18T00:24:55.687Z",
+    "updatedAt": "2024-03-30T01:54:41.054Z",
+    "publishedAt": "2024-03-30T01:54:41.054Z",
+    "firstPublishedAt": "2024-02-18T00:25:33.906Z",
+    "fields": {
+      "title": {
+        "en-US": "Networking",
+        "zh-CN": "网络"
+      },
+      "key": {
+        "en-US": "networking"
+      },
+      "position": {
+        "en-US": 13
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4eMZilU0IvY176upPJZ6Id",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T09:39:50.455Z",
+    "updatedAt": "2024-03-30T01:54:25.606Z",
+    "publishedAt": "2024-03-30T01:54:25.606Z",
+    "firstPublishedAt": "2022-09-06T09:40:10.930Z",
+    "fields": {
+      "title": {
+        "en-US": "Games",
+        "zh-CN": "游戏"
+      },
+      "key": {
+        "en-US": "games"
+      },
+      "position": {
+        "en-US": 14
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6NOcBo02HlxiW6o5DkVLvV",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-03-06T09:29:27.261Z",
+    "updatedAt": "2024-03-06T09:31:09.969Z",
+    "publishedAt": "2024-03-06T09:31:09.969Z",
+    "firstPublishedAt": "2024-03-06T09:31:09.969Z",
+    "fields": {
+      "title": {
+        "en-US": "Media System",
+        "zh-CN": "视频音频"
+      },
+      "key": {
+        "en-US": "media-system"
+      },
+      "position": {
+        "en-US": 6
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "18WRukzpbyA4ebyhWDJFsU",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:31:13.229Z",
+    "updatedAt": "2024-02-22T06:27:29.749Z",
+    "publishedAt": "2024-02-22T06:27:29.749Z",
+    "firstPublishedAt": "2021-06-29T08:31:43.458Z",
+    "fields": {
+      "title": {
+        "en-US": "API Gateway",
+        "zh-CN": "API 网关"
+      },
+      "key": {
+        "en-US": "api"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6RXVV319OK1hyFQD8W7q3g"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "puulqYVW0NsC7OQpmmykR",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:38:51.503Z",
+    "updatedAt": "2024-02-22T06:27:29.312Z",
+    "publishedAt": "2024-02-22T06:27:29.312Z",
+    "firstPublishedAt": "2021-06-29T08:40:37.934Z",
+    "fields": {
+      "title": {
+        "en-US": "Load Balancer",
+        "zh-CN": "负载均衡 "
+      },
+      "key": {
+        "en-US": "balancer"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6RXVV319OK1hyFQD8W7q3g"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7tdTxUUsFSI0GBtVt6YKxN",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:34:37.428Z",
+    "updatedAt": "2024-02-22T06:25:31.966Z",
+    "publishedAt": "2024-02-22T06:25:31.966Z",
+    "firstPublishedAt": "2021-06-29T08:36:58.253Z",
+    "fields": {
+      "title": {
+        "en-US": "HTTP Server",
+        "zh-CN": "HTTP 服务器"
+      },
+      "key": {
+        "en-US": "httpserver"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6RXVV319OK1hyFQD8W7q3g"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "JRRhgrApcUEnGTdfKOezU",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:50:17.658Z",
+    "updatedAt": "2024-02-22T06:18:52.992Z",
+    "publishedAt": "2024-02-22T06:18:52.992Z",
+    "firstPublishedAt": "2021-06-29T09:52:03.236Z",
+    "fields": {
+      "title": {
+        "en-US": "Game Engine",
+        "zh-CN": "游戏引擎"
+      },
+      "key": {
+        "en-US": "game-engine"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4eMZilU0IvY176upPJZ6Id"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5wXzoQFG8oHlFtxnMq96Cf",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:44:49.494Z",
+    "updatedAt": "2024-02-18T07:05:20.262Z",
+    "publishedAt": "2024-02-18T07:05:20.262Z",
+    "firstPublishedAt": "2021-06-29T08:45:26.387Z",
+    "fields": {
+      "title": {
+        "en-US": "Graph Databases",
+        "zh-CN": "图数据库"
+      },
+      "key": {
+        "en-US": "graphdb"
+      },
+      "position": {
+        "en-US": 5
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5gZWge046khyUO08MUS4VT",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:41:37.523Z",
+    "updatedAt": "2024-02-18T07:04:47.448Z",
+    "publishedAt": "2024-02-18T07:04:47.448Z",
+    "firstPublishedAt": "2021-06-29T08:42:20.371Z",
+    "fields": {
+      "title": {
+        "en-US": "Relational Databases",
+        "zh-CN": "SQL 数据库/关系数据库"
+      },
+      "key": {
+        "en-US": "rds"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7rgRETCtAaeD5nKKUqaHX5",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-05T02:41:20.010Z",
+    "updatedAt": "2024-02-18T00:28:13.493Z",
+    "publishedAt": "2024-02-18T00:28:13.493Z",
+    "firstPublishedAt": "2023-06-05T02:41:46.203Z",
+    "fields": {
+      "title": {
+        "en-US": "Application Gateway",
+        "zh-CN": "应用网关"
+      },
+      "key": {
+        "en-US": "application-gateway"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6RXVV319OK1hyFQD8W7q3g"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6wsAd8JaHbjK1sJFXlQTLs",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-02-18T00:25:49.747Z",
+    "updatedAt": "2024-02-18T00:26:39.677Z",
+    "publishedAt": "2024-02-18T00:26:39.677Z",
+    "firstPublishedAt": "2024-02-18T00:26:39.677Z",
+    "fields": {
+      "title": {
+        "en-US": "DNS Server",
+        "zh-CN": "DNS 服务"
+      },
+      "key": {
+        "en-US": "dns"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6RXVV319OK1hyFQD8W7q3g"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3sv1M4xfbyZ1lzgRdPFCf6",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-02-04T07:25:59.259Z",
+    "updatedAt": "2024-02-04T07:26:17.590Z",
+    "publishedAt": "2024-02-04T07:26:17.590Z",
+    "firstPublishedAt": "2024-02-04T07:26:17.590Z",
+    "fields": {
+      "title": {
+        "en-US": "BaaS",
+        "zh-CN": "后端即服务"
+      },
+      "key": {
+        "en-US": "baas"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6z4K4lRzUc1pAU87WuWdZG",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-02T08:03:55.957Z",
+    "updatedAt": "2024-01-31T08:37:57.563Z",
+    "publishedAt": "2024-01-31T08:37:57.563Z",
+    "firstPublishedAt": "2022-09-02T08:04:28.396Z",
+    "fields": {
+      "title": {
+        "en-US": "Supply Chain & Manufacturing & Logistic",
+        "zh-CN": "供应链/采购/生产/物流"
+      },
+      "key": {
+        "en-US": "smart-manufacturing"
+      },
+      "position": {
+        "en-US": 1.2
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1ACGyadDHErfZp8LVBbwKY",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-26T09:20:41.032Z",
+    "updatedAt": "2024-01-31T08:36:17.156Z",
+    "publishedAt": "2024-01-31T08:36:17.156Z",
+    "firstPublishedAt": "2021-06-26T09:21:40.874Z",
+    "fields": {
+      "title": {
+        "en-US": "ERP & Finance",
+        "zh-CN": "ERP/财税/后勤"
+      },
+      "key": {
+        "en-US": "erp"
+      },
+      "position": {
+        "en-US": 2.2
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "39vvq4YfvQuS649SOspzmn",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-27T14:28:34.528Z",
+    "updatedAt": "2024-01-31T08:34:30.719Z",
+    "publishedAt": "2024-01-31T08:34:30.719Z",
+    "firstPublishedAt": "2021-06-27T14:29:26.780Z",
+    "fields": {
+      "title": {
+        "en-US": "Strategy & Legal & HR",
+        "zh-CN": "战略/合规/人事"
+      },
+      "key": {
+        "en-US": "strategy"
+      },
+      "position": {
+        "en-US": 2.1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "CEmY2eNYSotErkAgGIkkP",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-28T10:55:42.875Z",
+    "updatedAt": "2024-01-31T08:28:18.523Z",
+    "publishedAt": "2024-01-31T08:28:18.523Z",
+    "firstPublishedAt": "2021-06-29T07:40:00.310Z",
+    "fields": {
+      "title": {
+        "en-US": "CRM & Distribution & Order",
+        "zh-CN": "CRM/分销/订单"
+      },
+      "key": {
+        "en-US": "crm"
+      },
+      "position": {
+        "en-US": 1.1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39vvq4YfvQuS649SOspzmn"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4SnKw6IntGUXTeNcrKdVRk",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T09:37:54.919Z",
+    "updatedAt": "2024-01-31T08:05:34.807Z",
+    "publishedAt": "2024-01-31T08:05:34.807Z",
+    "firstPublishedAt": "2022-09-06T09:39:00.634Z",
+    "fields": {
+      "title": {
+        "en-US": "Games Server",
+        "zh-CN": "游戏私服"
+      },
+      "key": {
+        "en-US": "games-server"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4eMZilU0IvY176upPJZ6Id"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4mv9cboFR6s2EODk9Uzx4O",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-28T04:30:29.930Z",
+    "updatedAt": "2024-01-31T08:02:09.249Z",
+    "publishedAt": "2024-01-31T08:02:09.249Z",
+    "firstPublishedAt": "2021-06-28T04:35:17.479Z",
+    "fields": {
+      "title": {
+        "en-US": "Databases",
+        "zh-CN": "数据库"
+      },
+      "key": {
+        "en-US": "database"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "description": {
+        "en-US": "Cloud Database and Database tools",
+        "zh-CN": "主流的云数据库：关系型数据库、内存数据库、文档数据库、图数据库，以及 Web 可视化界面工具"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1fQ5nJAUb768z7n09J7sdK",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-28T04:38:07.175Z",
+    "updatedAt": "2024-01-31T08:00:36.091Z",
+    "publishedAt": "2024-01-31T08:00:36.091Z",
+    "firstPublishedAt": "2021-06-28T04:39:45.181Z",
+    "fields": {
+      "title": {
+        "en-US": "Collaboration & Office",
+        "zh-CN": "协作办公"
+      },
+      "key": {
+        "en-US": "collaboration"
+      },
+      "position": {
+        "en-US": 7
+      },
+      "description": {
+        "en-US": "企业内外部各种协作工具：知识协作、及时沟通、工作群组等",
+        "zh-CN": "Enterprise Collaboration and Productivity: knowledge collaboration, timely communication, work groups, etc."
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5fhqDdiijbN558c2c6TkzN",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-27T14:05:01.439Z",
+    "updatedAt": "2024-01-31T07:12:40.369Z",
+    "publishedAt": "2024-01-31T07:12:40.369Z",
+    "firstPublishedAt": "2021-06-27T14:25:06.855Z",
+    "fields": {
+      "title": {
+        "en-US": "Design & Create",
+        "zh-CN": "设计创作"
+      },
+      "key": {
+        "en-US": "create"
+      },
+      "position": {
+        "en-US": 4
+      },
+      "description": {
+        "en-US": "Knowledge-based enterprises need to give full play to the creativity of their employees. From CEOs to front-line employees, they need to use corresponding high-efficiency creative tools to complete the required work.",
+        "zh-CN": "知识型企业需充分发挥员工的创造能力，从 CEO 到一线员工，都需要通过相应的高效率创作工具完成所需的工作。"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6z8egY08PT8n8rPjdkjeMD",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-26T09:30:37.403Z",
+    "updatedAt": "2024-01-31T07:11:18.511Z",
+    "publishedAt": "2024-01-31T07:11:18.511Z",
+    "firstPublishedAt": "2021-06-26T09:31:54.387Z",
+    "fields": {
+      "title": {
+        "en-US": "AI + Machine Learning",
+        "zh-CN": "人工智能"
+      },
+      "key": {
+        "en-US": "ai"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "description": {
+        "en-US": "This category includes solutions for intelligent identification, intelligent creation, and intelligent work",
+        "zh-CN": "本类目包括智能识别、智能创作、智能工作等解决方案"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3HjhIaDMod8KcMZ5dWq1j2",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-26T09:18:53.667Z",
+    "updatedAt": "2024-01-31T07:09:52.871Z",
+    "publishedAt": "2024-01-31T07:09:52.871Z",
+    "firstPublishedAt": "2021-06-26T09:19:58.476Z",
+    "fields": {
+      "title": {
+        "en-US": "Business Operation",
+        "zh-CN": "企业运营"
+      },
+      "key": {
+        "en-US": "business-operation"
+      },
+      "position": {
+        "en-US": 3
+      },
+      "description": {
+        "en-US": "This category includes enterprise management software systems: ERP, WMS, CRM, Financial management, SCM, etc.",
+        "zh-CN": "本类目包含企业内部降本增效的各种软件系统：ERP，仓库管理、人事管理、财务管理、销售管理等"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5NnUPnn4oierElCt5AI0po",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-06T01:13:37.216Z",
+    "updatedAt": "2024-01-31T07:06:36.555Z",
+    "publishedAt": "2024-01-31T07:06:36.555Z",
+    "firstPublishedAt": "2023-06-06T01:13:56.210Z",
+    "fields": {
+      "title": {
+        "en-US": "IT Developer",
+        "zh-CN": "IT 开发者"
+      },
+      "key": {
+        "en-US": "itdeveloper"
+      },
+      "position": {
+        "en-US": 21
+      },
+      "description": {
+        "en-US": "From planning to production, bring teams together in one application.",
+        "zh-CN": "软件从开发到交付部署一整套流程上的效率工具，包括：代码协作、代码审查、安全检测、编译构建、发布部署以及监控运维等。"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "42xW7uUgXzPnNBRWmk2BHt",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-28T04:24:58.001Z",
+    "updatedAt": "2024-01-31T07:05:53.942Z",
+    "publishedAt": "2024-01-31T07:05:53.942Z",
+    "firstPublishedAt": "2021-06-28T04:26:27.330Z",
+    "fields": {
+      "title": {
+        "en-US": "IT Architecture",
+        "zh-CN": "IT 应用架构"
+      },
+      "key": {
+        "en-US": "architecture"
+      },
+      "position": {
+        "en-US": 22
+      },
+      "description": {
+        "en-US": "Popular Cloud Native Architecture software which make software easier to deliver",
+        "zh-CN": "云原生架构即中间件，是协调软件（组件）之间的软件，它是云原生时代软件运行时的不可分割的组成部分。"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2qXpRB4uaTf9UXm94bzdP9",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-26T09:36:24.782Z",
+    "updatedAt": "2024-01-31T06:59:50.678Z",
+    "publishedAt": "2024-01-31T06:59:50.678Z",
+    "firstPublishedAt": "2021-06-26T09:36:39.937Z",
+    "fields": {
+      "title": {
+        "en-US": "Blockchain",
+        "zh-CN": "区块链"
+      },
+      "key": {
+        "en-US": "blockchain"
+      },
+      "position": {
+        "en-US": 12
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6Jj67AGr22DU0ExIqjwMaS",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-01-15T03:40:24.911Z",
+    "updatedAt": "2024-01-15T03:41:33.880Z",
+    "publishedAt": "2024-01-15T03:41:33.880Z",
+    "firstPublishedAt": "2024-01-15T03:41:33.880Z",
+    "fields": {
+      "title": {
+        "en-US": "Backup & Restore",
+        "zh-CN": "备份恢复"
+      },
+      "key": {
+        "en-US": "backup"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "48uR11Q2YEwK0u6W2L1Wyl",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-01-12T00:53:40.419Z",
+    "updatedAt": "2024-01-12T00:53:51.794Z",
+    "publishedAt": "2024-01-12T00:53:51.794Z",
+    "firstPublishedAt": "2024-01-12T00:53:51.794Z",
+    "fields": {
+      "title": {
+        "en-US": "Enterprise",
+        "zh-CN": "企业版"
+      },
+      "key": {
+        "en-US": "enterprise"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4LfCakVb2Uf7ZO7iPgCqhV"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1cV0ianwxnzrprnlAFDDNM",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-01-12T00:53:22.526Z",
+    "updatedAt": "2024-01-12T00:53:37.504Z",
+    "publishedAt": "2024-01-12T00:53:37.504Z",
+    "firstPublishedAt": "2024-01-12T00:53:37.504Z",
+    "fields": {
+      "title": {
+        "en-US": "Team",
+        "zh-CN": "团队版"
+      },
+      "key": {
+        "en-US": "team"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4LfCakVb2Uf7ZO7iPgCqhV"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1hRql36oQt6Ic31k3Kw3Bd",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-01-12T00:53:01.245Z",
+    "updatedAt": "2024-01-12T00:53:17.620Z",
+    "publishedAt": "2024-01-12T00:53:17.620Z",
+    "firstPublishedAt": "2024-01-12T00:53:17.620Z",
+    "fields": {
+      "title": {
+        "en-US": "Basic",
+        "zh-CN": "基础版"
+      },
+      "key": {
+        "en-US": "basic"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4LfCakVb2Uf7ZO7iPgCqhV"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6HhiOyVt6YDdWbyJ0Q8l9Y",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-01-12T00:52:15.913Z",
+    "updatedAt": "2024-01-12T00:52:50.962Z",
+    "publishedAt": "2024-01-12T00:52:50.962Z",
+    "firstPublishedAt": "2024-01-12T00:52:50.962Z",
+    "fields": {
+      "title": {
+        "en-US": "Free",
+        "zh-CN": "免费版"
+      },
+      "key": {
+        "en-US": "free"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4LfCakVb2Uf7ZO7iPgCqhV"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4LfCakVb2Uf7ZO7iPgCqhV",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2024-01-12T00:50:05.907Z",
+    "updatedAt": "2024-01-12T00:52:04.270Z",
+    "publishedAt": "2024-01-12T00:52:04.270Z",
+    "firstPublishedAt": "2024-01-12T00:52:04.270Z",
+    "fields": {
+      "title": {
+        "en-US": "Plans",
+        "zh-CN": "价格"
+      },
+      "key": {
+        "en-US": "plans"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "overview": {
+        "en-US": "Product subscription plans",
+        "zh-CN": "产品订阅计划"
+      }
+    }
+  },
+  {
+    "id": "7EOyFir15l7gPNZLei0Xy5",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:01:03.522Z",
+    "updatedAt": "2023-11-30T01:16:11.627Z",
+    "publishedAt": "2023-06-06T01:15:13.152Z",
+    "firstPublishedAt": "2021-06-29T09:04:19.548Z",
+    "fields": {
+      "title": {
+        "en-US": "Web Framework",
+        "zh-CN": "Web 开发框架"
+      },
+      "key": {
+        "en-US": "webframework"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2Y9smp8fp4hEdZ0dmLINk8",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-06T06:53:57.924Z",
+    "updatedAt": "2023-11-14T05:45:52.913Z",
+    "publishedAt": "2023-11-14T05:45:52.913Z",
+    "firstPublishedAt": "2023-06-06T06:54:21.056Z",
+    "fields": {
+      "title": {
+        "en-US": "Communication",
+        "zh-CN": "通信联络"
+      },
+      "key": {
+        "en-US": "communication"
+      },
+      "position": {
+        "en-US": 6
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3Fp0KurklabdjVy7ZrfONp",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T07:46:49.605Z",
+    "updatedAt": "2023-11-14T01:54:30.880Z",
+    "publishedAt": "2023-11-14T01:54:30.880Z",
+    "firstPublishedAt": "2021-06-29T07:47:39.739Z",
+    "fields": {
+      "title": {
+        "en-US": "eLearning",
+        "zh-CN": "在线学习"
+      },
+      "key": {
+        "en-US": "elearning"
+      },
+      "position": {
+        "en-US": 5
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6i6WusU3fEXb0rAIlS4ZmM",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:14:41.389Z",
+    "updatedAt": "2023-11-14T01:54:18.072Z",
+    "publishedAt": "2023-11-14T01:54:18.072Z",
+    "firstPublishedAt": "2021-06-29T08:15:35.227Z",
+    "fields": {
+      "title": {
+        "en-US": "Online Community",
+        "zh-CN": "社交/论坛"
+      },
+      "key": {
+        "en-US": "community"
+      },
+      "position": {
+        "en-US": 4
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3BSiB3tGxHtdlyrleFDZ9T",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:11:19.728Z",
+    "updatedAt": "2023-11-14T01:54:05.194Z",
+    "publishedAt": "2023-11-14T01:54:05.194Z",
+    "firstPublishedAt": "2021-06-29T08:12:43.432Z",
+    "fields": {
+      "title": {
+        "en-US": "Knowledge Management",
+        "zh-CN": "知识管理"
+      },
+      "key": {
+        "en-US": "kms"
+      },
+      "position": {
+        "en-US": 3
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "14lDYcrg2fLMbC1S9AkNDf",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T07:50:39.657Z",
+    "updatedAt": "2023-11-14T01:53:52.742Z",
+    "publishedAt": "2023-11-14T01:53:52.742Z",
+    "firstPublishedAt": "2021-06-29T07:52:29.744Z",
+    "fields": {
+      "title": {
+        "en-US": "eCommerce",
+        "zh-CN": "电子商务"
+      },
+      "key": {
+        "en-US": "ecommerce"
+      },
+      "position": {
+        "en-US": 2
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1qwbdXJCwYeeXQoLRlpiCj",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T07:44:05.306Z",
+    "updatedAt": "2023-11-14T01:53:34.082Z",
+    "publishedAt": "2023-11-14T01:53:34.082Z",
+    "firstPublishedAt": "2021-06-29T07:46:22.015Z",
+    "fields": {
+      "title": {
+        "en-US": "Website Builder",
+        "zh-CN": "企业建站"
+      },
+      "key": {
+        "en-US": "website"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2hZRCPvPqDhF7UcFCmnC0H",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-27T14:37:57.446Z",
+    "updatedAt": "2023-11-14T01:36:19.021Z",
+    "publishedAt": "2023-11-14T01:36:19.021Z",
+    "firstPublishedAt": "2021-06-27T14:40:32.793Z",
+    "fields": {
+      "title": {
+        "en-US": "Automation",
+        "zh-CN": "自动化"
+      },
+      "key": {
+        "en-US": "automation"
+      },
+      "position": {
+        "en-US": 8
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3MqZpz0fdYzrNUzrrezi3",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-08-18T07:03:35.660Z",
+    "updatedAt": "2023-08-18T07:04:09.115Z",
+    "publishedAt": "2023-08-18T07:04:09.115Z",
+    "firstPublishedAt": "2023-08-18T07:04:09.115Z",
+    "fields": {
+      "title": {
+        "en-US": "MQTT",
+        "zh-CN": "MQTT"
+      },
+      "key": {
+        "en-US": "mqtt"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "22IAKOsOzywVrL2jh8Tdh5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1S3XEugbyrAKRWYfx0bWvh",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-06T03:07:18.161Z",
+    "updatedAt": "2023-06-26T09:54:04.098Z",
+    "publishedAt": "2023-06-26T09:54:04.098Z",
+    "firstPublishedAt": "2023-06-06T03:07:38.920Z",
+    "fields": {
+      "title": {
+        "en-US": "DevOps All",
+        "zh-CN": "开发全栈"
+      },
+      "key": {
+        "en-US": "devops"
+      },
+      "position": {
+        "en-US": 0
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3IbC5xwF9ZcADQI9tpRUGQ",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:44:13.570Z",
+    "updatedAt": "2023-06-26T07:07:42.555Z",
+    "publishedAt": "2023-06-26T07:07:42.555Z",
+    "firstPublishedAt": "2021-06-29T09:45:19.832Z",
+    "fields": {
+      "title": {
+        "en-US": "Web IDE",
+        "zh-CN": "在线 IDE"
+      },
+      "key": {
+        "en-US": "ide"
+      },
+      "position": {
+        "en-US": 6
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7Lnv6TMmb4VVFP8vMXvNmM",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-26T06:42:49.650Z",
+    "updatedAt": "2023-06-26T07:07:10.766Z",
+    "publishedAt": "2023-06-26T07:07:10.766Z",
+    "firstPublishedAt": "2023-06-26T06:46:45.304Z",
+    "fields": {
+      "title": {
+        "en-US": "Application orchestration",
+        "zh-CN": "应用编排"
+      },
+      "key": {
+        "en-US": "orchestration"
+      },
+      "position": {
+        "en-US": 5
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7nMNcJU8pX0OQHaM70BoXI",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-02T08:59:45.705Z",
+    "updatedAt": "2023-06-26T06:48:31.142Z",
+    "publishedAt": "2023-06-26T06:48:31.142Z",
+    "firstPublishedAt": "2022-09-02T09:00:21.748Z",
+    "fields": {
+      "title": {
+        "en-US": "Low Code and No Code",
+        "zh-CN": "低代码/零代码"
+      },
+      "key": {
+        "en-US": "low-code"
+      },
+      "position": {
+        "en-US": 12
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5fhqDdiijbN558c2c6TkzN"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1vIzbOT5AzQ4BScGrwye4Q",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:53:56.691Z",
+    "updatedAt": "2023-06-26T06:27:13.609Z",
+    "publishedAt": "2023-06-26T06:27:13.609Z",
+    "firstPublishedAt": "2021-06-29T08:57:09.815Z",
+    "fields": {
+      "title": {
+        "en-US": "Software supply chain",
+        "zh-CN": "软件供应链"
+      },
+      "key": {
+        "en-US": "softwarechain"
+      },
+      "position": {
+        "en-US": 11
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6WADietOzYFgb9uMKFSjts"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5ICq7qZ47GhgGbzL2U8Tbz",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:46:13.258Z",
+    "updatedAt": "2023-06-26T06:14:59.891Z",
+    "publishedAt": "2023-06-26T06:14:59.891Z",
+    "firstPublishedAt": "2021-06-29T09:46:41.337Z",
+    "fields": {
+      "title": {
+        "en-US": "TestPlan",
+        "zh-CN": "测试管理"
+      },
+      "key": {
+        "en-US": "testing"
+      },
+      "position": {
+        "en-US": 4
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6fZnF215aaFxiFBIj8H6II",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-20T06:36:05.484Z",
+    "updatedAt": "2023-06-26T06:00:56.017Z",
+    "publishedAt": "2023-06-26T06:00:56.017Z",
+    "firstPublishedAt": "2023-06-20T06:38:54.106Z",
+    "fields": {
+      "title": {
+        "en-US": "Artifact Repository",
+        "zh-CN": "制品仓库"
+      },
+      "key": {
+        "en-US": "artifact-repository"
+      },
+      "position": {
+        "en-US": 2
+      },
+      "overview": {
+        "zh-CN": "Generic、Maven、NPM、PYPI、Docker、Helm等各种不同的软件二进制或镜像成品"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2DltY233eD0xqBGq6o9NUL",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:43:14.118Z",
+    "updatedAt": "2023-06-26T05:57:51.829Z",
+    "publishedAt": "2023-06-26T05:57:51.829Z",
+    "firstPublishedAt": "2021-06-29T09:44:09.699Z",
+    "fields": {
+      "title": {
+        "en-US": "Code Repository",
+        "zh-CN": "源码仓库"
+      },
+      "key": {
+        "en-US": "repository"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5NnUPnn4oierElCt5AI0po"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "32WtPgyvOgBajG1FTcteCe",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:49:34.054Z",
+    "updatedAt": "2023-06-25T08:09:27.034Z",
+    "publishedAt": "2023-06-25T08:09:27.034Z",
+    "firstPublishedAt": "2021-06-29T09:50:06.827Z",
+    "fields": {
+      "title": {
+        "en-US": "RPA",
+        "zh-CN": "流程机器人"
+      },
+      "key": {
+        "en-US": "rpa"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1LSgKMbgqRQtjAMbxlYWvt",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-25T01:23:46.676Z",
+    "updatedAt": "2023-06-25T01:25:18.849Z",
+    "publishedAt": "2023-06-25T01:25:18.849Z",
+    "firstPublishedAt": "2023-06-25T01:25:12.284Z",
+    "fields": {
+      "title": {
+        "en-US": "Whiteboard and Note",
+        "zh-CN": "白板/笔记"
+      },
+      "key": {
+        "en-US": "whiteboard-and-note"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5fhqDdiijbN558c2c6TkzN"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5MlAi8mrG3SPEvYCmhpxZO",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-28T04:42:13.240Z",
+    "updatedAt": "2023-06-21T07:32:52.437Z",
+    "publishedAt": "2023-06-21T07:32:52.437Z",
+    "firstPublishedAt": "2021-06-28T04:42:38.763Z",
+    "fields": {
+      "title": {
+        "en-US": "Marketing",
+        "zh-CN": "市场营销"
+      },
+      "key": {
+        "en-US": "marketing"
+      },
+      "position": {
+        "en-US": 3
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4JoK1TlqjxKJTeP8BSYpDF",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-20T04:54:21.353Z",
+    "updatedAt": "2023-06-20T04:55:14.193Z",
+    "publishedAt": "2023-06-20T04:55:14.193Z",
+    "firstPublishedAt": "2023-06-20T04:55:14.193Z",
+    "fields": {
+      "title": {
+        "en-US": "Subscriptions and billing",
+        "zh-CN": "订阅计费"
+      },
+      "key": {
+        "en-US": "subscriptions-and-billing"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1A3QUwEGxYR9Nidala2ACE",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-20T04:51:46.126Z",
+    "updatedAt": "2023-06-20T04:54:02.190Z",
+    "publishedAt": "2023-06-20T04:54:02.190Z",
+    "firstPublishedAt": "2023-06-20T04:54:02.190Z",
+    "fields": {
+      "title": {
+        "en-US": "Licensing and distribution",
+        "zh-CN": "授权许可"
+      },
+      "key": {
+        "en-US": "licensing"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4zrap6pE4EuZdLzdjJ2H02",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-06T09:01:54.223Z",
+    "updatedAt": "2023-06-06T09:11:27.188Z",
+    "publishedAt": "2023-06-06T09:11:27.188Z",
+    "firstPublishedAt": "2023-06-06T09:02:13.949Z",
+    "fields": {
+      "title": {
+        "en-US": "NewSQL Database",
+        "zh-CN": "NewSQL 数据库"
+      },
+      "key": {
+        "en-US": "newsql"
+      },
+      "position": {
+        "en-US": 3
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7ryZqe56bVGxDLfHAA257i",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:46:54.023Z",
+    "updatedAt": "2023-06-06T09:09:52.316Z",
+    "publishedAt": "2023-06-06T09:09:52.316Z",
+    "firstPublishedAt": "2021-06-29T08:47:35.005Z",
+    "fields": {
+      "title": {
+        "en-US": "In-memory Database",
+        "zh-CN": "缓存数据库"
+      },
+      "key": {
+        "en-US": "memorydb"
+      },
+      "position": {
+        "en-US": 6
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3s6zVXdiiZocF0gIGFJdPa",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-02T02:39:03.342Z",
+    "updatedAt": "2023-06-06T09:09:20.727Z",
+    "publishedAt": "2023-06-06T09:09:20.727Z",
+    "firstPublishedAt": "2023-06-02T02:39:45.243Z",
+    "fields": {
+      "title": {
+        "en-US": "Time Series Database",
+        "zh-CN": "时序数据库"
+      },
+      "key": {
+        "en-US": "timedbs"
+      },
+      "position": {
+        "en-US": 4
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3qBphS6o9artL5oDiCPLM7",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-05T08:18:35.306Z",
+    "updatedAt": "2023-06-06T09:01:07.823Z",
+    "publishedAt": "2023-06-06T09:01:07.823Z",
+    "firstPublishedAt": "2023-06-05T08:19:23.377Z",
+    "fields": {
+      "title": {
+        "en-US": "NoSQL Database",
+        "zh-CN": "NoSQL 数据库"
+      },
+      "key": {
+        "en-US": "nosql"
+      },
+      "position": {
+        "en-US": 2
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "57bpJgGUENJXm5Vhuh1DdU",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-06T06:55:54.083Z",
+    "updatedAt": "2023-06-06T07:01:28.413Z",
+    "publishedAt": "2023-06-06T07:01:28.413Z",
+    "firstPublishedAt": "2023-06-06T06:56:14.454Z",
+    "fields": {
+      "title": {
+        "en-US": "Meeting",
+        "zh-CN": "会议/直播"
+      },
+      "key": {
+        "en-US": "meeting"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Y9smp8fp4hEdZ0dmLINk8"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7tIdZpU3nRqbKmcGhksfBT",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-02T09:20:43.905Z",
+    "updatedAt": "2023-06-06T03:54:21.887Z",
+    "publishedAt": "2023-06-06T03:54:21.887Z",
+    "firstPublishedAt": "2022-09-02T09:21:55.122Z",
+    "fields": {
+      "title": {
+        "en-US": "Digital creativity",
+        "zh-CN": "数字创意"
+      },
+      "key": {
+        "en-US": "dcreativity"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5fhqDdiijbN558c2c6TkzN"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1RxtEN6FrZneBvRxBpHIPy",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-03T09:55:24.591Z",
+    "updatedAt": "2023-06-06T03:44:13.523Z",
+    "publishedAt": "2023-06-06T03:44:13.523Z",
+    "firstPublishedAt": "2023-06-03T10:03:35.855Z",
+    "fields": {
+      "title": {
+        "en-US": "APM",
+        "zh-CN": "应用性能分析"
+      },
+      "key": {
+        "en-US": "apm"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mv9cboFR6s2EODk9Uzx4O"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1LO1u6vIt2PDrYg71MM0iz",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:25:01.704Z",
+    "updatedAt": "2023-06-06T03:19:07.090Z",
+    "publishedAt": "2023-06-06T03:19:07.090Z",
+    "firstPublishedAt": "2021-06-29T08:25:54.970Z",
+    "fields": {
+      "title": {
+        "en-US": "PLM & PDM",
+        "zh-CN": "产品生命周期"
+      },
+      "key": {
+        "en-US": "plm"
+      },
+      "position": {
+        "en-US": 5
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3HjhIaDMod8KcMZ5dWq1j2"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "39cPd5ouPrNZMpi2R2Lzg7",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-26T09:32:02.632Z",
+    "updatedAt": "2023-06-06T03:02:43.561Z",
+    "publishedAt": "2023-06-06T03:02:43.561Z",
+    "firstPublishedAt": "2021-06-26T09:34:20.956Z",
+    "fields": {
+      "title": {
+        "en-US": "IT Monitor",
+        "zh-CN": "IT 监控运维"
+      },
+      "key": {
+        "en-US": "itdevops"
+      },
+      "position": {
+        "en-US": 23
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2Yp0TY3kBHgG6VDjsHZNpK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "46F42uLohDyqmvpdbMtjT0",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:54:39.929Z",
+    "updatedAt": "2023-06-06T01:28:56.194Z",
+    "publishedAt": "2023-06-06T01:28:56.194Z",
+    "firstPublishedAt": "2021-06-29T09:55:15.213Z",
+    "fields": {
+      "title": {
+        "en-US": "Cloud Infrastructure Monitoring",
+        "zh-CN": "云设施监控"
+      },
+      "key": {
+        "en-US": "itsm"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1M2nMpga1p9ppE1D59l357",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:48:05.960Z",
+    "updatedAt": "2023-06-06T01:26:29.832Z",
+    "publishedAt": "2023-06-06T01:26:29.832Z",
+    "firstPublishedAt": "2021-06-29T09:48:51.894Z",
+    "fields": {
+      "title": {
+        "en-US": "Full Monitoring",
+        "zh-CN": "全面监控"
+      },
+      "key": {
+        "en-US": "fullmonitor"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3OsljAGp8CZbeYa1vRowqd",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:50:50.111Z",
+    "updatedAt": "2023-06-05T10:39:59.250Z",
+    "publishedAt": "2023-06-05T10:39:59.250Z",
+    "firstPublishedAt": "2021-06-29T08:51:43.046Z",
+    "fields": {
+      "title": {
+        "en-US": "Linux Desktop",
+        "zh-CN": "系统面板"
+      },
+      "key": {
+        "en-US": "desktop"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3GMxXg5wdj4R77cqCqiIKk",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-05T04:47:36.444Z",
+    "updatedAt": "2023-06-05T04:48:54.581Z",
+    "publishedAt": "2023-06-05T04:48:54.581Z",
+    "firstPublishedAt": "2023-06-05T04:48:54.581Z",
+    "fields": {
+      "title": {
+        "en-US": "Key Management",
+        "zh-CN": "秘钥管理"
+      },
+      "key": {
+        "en-US": "key-management"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1L5FTwpWq09MgDXjY2VJci",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T10:08:48.786Z",
+    "updatedAt": "2023-06-03T10:22:43.002Z",
+    "publishedAt": "2023-06-03T10:22:43.002Z",
+    "firstPublishedAt": "2021-06-29T10:53:22.439Z",
+    "fields": {
+      "title": {
+        "en-US": "Container",
+        "zh-CN": "容器"
+      },
+      "key": {
+        "en-US": "container"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5lYK0lAWJBvBjiXLRYm5Py",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-03T09:39:11.141Z",
+    "updatedAt": "2023-06-03T09:39:38.024Z",
+    "publishedAt": "2023-06-03T09:39:38.024Z",
+    "firstPublishedAt": "2023-06-03T09:39:38.024Z",
+    "fields": {
+      "title": {
+        "en-US": "Video Server",
+        "zh-CN": "视频服务"
+      },
+      "key": {
+        "en-US": "video-server"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5NSpZ4nmAEWWmwm3XpNczD",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-02T08:59:25.504Z",
+    "updatedAt": "2023-06-02T09:00:01.949Z",
+    "publishedAt": "2023-06-02T09:00:01.949Z",
+    "firstPublishedAt": "2023-06-02T09:00:01.949Z",
+    "fields": {
+      "title": {
+        "en-US": "Cloud Workspaces",
+        "zh-CN": "云桌面"
+      },
+      "key": {
+        "en-US": "cloud-workspaces"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1fQ5nJAUb768z7n09J7sdK"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1IBiHvsnj4zjj6qIk1FIcO",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-02T03:13:06.031Z",
+    "updatedAt": "2023-06-02T03:43:39.278Z",
+    "publishedAt": "2023-06-02T03:43:39.278Z",
+    "firstPublishedAt": "2023-06-02T03:14:16.641Z",
+    "fields": {
+      "title": {
+        "en-US": "Privileged Access Management",
+        "zh-CN": "堡垒机"
+      },
+      "key": {
+        "en-US": "pam"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6WADietOzYFgb9uMKFSjts"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2TdOvPReCuGPXjPjIlN98V",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-06-01T07:13:51.958Z",
+    "updatedAt": "2023-06-01T07:14:14.078Z",
+    "publishedAt": "2023-06-01T07:14:14.078Z",
+    "firstPublishedAt": "2023-06-01T07:14:14.078Z",
+    "fields": {
+      "title": {
+        "en-US": "Headless CMS",
+        "zh-CN": "无头 CMS"
+      },
+      "key": {
+        "en-US": "headless-cms"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4mF2lDUt1PNyZ5R6GP1VmF"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3u64SuvbC8pUZzRBd1EfX4",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-02-28T04:13:18.962Z",
+    "updatedAt": "2023-02-28T04:13:35.130Z",
+    "publishedAt": "2023-02-28T04:13:35.130Z",
+    "firstPublishedAt": "2023-02-28T04:13:35.130Z",
+    "fields": {
+      "title": {
+        "en-US": "Firewall",
+        "zh-CN": "防火墙"
+      },
+      "key": {
+        "en-US": "firewall"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6WADietOzYFgb9uMKFSjts"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7bEZEybtxvYtBZ13iNQH5Y",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-02-28T04:05:01.345Z",
+    "updatedAt": "2023-02-28T04:10:01.649Z",
+    "publishedAt": "2023-02-28T04:10:01.649Z",
+    "firstPublishedAt": "2023-02-28T04:05:44.090Z",
+    "fields": {
+      "title": {
+        "en-US": "Detection and Monitor",
+        "zh-CN": "扫描监测"
+      },
+      "key": {
+        "en-US": "security-detection"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6WADietOzYFgb9uMKFSjts"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "RDEO24KwxFiCwaTan50x5",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2023-02-28T04:05:53.939Z",
+    "updatedAt": "2023-02-28T04:09:33.659Z",
+    "publishedAt": "2023-02-28T04:09:33.659Z",
+    "firstPublishedAt": "2023-02-28T04:09:33.659Z",
+    "fields": {
+      "title": {
+        "en-US": "Access Control",
+        "zh-CN": "访问控制"
+      },
+      "key": {
+        "en-US": "access-control"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6WADietOzYFgb9uMKFSjts"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "511GefnVfjYOcWGLZu9qOk",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:49:11.816Z",
+    "updatedAt": "2023-02-28T01:43:34.108Z",
+    "publishedAt": "2023-02-28T01:43:34.108Z",
+    "firstPublishedAt": "2021-06-29T08:49:49.202Z",
+    "fields": {
+      "title": {
+        "en-US": "Object Storage",
+        "zh-CN": "对象存储"
+      },
+      "key": {
+        "en-US": "oss"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "2hZRCPvPqDhF7UcFCmnC0H"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1X7PifLao8Xp3mqFvQgXtz",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-10-10T13:33:23.313Z",
+    "updatedAt": "2022-10-21T00:21:01.686Z",
+    "publishedAt": "2022-10-21T00:21:01.686Z",
+    "firstPublishedAt": "2022-10-10T13:33:43.944Z",
+    "fields": {
+      "title": {
+        "en-US": "Cloud Service",
+        "zh-CN": "云服务"
+      },
+      "key": {
+        "en-US": "cloud-service"
+      },
+      "position": {
+        "en-US": 3
+      },
+      "overview": {
+        "en-US": "Get to value faster with Cloud First.",
+        "zh-CN": "全面挖掘上云价值，引领当下、制胜未来"
+      },
+      "description": {
+        "zh-CN": "“云优先”战略能够提供全面的云服务，助力企业实现投资价值。当然，上云不仅只涉及技术，为了帮助企业实现长久发展与成功，我们还将在解决方案中融入员工变革和文化变革等方面的内容。"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Tv9r3ToRiF56kL9epU1oj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6jLT5xYnWkMQStItHyKqVl",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-10-10T02:33:00.092Z",
+    "updatedAt": "2022-10-21T00:19:20.875Z",
+    "publishedAt": "2022-10-21T00:19:20.875Z",
+    "firstPublishedAt": "2022-10-10T02:36:15.828Z",
+    "fields": {
+      "title": {
+        "en-US": "Technology Consultant",
+        "zh-CN": "技术咨询"
+      },
+      "key": {
+        "en-US": "technology-consultant"
+      },
+      "position": {
+        "en-US": 1
+      },
+      "overview": {
+        "en-US": "Practice helps architect and realize exceptional business value from technology.",
+        "zh-CN": "助力企业规划并实现技术创效蓝图，让技术为企业带来卓越的业务价值"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Tv9r3ToRiF56kL9epU1oj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1Nu794PuTFVm7SPDpQDHHw",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-10-10T02:37:01.567Z",
+    "updatedAt": "2022-10-21T00:16:16.726Z",
+    "publishedAt": "2022-10-21T00:16:16.726Z",
+    "firstPublishedAt": "2022-10-10T02:52:03.059Z",
+    "fields": {
+      "title": {
+        "en-US": "Business Process Outsourcing",
+        "zh-CN": "业务流程外包"
+      },
+      "key": {
+        "en-US": "business-process-outsourcing"
+      },
+      "position": {
+        "en-US": 5
+      },
+      "overview": {
+        "en-US": "Websoft9 打造的全球软件供应链能力，可以将优质的应用软件高效率的交付给用户",
+        "zh-CN": "Websoft9 打造的全球软件供应链能力，可以将优质的应用软件高效率的交付给用户"
+      },
+      "description": {
+        "zh-CN": "我们将智能、创新和深厚的行业经验与新型IT和技术加以整合，致力于帮助客户不断提升业务价值和增长。"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Tv9r3ToRiF56kL9epU1oj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2Pe7oLvNojlAJ9f1Kqbgy0",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-10-10T14:16:31.935Z",
+    "updatedAt": "2022-10-21T00:12:06.619Z",
+    "publishedAt": "2022-10-21T00:12:06.619Z",
+    "firstPublishedAt": "2022-10-10T14:17:27.509Z",
+    "fields": {
+      "title": {
+        "en-US": "Application Service",
+        "zh-CN": "应用服务"
+      },
+      "key": {
+        "en-US": "application-service"
+      },
+      "position": {
+        "en-US": 2
+      },
+      "overview": {
+        "zh-CN": "围绕热门的应用系统，提供实施与维护外包服务"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Tv9r3ToRiF56kL9epU1oj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4rAVBJoMKryRy8gvZlNb8d",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-10-10T13:19:56.087Z",
+    "updatedAt": "2022-10-11T03:32:32.501Z",
+    "publishedAt": "2022-10-11T03:32:32.501Z",
+    "firstPublishedAt": "2022-10-10T13:26:56.079Z",
+    "fields": {
+      "title": {
+        "en-US": "Operation innovation",
+        "zh-CN": "运营创新"
+      },
+      "key": {
+        "en-US": "operation-innovation"
+      },
+      "position": {
+        "en-US": 4
+      },
+      "overview": {
+        "zh-CN": "将 Websoft9 在线运营的经验、技术和方法交付给同类型的知识创新型企业"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Tv9r3ToRiF56kL9epU1oj"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "H7IGWVo0RwUyMML7bGDJo",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T09:32:12.678Z",
+    "updatedAt": "2022-09-06T09:32:39.811Z",
+    "publishedAt": "2022-09-06T09:32:39.811Z",
+    "firstPublishedAt": "2022-09-06T09:32:39.811Z",
+    "fields": {
+      "title": {
+        "en-US": "Virtual Reality",
+        "zh-CN": "虚拟仿真"
+      },
+      "key": {
+        "en-US": "virtual-reality"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5fhqDdiijbN558c2c6TkzN"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "73tCuBiv8gBU4MZ9UPXNTL",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T09:25:32.261Z",
+    "updatedAt": "2022-09-06T09:25:52.092Z",
+    "publishedAt": "2022-09-06T09:25:52.092Z",
+    "firstPublishedAt": "2022-09-06T09:25:52.092Z",
+    "fields": {
+      "title": {
+        "en-US": "Device Security",
+        "zh-CN": "设备安全"
+      },
+      "key": {
+        "en-US": "device-security"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "22IAKOsOzywVrL2jh8Tdh5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6ft91aiaj7VYZkeBSU5DIp",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2022-09-06T08:51:59.279Z",
+    "updatedAt": "2022-09-06T08:54:47.693Z",
+    "publishedAt": "2022-09-06T08:54:47.693Z",
+    "firstPublishedAt": "2022-09-06T08:54:47.693Z",
+    "fields": {
+      "title": {
+        "en-US": "Industrial Design",
+        "zh-CN": "工业设计"
+      },
+      "key": {
+        "en-US": "industrial-design"
+      },
+      "position": {
+        "en-US": 10
+      },
+      "description": {
+        "en-US": "工业设计软件"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5fhqDdiijbN558c2c6TkzN"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5t1qHAcwiYV0CPZbNlOebk",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T09:56:27.913Z",
+    "updatedAt": "2022-09-02T07:06:59.537Z",
+    "publishedAt": "2022-09-02T07:06:59.537Z",
+    "firstPublishedAt": "2021-06-29T09:57:58.781Z",
+    "fields": {
+      "key": {
+        "en-US": "cpm"
+      },
+      "title": {
+        "en-US": "Multicloud Management",
+        "zh-CN": "多云管理"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "39cPd5ouPrNZMpi2R2Lzg7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3Tv9r3ToRiF56kL9epU1oj",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-07-30T07:58:02.944Z",
+    "updatedAt": "2021-07-30T07:58:20.290Z",
+    "publishedAt": "2021-07-30T07:58:20.290Z",
+    "firstPublishedAt": "2021-07-30T07:58:20.290Z",
+    "fields": {
+      "key": {
+        "en-US": "service"
+      },
+      "title": {
+        "en-US": "Service",
+        "zh-CN": "服务"
+      }
+    }
+  },
+  {
+    "id": "2Yp0TY3kBHgG6VDjsHZNpK",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-07-30T07:57:12.706Z",
+    "updatedAt": "2021-07-30T07:57:52.939Z",
+    "publishedAt": "2021-07-30T07:57:52.939Z",
+    "firstPublishedAt": "2021-07-30T07:57:52.939Z",
+    "fields": {
+      "key": {
+        "en-US": "product"
+      },
+      "title": {
+        "en-US": "Product",
+        "zh-CN": "产品"
+      }
+    }
+  },
+  {
+    "id": "2HswCergcyPIXKBYXyoucS",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:37:07.025Z",
+    "updatedAt": "2021-06-29T08:37:44.726Z",
+    "publishedAt": "2021-06-29T08:37:44.726Z",
+    "firstPublishedAt": "2021-06-29T08:37:44.726Z",
+    "fields": {
+      "key": {
+        "en-US": "workflow"
+      },
+      "title": {
+        "en-US": "Work Flow",
+        "zh-CN": "工作流"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "66IPGhiIL6usPRASHs70Kl",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:29:50.277Z",
+    "updatedAt": "2021-06-29T08:30:31.095Z",
+    "publishedAt": "2021-06-29T08:30:31.095Z",
+    "firstPublishedAt": "2021-06-29T08:30:11.832Z",
+    "fields": {
+      "key": {
+        "en-US": "gis"
+      },
+      "title": {
+        "en-US": "GIS Service",
+        "zh-CN": "地图服务"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3Gd5YzlJlXXcP3rSxJtSVY",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:28:44.898Z",
+    "updatedAt": "2021-06-29T08:29:27.667Z",
+    "publishedAt": "2021-06-29T08:29:27.667Z",
+    "firstPublishedAt": "2021-06-29T08:29:27.667Z",
+    "fields": {
+      "key": {
+        "en-US": "docs"
+      },
+      "title": {
+        "en-US": "Document Service",
+        "zh-CN": "文档服务"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7zp5RuDZVx2npQRlUlhpc7",
+    "type": "Entry",
+    "contentType": "catalog",
+    "createdAt": "2021-06-29T08:27:45.234Z",
+    "updatedAt": "2021-06-29T08:28:28.065Z",
+    "publishedAt": "2021-06-29T08:28:28.065Z",
+    "firstPublishedAt": "2021-06-29T08:28:28.065Z",
+    "fields": {
+      "key": {
+        "en-US": "mq"
+      },
+      "title": {
+        "en-US": "Message Queue",
+        "zh-CN": "消息队列"
+      },
+      "catalog": {
+        "en-US": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ],
+        "zh-CN": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "42xW7uUgXzPnNBRWmk2BHt"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

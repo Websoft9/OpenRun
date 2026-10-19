@@ -1,0 +1,2154 @@
+[
+  {
+    "id": "3znhjRCQbwCgbL3stdmP69",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-08-27T00:47:19.406Z",
+    "updatedAt": "2024-08-27T00:52:06.563Z",
+    "publishedAt": "2024-08-27T00:52:06.563Z",
+    "firstPublishedAt": "2024-08-27T00:52:06.563Z",
+    "fields": {
+      "key": {
+        "en-US": "sustainable-use-license-1.0"
+      },
+      "name": {
+        "en-US": "Sustainable Use License 1.0"
+      },
+      "title": {
+        "en-US": "Sustainable Use License 1.0"
+      },
+      "description": {
+        "en-US": "The license allows you the free right to use, modify, create derivative works, and redistribute, with three limitations:\n\n- You may use or modify the software only for your own internal business purposes or for non-commercial or personal use.\n- You may distribute the software or provide it to others only if you do so free of charge for non-commercial purposes.\n- You may not alter, remove, or obscure any licensing, copyright, or other notices of the licensor in the software. Any use of the licensor's trademarks is subject to applicable law.\n\nwouldn't be allowed:\n\n- White-labeling n8n and offering it to your customers for money.\n- Hosting n8n and charging people money to access it."
+      },
+      "url": {
+        "en-US": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md"
+      }
+    }
+  },
+  {
+    "id": "2EFch2lXA6EIZrbtCaJNvL",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:18:42.277Z",
+    "updatedAt": "2024-08-22T09:18:53.133Z",
+    "publishedAt": "2024-08-22T09:18:53.133Z",
+    "firstPublishedAt": "2021-07-01T01:19:20.903Z",
+    "fields": {
+      "key": {
+        "en-US": "bsl1"
+      },
+      "name": {
+        "en-US": "Boost Software License 1.0"
+      },
+      "title": {
+        "en-US": "Boost Software License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/BSL-1.0"
+      }
+    }
+  },
+  {
+    "id": "5O8hAeUBZVZqUs83i6v9XE",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-08-22T09:14:28.636Z",
+    "updatedAt": "2024-08-22T09:18:17.512Z",
+    "publishedAt": "2024-08-22T09:18:17.512Z",
+    "firstPublishedAt": "2024-08-22T09:18:17.512Z",
+    "fields": {
+      "key": {
+        "en-US": "business-sl11"
+      },
+      "name": {
+        "en-US": "BSL1.1"
+      },
+      "title": {
+        "en-US": "Business Source License 1.1"
+      },
+      "url": {
+        "en-US": "https://mariadb.com/bsl11/"
+      }
+    }
+  },
+  {
+    "id": "4iQsJxo95VUZYyGzuCD5rV",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2022-09-17T06:31:23.541Z",
+    "updatedAt": "2024-06-27T03:09:39.606Z",
+    "publishedAt": "2024-06-27T03:09:39.606Z",
+    "firstPublishedAt": "2022-09-17T06:33:53.159Z",
+    "fields": {
+      "key": {
+        "en-US": "SSPL-v1"
+      },
+      "name": {
+        "en-US": "SSPL v1"
+      },
+      "title": {
+        "en-US": "Server Side Public License"
+      },
+      "url": {
+        "en-US": "https://www.mongodb.com/licensing/server-side-public-license"
+      }
+    }
+  },
+  {
+    "id": "2JgKiwIWe2ZCGoVHMXhLnf",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:27:23.560Z",
+    "updatedAt": "2024-06-27T00:50:01.519Z",
+    "publishedAt": "2024-06-27T00:50:01.519Z",
+    "firstPublishedAt": "2021-07-01T01:27:55.582Z",
+    "fields": {
+      "key": {
+        "en-US": "CERN-OHL-W"
+      },
+      "name": {
+        "en-US": "CERN Open Hardware License v2 - Weakly Reciprocal"
+      },
+      "url": {
+        "en-US": "https://opensource.org/license/CERN-OHL-W"
+      }
+    }
+  },
+  {
+    "id": "3wBpM1QGy9u5zbV1TRHRHe",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:23:35.653Z",
+    "updatedAt": "2024-06-27T00:49:36.966Z",
+    "publishedAt": "2024-06-27T00:49:36.966Z",
+    "firstPublishedAt": "2021-07-01T01:26:22.130Z",
+    "fields": {
+      "key": {
+        "en-US": "CERN-OHL-P"
+      },
+      "name": {
+        "en-US": "CERN Open Hardware License v2 - Permissive"
+      },
+      "url": {
+        "en-US": "https://opensource.org/license/CERN-OHL-P"
+      }
+    }
+  },
+  {
+    "id": "6MgJFqE0ysGaDyPZN6MWeC",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:28:16.273Z",
+    "updatedAt": "2024-06-27T00:48:00.948Z",
+    "publishedAt": "2024-06-27T00:48:00.948Z",
+    "firstPublishedAt": "2021-07-01T01:28:42.585Z",
+    "fields": {
+      "key": {
+        "en-US": "CERN-OHL-S"
+      },
+      "name": {
+        "en-US": "CERN Open Hardware License v2 - Strongly Reciprocal"
+      },
+      "url": {
+        "en-US": "https://opensource.org/license/cern-ohl-s"
+      }
+    }
+  },
+  {
+    "id": "k2TEl4jjMnCeHuSRiOU7u",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2022-10-17T08:01:29.911Z",
+    "updatedAt": "2024-06-26T09:10:56.276Z",
+    "publishedAt": "2024-06-26T09:10:56.276Z",
+    "firstPublishedAt": "2022-10-17T08:02:30.982Z",
+    "fields": {
+      "key": {
+        "en-US": "zentao"
+      },
+      "name": {
+        "en-US": "Z PUBLIC LICENSE 1.2 and AGPL v3"
+      },
+      "title": {
+        "en-US": "Z PUBLIC LICENSE 1.2 and AGPL v3"
+      },
+      "description": {
+        "en-US": "The source code of zentao is covered by the following dual licenses:\n\n(1) ZPL  1.2: http://zpl.pub/page/zplv12.html\n(2) AGPL 3.0: https://www.gnu.org/licenses/agpl-3.0.en.html\n\nYou can choose ZPL or AGPL to use zentao."
+      },
+      "url": {
+        "en-US": "https://zpl.pub/page/zplv12.html"
+      }
+    }
+  },
+  {
+    "id": "u1QvFzfIRWLJmDdtQnXhu",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-06-26T09:02:11.921Z",
+    "updatedAt": "2024-06-26T09:04:01.255Z",
+    "publishedAt": "2024-06-26T09:04:01.255Z",
+    "firstPublishedAt": "2024-06-26T09:04:01.255Z",
+    "fields": {
+      "key": {
+        "en-US": "nginx"
+      },
+      "name": {
+        "en-US": "2-clause BSD-like license"
+      },
+      "title": {
+        "en-US": "BSD 2-Clause \"Simplified\" License"
+      },
+      "url": {
+        "en-US": "https://github.com/nginx/njs/blob/master/LICENSE"
+      }
+    }
+  },
+  {
+    "id": "28IPT26qcxDND0zuRF2nKe",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-06-26T08:30:03.701Z",
+    "updatedAt": "2024-06-26T08:30:31.308Z",
+    "publishedAt": "2024-06-26T08:30:31.308Z",
+    "firstPublishedAt": "2024-06-26T08:30:31.308Z",
+    "fields": {
+      "key": {
+        "en-US": "agreement-fastpanel"
+      },
+      "name": {
+        "en-US": "Agreement FASTPANEL"
+      },
+      "title": {
+        "en-US": "Agreement FASTPANEL"
+      },
+      "url": {
+        "en-US": "https://fastpanel.direct/assets/docs/agreement_en.pdf"
+      }
+    }
+  },
+  {
+    "id": "7JmMJCyHICYLl0eNsHloj9",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-06-26T08:19:55.526Z",
+    "updatedAt": "2024-06-26T08:23:02.466Z",
+    "publishedAt": "2024-06-26T08:23:02.466Z",
+    "firstPublishedAt": "2024-06-26T08:23:02.466Z",
+    "fields": {
+      "key": {
+        "en-US": "oracle-free"
+      },
+      "name": {
+        "en-US": "oracle-free"
+      },
+      "title": {
+        "en-US": "Oracle Free License"
+      },
+      "url": {
+        "en-US": "https://www.oracle.com/downloads/licenses/oracle-free-license.html"
+      }
+    }
+  },
+  {
+    "id": "2GP44h7i4Wu23Zpd5S4qm6",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-06-26T07:09:11.769Z",
+    "updatedAt": "2024-06-26T08:06:00.497Z",
+    "publishedAt": "2024-06-26T08:06:00.497Z",
+    "firstPublishedAt": "2024-06-26T07:09:48.855Z",
+    "fields": {
+      "key": {
+        "en-US": "vtiger"
+      },
+      "name": {
+        "en-US": "Vtiger Public License"
+      },
+      "title": {
+        "en-US": "Vtiger Public License"
+      },
+      "url": {
+        "en-US": "https://www.vtiger.com/open-source-crm/vtiger-public-license/"
+      }
+    }
+  },
+  {
+    "id": "3LHVhMWV5DakQyrKCpC99T",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-06-26T08:01:10.285Z",
+    "updatedAt": "2024-06-26T08:05:15.061Z",
+    "publishedAt": "2024-06-26T08:05:15.061Z",
+    "firstPublishedAt": "2024-06-26T08:01:52.815Z",
+    "fields": {
+      "key": {
+        "en-US": "redis"
+      },
+      "name": {
+        "en-US": "RSALv2+SSPLv1"
+      },
+      "title": {
+        "en-US": "Redis Source Available License 2.0 + Server Side Public License v1"
+      },
+      "url": {
+        "en-US": "https://redis.io/legal/licenses/"
+      }
+    }
+  },
+  {
+    "id": "2O8RaSlsatiVMNTatp20FU",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:39:10.878Z",
+    "updatedAt": "2024-06-26T07:04:21.551Z",
+    "publishedAt": "2024-06-26T07:04:21.551Z",
+    "firstPublishedAt": "2021-07-01T01:40:49.067Z",
+    "fields": {
+      "key": {
+        "en-US": "AGPL-3.0"
+      },
+      "name": {
+        "en-US": "AGPL-3.0"
+      },
+      "title": {
+        "en-US": "GNU Affero General Public License v3 "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/AGPL-3.0"
+      }
+    }
+  },
+  {
+    "id": "5pDTWQQylwXDD237YtLspE",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:31:06.254Z",
+    "updatedAt": "2024-06-26T06:58:31.024Z",
+    "publishedAt": "2024-06-26T06:58:31.024Z",
+    "firstPublishedAt": "2021-07-01T01:31:31.088Z",
+    "fields": {
+      "key": {
+        "en-US": "OSL-3.0"
+      },
+      "name": {
+        "en-US": "OSL-3.0"
+      },
+      "title": {
+        "en-US": "Open Software License 3.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/OSL-3.0"
+      }
+    }
+  },
+  {
+    "id": "1FrLlI5CwEYCfdUCPRIFm0",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2022-10-24T02:13:06.462Z",
+    "updatedAt": "2024-06-26T06:25:47.455Z",
+    "publishedAt": "2024-06-26T06:25:47.455Z",
+    "firstPublishedAt": "2022-10-24T02:15:16.414Z",
+    "fields": {
+      "key": {
+        "en-US": "discuzx"
+      },
+      "name": {
+        "en-US": "DiscuzX"
+      },
+      "title": {
+        "en-US": "DiscuzX"
+      },
+      "description": {
+        "en-US": "授权协议\n中文版授权协议 适用于中文用户\n\n版权所有 (c) 2001-2024，腾讯云计算（北京）有限责任公司\n保留所有权利。\n\n感谢您选择腾讯云产品。希望我们的努力能为您提供一个高效快速、强大的站点解决方案，和强大的社区论坛解决方案。腾讯云公司网址为 https://www.qcloud.com，产品官方讨论社区网址为 https://www.dismall.com。产品官方应用中心网址为：https://addon.dismall.com。开源代码网址为 https://code.dismall.com。\n\n腾讯云产品的 Discuz! X 项目内所包含的官方应用中心由合肥贰道网络科技有限公司承接运营。Discuz! X 开源项目由合肥贰道网络科技有限公司承接维护，Discuz! X 开源代码由项目开源管理委员会及社区开发者共同维护。除以上服务外，均由腾讯云提供服务。\n\n用户须知：本协议是您与腾讯云公司之间关于您使用腾讯云公司提供的各种软件产品及服务的法律协议。无论您是个人或组织、盈利与否、用途如何（包括以学习和研究为目的），均需仔细阅读本协议，包括免除或者限制腾讯云责任的免责条款及对您的权利限制。请您审阅并接受或不接受本服务条款。如您不同意本服务条款及/或腾讯云随时对其的修改，您应不使用或主动取消腾讯云公司提供的腾讯云产品。否则，您的任何对腾讯云产品中的相关服务的注册、登陆、下载、查看等使用行为将被视为您对本服务条款全部的完全接受，包括接受腾讯云对服务条款随时所做的任何修改。\n本服务条款一旦发生变更， 腾讯云将在网页上公布修改内容。修改后的服务条款一旦在网站管理后台上公布即有效代替原来的服务条款。您可随时登录开源代码网址查阅最新版服务条款。如果您选择接受本条款，即表示您同意接受协议各项条件的约束。如果您不同意本服务条款，则不能获得使用本服务的权利。您若有违反本条款规定，腾讯云公司有权随时中止或终止您对腾讯云产品的使用资格并保留追究相关法律责任的权利。\n在理解、同意、并遵守本协议的全部条款后，方可开始使用腾讯云产品。您可能与腾讯云公司直接签订另一书面协议，以补充或者取代本协议的全部或者任何部分。\n\n腾讯云拥有本软件的全部知识产权。本软件只供许可协议，并非出售。腾讯云只允许您在遵守本协议各项条款的情况下复制、下载、安装、使用或者以其他方式受益于本软件的功能或者知识产权。\n\nI. 协议许可的权利\n\n   1. 您可以在完全遵守本许可协议的基础上，将本软件应用于非商业用途或商业用途使用（局限于本协议所适配许可的情况下），而不必支付软件版权许可费用。\n   2. 您可以在协议规定的约束和限制范围内修改腾讯云产品源代码（如果被提供的话）或界面风格以适应您的网站要求。\n   3. 您拥有使用本软件构建的网站中全部会员资料、文章及相关信息的所有权，并独立承担与使用本软件构建的网站内容的审核、注意义务，确保其不侵犯任何人的合法权益，独立承担因使用腾讯云软件和服务带来的全部责任，若造成腾讯云公司或用户损失的，您应予以全部赔偿。\n   4. 若您需将腾讯云软件或服务用户商业用途，必须遵守中国人民共和国相关法律。若需提供技术支持方式或技术支持内容，请向官方（https://www.discuz.vip/）获取技术支持服务。\n   5. 您可以从腾讯云提供的应用中心服务中下载适合您网站的应用程序，但应向应用程序开发者/所有者支付相应的费用。\n\nII. 协议规定的约束和限制\n\n   1. 不得对本软件或与之关联的商业授权进行出租、出售、抵押或发放子许可证。\n   2. 无论如何，即无论用途如何、是否经过修改或美化、修改程度如何，只要使用腾讯云产品的整体或任何部分，未经书面许可，页面页脚处的 Powered by Discuz! 及链接（https://www.discuz.vip/）和程序后台官方应用中心的链接（https://addon.dismall.com）都必须保留，而不能清除或修改、替换。\n   3. 禁止在腾讯云产品的整体或任何部分基础上以发展任何派生版本、修改版本或第三方版本用于重新分发。\n   4. 您从应用中心下载的应用程序，未经应用程序开发者/所有者的书面许可，不得对其进行反向工程、反向汇编、反向编译等，不得擅自复制、修改、链接、转载、汇编、发表、出版、发展与之有关的衍生产品、作品等。\n   5. 如果您未能遵守本协议的条款，您的授权将被终止，所许可的权利将被收回，同时您应承担相应法律责任。\n\nIII. 有限担保和免责声明\n\n   1. 本软件及所附带的文件是作为不提供任何明确的或隐含的赔偿或担保的形式提供的。\n   2. 用户出于自愿而使用本软件，您必须了解使用本软件的风险，我们不承诺提供任何形式的技术支持、使用担保，也不承担任何因使用本软件而产生问题的相关责任。\n   3. 腾讯云公司不对使用本软件构建的网站中或者论坛中的文章或信息承担责任，全部责任由您自行承担。\n   4. 官方应用中心无法全面监控由第三方上传至应用中心的应用程序，因此不保证应用程序的合法性、安全性、完整性、真实性或品质等；您从应用中心下载应用程序时，同意自行判断并承担所有风险，而不依赖于腾讯云公司及官方应用中心。但在任何情况下，官方应用中心有权依法停止应用中心服务并采取相应行动，包括但不限于对于相关应用程序进行卸载，暂停服务的全部或部分，保存有关记录，并向有关机关报告。由此对您及第三人可能造成的损失，腾讯云公司及官方应用中心不承担任何直接、间接或者连带的责任。\n   5. 腾讯云公司对腾讯云提供的软件和服务之及时性、安全性、准确性不作担保，由于不可抗力因素、腾讯云公司无法控制的因素（包括黑客攻击、停断电等）等造成软件使用和服务中止或终止，而给您造成损失的，您同意放弃追究腾讯云公司责任的全部权利。   \n   6. 腾讯云公司特别提请您注意，腾讯云公司为了保障公司业务发展和调整的自主权，腾讯云公司拥有随时经或未经事先通知而修改服务内容、中止或终止部分或全部软件使用和服务的权利，修改会公布于腾讯云公司网站相关页面上，一经公布视为通知。 腾讯云公司行使修改或中止、终止部分或全部软件使用和服务的权利而造成损失的，腾讯云公司不需对您或任何第三方负责。\n\n有关腾讯云产品最终用户授权协议、商业授权与技术服务的详细内容，均由腾讯云公司独家提供。腾讯云公司拥有在不事先通知的情况下，修改授权协议和服务价目表的权利，修改后的协议或价目表对自改变之日起的新授权用户生效。\n\n一旦您开始安装腾讯云产品，即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权利的同时，受到相关的约束和限制。协议许可范围以外的行为，将直接违反本授权协议并构成侵权，我们有权随时终止授权，责令停止损害，并保留追究相关责任的权力。\n\n本许可协议条款的解释，效力及纠纷的解决，适用于中华人民共和国大陆法律。\n\n若您和腾讯云之间发生任何纠纷或争议，首先应友好协商解决，协商不成的，您在此完全同意将纠纷或争议提交腾讯云所在地北京市海淀区人民法院管辖。腾讯云公司拥有对以上各项条款内容的解释权及修改权。（正文完）\n\n腾讯云公司\n"
+      },
+      "url": {
+        "en-US": "https://gitee.com/Discuz/DiscuzX/blob/master/LICENSE"
+      }
+    }
+  },
+  {
+    "id": "EPX90u1TXwXkVqFJqI5Ha",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-06-19T02:54:37.921Z",
+    "updatedAt": "2024-06-19T03:25:24.251Z",
+    "publishedAt": "2024-06-19T03:25:24.251Z",
+    "firstPublishedAt": "2024-06-19T03:06:30.683Z",
+    "fields": {
+      "key": {
+        "en-US": "sql_server_2022"
+      },
+      "name": {
+        "en-US": "Microsoft SQL SERVER 2022 DEVELOPER, EXPRESS, EVALUATION"
+      },
+      "title": {
+        "en-US": "MICROSOFT SOFTWARE LICENSE TERMS"
+      },
+      "url": {
+        "en-US": "https://www.microsoft.com/en-us/Useterms/Retail/SQLServer2022/SQLServer2022DeveloperExpressEvaluation/Useterms_Retail_SQLServer2022_SQLServer2022DeveloperExpressEvaluation_English.htm"
+      }
+    }
+  },
+  {
+    "id": "3soce9uYG0MFqETVSryQ0x",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-06-17T03:22:24.247Z",
+    "updatedAt": "2024-06-17T03:24:00.193Z",
+    "publishedAt": "2024-06-17T03:24:00.193Z",
+    "firstPublishedAt": "2024-06-17T03:24:00.193Z",
+    "fields": {
+      "key": {
+        "en-US": "jh_license"
+      },
+      "name": {
+        "en-US": "JH License"
+      },
+      "title": {
+        "en-US": "JH License"
+      },
+      "description": {
+        "en-US": "The JiHu Edition License (the \"JH License\")\nCopyright (c) 2021-present GitLab Information Technology (Hubei) Co., Ltd.\n\nWith regard to the JiHu Software:\n\nThis software and associated documentation files (the \"Software\") may only be\nused in production, if you (and any entity that you represent) have agreed to,\nand are in compliance with, the Subscription Terms of Service, available at\nhttps://about.gitlab.cn/terms/#subscription, or other agreement governing the\nuse of the Software, as agreed by you and JiHu, and otherwise have a valid\nJiHu subscription for the correct number of user seats. Subject to the\nforegoing sentence, you are free to modify this Software and publish patches\nto the Software. You agree that JiHu and/or its licensors (as applicable)\nretain all right, title and interest in and to all such modifications and/or\npatches, and all such modifications and/or patches may only be used, copied,\nmodified, displayed, distributed or otherwise exploited with a valid JiHu\nsubscription for the correct number of user seats. Notwithstanding the\nforegoing, you may copy and modify the Software for development and testing\npurposes, without requiring a subscription. You agree that JiHu and/or its\nlicensors (as applicable) retain all right, title and interest in and to all\nsuch modifications. You are not granted any other rights beyond what is\nexpressly stated herein. Subject to the foregoing, it is forbidden to copy,\nmerge, publish, distribute, sublicense, and/or sell the Software.\n\nThis JH License applies only to the part of this Software that is not\ndistributed as part of GitLab Community Edition (CE) and GitLab Enterprise\nEdition (EE). Any part of this Software distributed as part of GitLab CE or\nis served client-side as an image, font, cascading stylesheet (CSS), file\nwhich produces or is compiled, arranged, augmented, or combined into\nclient-side JavaScript, in whole or in part, is copyrighted under the MIT\nExpat license. Any part of this Software distributed as part of GitLab EE is\ncopyrighted under the GitLab EE license. Any copyright notices of JiHu and/or\nits licensors (as applicable) shall not be removed, altered or obscured.\nThe full text of this JH License shall be included in all copies or substantial\nportions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\nFor all third party components incorporated into the Software, those components\nare licensed under the original license provided by the owner of the applicable\ncomponent.\n"
+      },
+      "url": {
+        "en-US": "https://gitlab.com/gitlab-jh/gitlab/-/blob/main-jh/jh/LICENSE"
+      }
+    }
+  },
+  {
+    "id": "1TsCAOuOF42b2e0wuuTP1r",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-05-10T06:30:00.663Z",
+    "updatedAt": "2024-05-10T06:34:39.568Z",
+    "publishedAt": "2024-05-10T06:34:39.568Z",
+    "firstPublishedAt": "2024-05-10T06:34:39.568Z",
+    "fields": {
+      "key": {
+        "en-US": "elv2-sspl"
+      },
+      "name": {
+        "en-US": "Elv2+SSPL"
+      },
+      "title": {
+        "en-US": "Elastic License V2 and Server Side Public License (SSPL)"
+      },
+      "description": {
+        "en-US": "https://www.elastic.co/licensing/elastic-license/faq/\nhttps://www.elastic.co/licensing/elastic-license\n\nWe are moving our Apache 2.0-licensed source code in Elasticsearch and Kibana to be dual licensed under the Elastic License and Server Side Public License (SSPL), giving users the choice of which license to apply. This will apply to all maintained branches of these two products starting with the 7.11 release. Our default distribution will continue to be under the Elastic License."
+      },
+      "url": {
+        "en-US": "https://www.elastic.co/licensing/elastic-license"
+      }
+    }
+  },
+  {
+    "id": "xG3RHSXOo6uOohTplR8cJ",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2024-05-10T06:05:17.245Z",
+    "updatedAt": "2024-05-10T06:12:50.230Z",
+    "publishedAt": "2024-05-10T06:12:50.230Z",
+    "firstPublishedAt": "2024-05-10T06:12:25.283Z",
+    "fields": {
+      "key": {
+        "en-US": "gpl-compatible"
+      },
+      "name": {
+        "en-US": "GPL-compatible"
+      },
+      "title": {
+        "en-US": "GPL-compatible"
+      },
+      "description": {
+        "en-US": "GPL-compatible doesn’t mean that we’re distributing Python under the GPL. All Python licenses, unlike the GPL, let you distribute a modified version without making your changes open source. The GPL-compatible licenses make it possible to combine Python with other software that is released under the GPL; the others don’t."
+      },
+      "url": {
+        "en-US": "https://docs.python.org/3/license.html"
+      }
+    }
+  },
+  {
+    "id": "5iKz08AbJO0wG8jd1qvTGy",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:58:16.580Z",
+    "updatedAt": "2024-05-10T01:42:59.358Z",
+    "publishedAt": "2024-05-10T01:42:59.358Z",
+    "firstPublishedAt": "2021-07-01T01:58:53.797Z",
+    "fields": {
+      "key": {
+        "en-US": "Zlib"
+      },
+      "name": {
+        "en-US": "Zlib/Libpng License"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Zlib"
+      }
+    }
+  },
+  {
+    "id": "12xpPctNYCiUKDUMORkbEB",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2023-06-20T07:17:54.023Z",
+    "updatedAt": "2023-06-20T07:18:35.387Z",
+    "publishedAt": "2023-06-20T07:18:35.387Z",
+    "firstPublishedAt": "2023-06-20T07:18:35.387Z",
+    "fields": {
+      "key": {
+        "en-US": "eclipse-public-license-10"
+      },
+      "name": {
+        "en-US": "Eclipse Public License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/license/epl-1-0/"
+      }
+    }
+  },
+  {
+    "id": "2R5bt97rfVPwObk0wJatcA",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2022-10-22T03:34:17.747Z",
+    "updatedAt": "2022-10-22T03:41:52.521Z",
+    "publishedAt": "2022-10-22T03:41:52.521Z",
+    "firstPublishedAt": "2022-10-22T03:41:06.409Z",
+    "fields": {
+      "key": {
+        "en-US": "aaPanel"
+      },
+      "name": {
+        "en-US": "宝塔开源协议"
+      },
+      "url": {
+        "en-US": "https://github.com/aaPanel/aaPanel/blob/master/license.txt"
+      }
+    }
+  },
+  {
+    "id": "7jP2z83zSPdBWg4ywrMgcK",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:42:12.229Z",
+    "updatedAt": "2021-07-01T02:28:35.821Z",
+    "publishedAt": "2021-07-01T02:28:35.821Z",
+    "firstPublishedAt": "2021-07-01T01:42:42.429Z",
+    "fields": {
+      "key": {
+        "en-US": "LGPL-2.1"
+      },
+      "name": {
+        "en-US": "GNU Lesser General Public License v2.1"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/LGPL-2.1"
+      }
+    }
+  },
+  {
+    "id": "12pnAjAAT5zkmPF33HKq6E",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:40:58.525Z",
+    "updatedAt": "2021-07-01T02:28:23.822Z",
+    "publishedAt": "2021-07-01T02:28:23.822Z",
+    "firstPublishedAt": "2021-07-01T01:41:24.132Z",
+    "fields": {
+      "key": {
+        "en-US": "GPL-2.0"
+      },
+      "name": {
+        "en-US": "GNU General Public License v2"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/GPL-2.0"
+      }
+    }
+  },
+  {
+    "id": "581T3Tx1sCF3xWdG8fWXbm",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:41:33.130Z",
+    "updatedAt": "2021-07-01T02:28:16.046Z",
+    "publishedAt": "2021-07-01T02:28:16.046Z",
+    "firstPublishedAt": "2021-07-01T01:41:52.786Z",
+    "fields": {
+      "key": {
+        "en-US": "GPL-3.0"
+      },
+      "name": {
+        "en-US": "GNU General Public  License v3"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/GPL-3.0"
+      }
+    }
+  },
+  {
+    "id": "2gblUlA3cmphROVSB2Wgks",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:52:01.264Z",
+    "updatedAt": "2021-07-01T02:28:10.721Z",
+    "publishedAt": "2021-07-01T02:28:10.721Z",
+    "firstPublishedAt": "2021-07-01T01:52:19.464Z",
+    "fields": {
+      "key": {
+        "en-US": "LPL-1.02"
+      },
+      "name": {
+        "en-US": "Lucent Public License v1.02"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/LPL-1.02"
+      }
+    }
+  },
+  {
+    "id": "1iD2Zo7UG291s3X93Unf8N",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:33:11.144Z",
+    "updatedAt": "2021-07-01T02:28:05.018Z",
+    "publishedAt": "2021-07-01T02:28:05.018Z",
+    "firstPublishedAt": "2021-07-01T01:33:37.373Z",
+    "fields": {
+      "key": {
+        "en-US": "ECL-2.0"
+      },
+      "name": {
+        "en-US": "Educational Community v2.0 "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/ECL-2.0"
+      }
+    }
+  },
+  {
+    "id": "78Ny1Ej7eKMWHnoTiBpjA7",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:42:51.412Z",
+    "updatedAt": "2021-07-01T02:27:59.135Z",
+    "publishedAt": "2021-07-01T02:27:59.135Z",
+    "firstPublishedAt": "2021-07-01T01:43:11.772Z",
+    "fields": {
+      "key": {
+        "en-US": "LGPL-3.0"
+      },
+      "name": {
+        "en-US": "GNU Lesser General Public v3"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/LGPL-3.0"
+      }
+    }
+  },
+  {
+    "id": "5y7LmOoggi7LO5XgzCZ1gV",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:14:51.507Z",
+    "updatedAt": "2021-07-01T02:25:11.172Z",
+    "publishedAt": "2021-07-01T02:25:11.172Z",
+    "firstPublishedAt": "2021-07-01T01:15:44.571Z",
+    "fields": {
+      "key": {
+        "en-US": "apl1"
+      },
+      "name": {
+        "en-US": "Adaptive Public License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/APL-1.0"
+      }
+    }
+  },
+  {
+    "id": "4zG5B2lp4mpkTjp5WgD19T",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:35:40.129Z",
+    "updatedAt": "2021-07-01T02:20:56.726Z",
+    "publishedAt": "2021-07-01T02:20:56.726Z",
+    "firstPublishedAt": "2021-07-01T01:36:00.881Z",
+    "fields": {
+      "key": {
+        "en-US": "EUPL-1.1"
+      },
+      "name": {
+        "en-US": "European Union Public License 1.2 "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/EUPL-1.1"
+      }
+    }
+  },
+  {
+    "id": "6bltXAs1xfln4WF8EaV08u",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:34:25.153Z",
+    "updatedAt": "2021-07-01T02:20:45.752Z",
+    "publishedAt": "2021-07-01T02:20:45.752Z",
+    "firstPublishedAt": "2021-07-01T01:34:48.792Z",
+    "fields": {
+      "key": {
+        "en-US": "Entessa"
+      },
+      "name": {
+        "en-US": "Entessa Public License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Entessa"
+      }
+    }
+  },
+  {
+    "id": "36jj6H1iKX82RMPLLsZq4V",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:31:59.192Z",
+    "updatedAt": "2021-07-01T02:20:28.958Z",
+    "publishedAt": "2021-07-01T02:20:28.958Z",
+    "firstPublishedAt": "2021-07-01T01:32:23.915Z",
+    "fields": {
+      "key": {
+        "en-US": "EPL-2.0"
+      },
+      "name": {
+        "en-US": "Eclipse Public License 2.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/EPL-2.0"
+      }
+    }
+  },
+  {
+    "id": "1d6az1RxDBDbmtp9vwFltM",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:30:04.253Z",
+    "updatedAt": "2021-07-01T02:20:22.147Z",
+    "publishedAt": "2021-07-01T02:20:22.147Z",
+    "firstPublishedAt": "2021-07-01T01:30:22.404Z",
+    "fields": {
+      "key": {
+        "en-US": "CPAL-1.0"
+      },
+      "name": {
+        "en-US": "Common Public Attribution License 1.0 "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/CPAL-1.0"
+      }
+    }
+  },
+  {
+    "id": "2ZrtitksCrr5EEzKE3Xc5o",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:44:48.923Z",
+    "updatedAt": "2021-07-01T02:15:50.859Z",
+    "publishedAt": "2021-07-01T02:15:50.859Z",
+    "firstPublishedAt": "2021-07-01T01:45:11.985Z",
+    "fields": {
+      "key": {
+        "en-US": "IPA"
+      },
+      "name": {
+        "en-US": "IPA Font License "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/IPA"
+      }
+    }
+  },
+  {
+    "id": "2aDSFbUbik74HYyt686b6B",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:44:03.303Z",
+    "updatedAt": "2021-07-01T02:15:05.588Z",
+    "publishedAt": "2021-07-01T02:15:05.588Z",
+    "firstPublishedAt": "2021-07-01T01:44:34.469Z",
+    "fields": {
+      "key": {
+        "en-US": "IPL-1.0"
+      },
+      "name": {
+        "en-US": "IBM Public License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/IPL-1.0"
+      }
+    }
+  },
+  {
+    "id": "6a0a9aJjZhg5NbJi4aGyGC",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:46:02.987Z",
+    "updatedAt": "2021-07-01T02:14:41.589Z",
+    "publishedAt": "2021-07-01T02:14:41.589Z",
+    "firstPublishedAt": "2021-07-01T01:47:12.276Z",
+    "fields": {
+      "key": {
+        "en-US": "LPPL-1.3c"
+      },
+      "name": {
+        "en-US": "LaTeX Project Public License 1.3c"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/LPPL-1.3c"
+      }
+    }
+  },
+  {
+    "id": "4aDAr6e2Jmxi0P4SL6zAKx",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:52:53.232Z",
+    "updatedAt": "2021-07-01T02:13:17.786Z",
+    "publishedAt": "2021-07-01T02:13:17.786Z",
+    "firstPublishedAt": "2021-07-01T01:53:08.791Z",
+    "fields": {
+      "key": {
+        "en-US": "MS-RL"
+      },
+      "name": {
+        "en-US": "Microsoft Reciprocal License "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/MS-RL"
+      }
+    }
+  },
+  {
+    "id": "32srEF17FHzdDaugupQFgX",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:52:28.826Z",
+    "updatedAt": "2021-07-01T02:12:54.809Z",
+    "publishedAt": "2021-07-01T02:12:54.809Z",
+    "firstPublishedAt": "2021-07-01T01:52:44.708Z",
+    "fields": {
+      "key": {
+        "en-US": "MS-PL"
+      },
+      "name": {
+        "en-US": "Microsoft Public License "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/MS-PL"
+      }
+    }
+  },
+  {
+    "id": "5wz4GZu8VHmJbcCf2UZtbi",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:56:33.394Z",
+    "updatedAt": "2021-07-01T01:57:59.403Z",
+    "publishedAt": "2021-07-01T01:57:59.403Z",
+    "firstPublishedAt": "2021-07-01T01:57:59.403Z",
+    "fields": {
+      "key": {
+        "en-US": "ZPL-2.0"
+      },
+      "name": {
+        "en-US": "Zope Public License 2.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/ZPL-2.0"
+      }
+    }
+  },
+  {
+    "id": "3EvtnJSsq3MvPeZgXjHfXA",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:56:03.177Z",
+    "updatedAt": "2021-07-01T01:56:26.393Z",
+    "publishedAt": "2021-07-01T01:56:26.393Z",
+    "firstPublishedAt": "2021-07-01T01:56:26.393Z",
+    "fields": {
+      "key": {
+        "en-US": "Xnet"
+      },
+      "name": {
+        "en-US": "X.Net"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Xnet"
+      }
+    }
+  },
+  {
+    "id": "zkDuVTbWJmNWG0nYRHKSN",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:53:38.982Z",
+    "updatedAt": "2021-07-01T01:54:08.497Z",
+    "publishedAt": "2021-07-01T01:54:08.497Z",
+    "firstPublishedAt": "2021-07-01T01:54:08.497Z",
+    "fields": {
+      "key": {
+        "en-US": "WXwindows"
+      },
+      "name": {
+        "en-US": "wxWindows Library License"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/WXwindows"
+      }
+    }
+  },
+  {
+    "id": "21Dcbb5nCRGopfMibsmk2n",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:53:17.916Z",
+    "updatedAt": "2021-07-01T01:54:00.195Z",
+    "publishedAt": "2021-07-01T01:54:00.195Z",
+    "firstPublishedAt": "2021-07-01T01:54:00.195Z",
+    "fields": {
+      "key": {
+        "en-US": "MirOS"
+      },
+      "name": {
+        "en-US": "MirOS"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/MirOS"
+      }
+    }
+  },
+  {
+    "id": "5gQjFg4PL98e80xzS9UQge",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:53:02.725Z",
+    "updatedAt": "2021-07-01T01:53:34.823Z",
+    "publishedAt": "2021-07-01T01:53:34.823Z",
+    "firstPublishedAt": "2021-07-01T01:53:25.923Z",
+    "fields": {
+      "key": {
+        "en-US": "W3C"
+      },
+      "name": {
+        "en-US": "W3C"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/W3C"
+      }
+    }
+  },
+  {
+    "id": "6hLkT7VDpj1OBTXO58UOZu",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:52:13.296Z",
+    "updatedAt": "2021-07-01T01:52:52.074Z",
+    "publishedAt": "2021-07-01T01:52:52.074Z",
+    "firstPublishedAt": "2021-07-01T01:52:52.074Z",
+    "fields": {
+      "key": {
+        "en-US": "VSL-1.0"
+      },
+      "name": {
+        "en-US": "Vovida Software License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/VSL-1.0"
+      }
+    }
+  },
+  {
+    "id": "1pUmOeKH9V3ngyyjTodX80",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:51:44.128Z",
+    "updatedAt": "2021-07-01T01:52:01.104Z",
+    "publishedAt": "2021-07-01T01:52:01.104Z",
+    "firstPublishedAt": "2021-07-01T01:52:01.104Z",
+    "fields": {
+      "key": {
+        "en-US": "unlicense"
+      },
+      "name": {
+        "en-US": "The Unlicense"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/unlicense"
+      }
+    }
+  },
+  {
+    "id": "2HDYzM9BOfnKSwQ4aOdLrO",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:50:07.871Z",
+    "updatedAt": "2021-07-01T01:51:20.195Z",
+    "publishedAt": "2021-07-01T01:51:20.195Z",
+    "firstPublishedAt": "2021-07-01T01:51:20.195Z",
+    "fields": {
+      "key": {
+        "en-US": "Unicode"
+      },
+      "name": {
+        "en-US": "Unicode Data Files and Software License"
+      },
+      "url": {
+        "en-US": "https://opensource.org/node/1077"
+      }
+    }
+  },
+  {
+    "id": "54Z6tqr0ThRcrfL4htjMxC",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:50:40.227Z",
+    "updatedAt": "2021-07-01T01:51:14.021Z",
+    "publishedAt": "2021-07-01T01:51:14.021Z",
+    "firstPublishedAt": "2021-07-01T01:51:14.021Z",
+    "fields": {
+      "key": {
+        "en-US": "LiLiQ-Rplus-1.1"
+      },
+      "name": {
+        "en-US": "Licence Libre du Québec – Réciprocité forte version 1.1"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/LiLiQ-Rplus-1.1"
+      }
+    }
+  },
+  {
+    "id": "5k0SylkO7Nf99JARniFe8h",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:49:36.451Z",
+    "updatedAt": "2021-07-01T01:50:00.000Z",
+    "publishedAt": "2021-07-01T01:50:00.000Z",
+    "firstPublishedAt": "2021-07-01T01:50:00.000Z",
+    "fields": {
+      "key": {
+        "en-US": "UCL-1.0"
+      },
+      "name": {
+        "en-US": "Upstream Compatibility License v1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/UCL-1.0"
+      }
+    }
+  },
+  {
+    "id": "5bRcD0S20ZZpSyjvqWbZvf",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:49:27.956Z",
+    "updatedAt": "2021-07-01T01:49:56.305Z",
+    "publishedAt": "2021-07-01T01:49:56.305Z",
+    "firstPublishedAt": "2021-07-01T01:49:56.305Z",
+    "fields": {
+      "key": {
+        "en-US": "LiLiQ-R-1.1"
+      },
+      "name": {
+        "en-US": "Licence Libre du Québec – Réciprocité  version 1.1 "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/LiLiQ-R-1.1"
+      }
+    }
+  },
+  {
+    "id": "4JBD5kmzPfUGA9g4QYbpgo",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:48:07.881Z",
+    "updatedAt": "2021-07-01T01:49:28.728Z",
+    "publishedAt": "2021-07-01T01:49:28.728Z",
+    "firstPublishedAt": "2021-07-01T01:49:28.728Z",
+    "fields": {
+      "key": {
+        "en-US": "NCSA"
+      },
+      "name": {
+        "en-US": "University of Illinois/NCSA Open Source License "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/NCSA"
+      }
+    }
+  },
+  {
+    "id": "6MP27GRXXCyKqDHorHp23Y",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:48:38.483Z",
+    "updatedAt": "2021-07-01T01:49:10.336Z",
+    "publishedAt": "2021-07-01T01:49:10.336Z",
+    "firstPublishedAt": "2021-07-01T01:49:10.336Z",
+    "fields": {
+      "key": {
+        "en-US": "LiLiQ-P-1.1"
+      },
+      "name": {
+        "en-US": "Licence Libre du Québec – Permissive version 1.1"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/LiLiQ-P-1.1"
+      }
+    }
+  },
+  {
+    "id": "2pF537yVwZAaxKFJSzDWco",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:47:26.106Z",
+    "updatedAt": "2021-07-01T01:48:27.161Z",
+    "publishedAt": "2021-07-01T01:48:27.161Z",
+    "firstPublishedAt": "2021-07-01T01:48:27.161Z",
+    "fields": {
+      "key": {
+        "en-US": "BSD-3-Clause-LBNL"
+      },
+      "name": {
+        "en-US": "Lawrence Berkeley National Labs BSD 3 Variant "
+      },
+      "url": {
+        "en-US": "https://opensource.org/BSD-3-Clause-LBNL"
+      }
+    }
+  },
+  {
+    "id": "mQmL7izHUXYlxmHZANLmV",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:47:34.431Z",
+    "updatedAt": "2021-07-01T01:48:03.081Z",
+    "publishedAt": "2021-07-01T01:48:03.081Z",
+    "firstPublishedAt": "2021-07-01T01:48:03.081Z",
+    "fields": {
+      "key": {
+        "en-US": "UPL"
+      },
+      "name": {
+        "en-US": "Universal Permissive License"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/UPL"
+      }
+    }
+  },
+  {
+    "id": "78ZiDg1rdDkoJCND3Nt9oL",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:47:00.334Z",
+    "updatedAt": "2021-07-01T01:47:27.979Z",
+    "publishedAt": "2021-07-01T01:47:27.979Z",
+    "firstPublishedAt": "2021-07-01T01:47:27.979Z",
+    "fields": {
+      "key": {
+        "en-US": "Watcom-1.0"
+      },
+      "name": {
+        "en-US": "Sybase Open Watcom Public License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Watcom-1.0"
+      }
+    }
+  },
+  {
+    "id": "B0AHoXeWH7rcyhhhCSopS",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:45:59.004Z",
+    "updatedAt": "2021-07-01T01:46:56.357Z",
+    "publishedAt": "2021-07-01T01:46:56.357Z",
+    "firstPublishedAt": "2021-07-01T01:46:56.357Z",
+    "fields": {
+      "key": {
+        "en-US": "SPL-1.0"
+      },
+      "name": {
+        "en-US": "Sun Public License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/SPL-1.0"
+      }
+    }
+  },
+  {
+    "id": "5eJNdEbwyUiANs6qlRdlsa",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:45:33.726Z",
+    "updatedAt": "2021-07-01T01:45:55.377Z",
+    "publishedAt": "2021-07-01T01:45:55.377Z",
+    "firstPublishedAt": "2021-07-01T01:45:55.377Z",
+    "fields": {
+      "key": {
+        "en-US": "Sleepycat"
+      },
+      "name": {
+        "en-US": "Sleepycat"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Sleepycat"
+      }
+    }
+  },
+  {
+    "id": "3UhmL8cJfkvDrjfH5qLkV9",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:45:32.802Z",
+    "updatedAt": "2021-07-01T01:45:53.214Z",
+    "publishedAt": "2021-07-01T01:45:53.214Z",
+    "firstPublishedAt": "2021-07-01T01:45:53.214Z",
+    "fields": {
+      "key": {
+        "en-US": "ISC"
+      },
+      "name": {
+        "en-US": "ISC "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/ISC"
+      }
+    }
+  },
+  {
+    "id": "5Ufi4KUsnA6TmFEbpA3bX",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:45:02.651Z",
+    "updatedAt": "2021-07-01T01:45:28.259Z",
+    "publishedAt": "2021-07-01T01:45:28.259Z",
+    "firstPublishedAt": "2021-07-01T01:45:28.259Z",
+    "fields": {
+      "key": {
+        "en-US": "SimPL-2.0"
+      },
+      "name": {
+        "en-US": "Simple Public License 2.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/SimPL-2.0"
+      }
+    }
+  },
+  {
+    "id": "YIPZeSYPgv7r2ylSW17AH",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:43:46.556Z",
+    "updatedAt": "2021-07-01T01:44:56.054Z",
+    "publishedAt": "2021-07-01T01:44:56.054Z",
+    "firstPublishedAt": "2021-07-01T01:44:56.054Z",
+    "fields": {
+      "key": {
+        "en-US": "OFL-1.1"
+      },
+      "name": {
+        "en-US": "SIL Open Font License 1.1"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/OFL-1.1"
+      }
+    }
+  },
+  {
+    "id": "3IxVtNlOyJl2jQFgRqfxy9",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:43:32.956Z",
+    "updatedAt": "2021-07-01T01:43:51.877Z",
+    "publishedAt": "2021-07-01T01:43:51.877Z",
+    "firstPublishedAt": "2021-07-01T01:43:51.877Z",
+    "fields": {
+      "key": {
+        "en-US": "HPND"
+      },
+      "name": {
+        "en-US": "Historical Permission Notice and Disclaimer"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/HPND"
+      }
+    }
+  },
+  {
+    "id": "7dJC5H8vuj7XjTFIx4VayC",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:43:15.327Z",
+    "updatedAt": "2021-07-01T01:43:38.136Z",
+    "publishedAt": "2021-07-01T01:43:38.136Z",
+    "firstPublishedAt": "2021-07-01T01:43:38.136Z",
+    "fields": {
+      "key": {
+        "en-US": "RSCPL"
+      },
+      "name": {
+        "en-US": "Ricoh Source Code Public License"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/RSCPL"
+      }
+    }
+  },
+  {
+    "id": "6gmfeNFQUZZtN3KQoANNFH",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:42:45.754Z",
+    "updatedAt": "2021-07-01T01:43:10.551Z",
+    "publishedAt": "2021-07-01T01:43:10.551Z",
+    "firstPublishedAt": "2021-07-01T01:43:10.551Z",
+    "fields": {
+      "key": {
+        "en-US": "RPL-1.5"
+      },
+      "name": {
+        "en-US": "Reciprocal Public License 1.5"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/RPL-1.5"
+      }
+    }
+  },
+  {
+    "id": "3bS0u1hvSlk8zxYwxeKk5w",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:41:19.292Z",
+    "updatedAt": "2021-07-01T01:42:14.462Z",
+    "publishedAt": "2021-07-01T01:42:14.462Z",
+    "firstPublishedAt": "2021-07-01T01:42:14.462Z",
+    "fields": {
+      "key": {
+        "en-US": "RPSL-1.0"
+      },
+      "name": {
+        "en-US": "RealNetworks Public Source License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/RPSL-1.0"
+      }
+    }
+  },
+  {
+    "id": "5agNXgnrYj3UkGnzrn3fLQ",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:40:12.404Z",
+    "updatedAt": "2021-07-01T01:41:13.877Z",
+    "publishedAt": "2021-07-01T01:41:13.877Z",
+    "firstPublishedAt": "2021-07-01T01:41:13.877Z",
+    "fields": {
+      "key": {
+        "en-US": "QPL-1.0"
+      },
+      "name": {
+        "en-US": "Q Public License 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/QPL-1.0"
+      }
+    }
+  },
+  {
+    "id": "7F4kZGLKSwB96e9pdhkuU5",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:39:05.271Z",
+    "updatedAt": "2021-07-01T01:40:06.227Z",
+    "publishedAt": "2021-07-01T01:40:06.227Z",
+    "firstPublishedAt": "2021-07-01T01:39:37.931Z",
+    "fields": {
+      "key": {
+        "en-US": "CNRI-Python"
+      },
+      "name": {
+        "en-US": "CNRI Python"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/CNRI-Python"
+      }
+    }
+  },
+  {
+    "id": "RVOTxM0aXJaTRylmXoSE4",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:37:57.701Z",
+    "updatedAt": "2021-07-01T01:38:58.506Z",
+    "publishedAt": "2021-07-01T01:38:58.506Z",
+    "firstPublishedAt": "2021-07-01T01:38:58.506Z",
+    "fields": {
+      "key": {
+        "en-US": "Python-2.0"
+      },
+      "name": {
+        "en-US": "Python License"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Python-2.0"
+      }
+    }
+  },
+  {
+    "id": "7q0hwAGg1yIR7wNc8cQWZC",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:37:21.613Z",
+    "updatedAt": "2021-07-01T01:37:51.001Z",
+    "publishedAt": "2021-07-01T01:37:51.001Z",
+    "firstPublishedAt": "2021-07-01T01:37:51.001Z",
+    "fields": {
+      "key": {
+        "en-US": "PostgreSQL"
+      },
+      "name": {
+        "en-US": "The PostgreSQL License"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/PostgreSQL"
+      }
+    }
+  },
+  {
+    "id": "4sGdrvPN96cct2fOy3M62M",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:36:51.342Z",
+    "updatedAt": "2021-07-01T01:37:17.665Z",
+    "publishedAt": "2021-07-01T01:37:17.665Z",
+    "firstPublishedAt": "2021-07-01T01:37:17.665Z",
+    "fields": {
+      "key": {
+        "en-US": "Frameworx-1.0"
+      },
+      "name": {
+        "en-US": "Frameworx 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Frameworx-1.0"
+      }
+    }
+  },
+  {
+    "id": "69uODVCbSAcfdpLlmpibjI",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:36:23.715Z",
+    "updatedAt": "2021-07-01T01:37:07.711Z",
+    "publishedAt": "2021-07-01T01:37:07.711Z",
+    "firstPublishedAt": "2021-07-01T01:36:59.084Z",
+    "fields": {
+      "key": {
+        "en-US": "PHP-3.01"
+      },
+      "name": {
+        "en-US": "PHP License 3.01"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/PHP-3.01"
+      }
+    }
+  },
+  {
+    "id": "aHnvbZRASPWxRHRXM2BYe",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:36:23.286Z",
+    "updatedAt": "2021-07-01T01:36:42.271Z",
+    "publishedAt": "2021-07-01T01:36:42.271Z",
+    "firstPublishedAt": "2021-07-01T01:36:42.271Z",
+    "fields": {
+      "key": {
+        "en-US": "Fair"
+      },
+      "name": {
+        "en-US": "Fair"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Fair"
+      }
+    }
+  },
+  {
+    "id": "TSGW2TCIaqcp9IiPHdgA4",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:35:05.140Z",
+    "updatedAt": "2021-07-01T01:36:18.058Z",
+    "publishedAt": "2021-07-01T01:36:18.058Z",
+    "firstPublishedAt": "2021-07-01T01:36:18.058Z",
+    "fields": {
+      "key": {
+        "en-US": "OPL-2.1"
+      },
+      "name": {
+        "en-US": "OSET Public License 2.1"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/OPL-2.1"
+      }
+    }
+  },
+  {
+    "id": "7vvQvxi6iEkTrHh2pZrO8V",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:35:04.417Z",
+    "updatedAt": "2021-07-01T01:35:29.324Z",
+    "publishedAt": "2021-07-01T01:35:29.324Z",
+    "firstPublishedAt": "2021-07-01T01:35:29.324Z",
+    "fields": {
+      "key": {
+        "en-US": "EUDatagrid"
+      },
+      "name": {
+        "en-US": "EU DataGrid Software"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/EUDatagrid"
+      }
+    }
+  },
+  {
+    "id": "4IV6gg4Q6GgI352yVUdFh8",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:33:51.536Z",
+    "updatedAt": "2021-07-01T01:34:15.984Z",
+    "publishedAt": "2021-07-01T01:34:15.984Z",
+    "firstPublishedAt": "2021-07-01T01:34:15.984Z",
+    "fields": {
+      "key": {
+        "en-US": "EFL-2.0"
+      },
+      "name": {
+        "en-US": "Eiffel Forum V2.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/EFL-2.0"
+      }
+    }
+  },
+  {
+    "id": "3nuMDlANTOr6JahoHjVfaO",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:32:35.670Z",
+    "updatedAt": "2021-07-01T01:33:00.884Z",
+    "publishedAt": "2021-07-01T01:33:00.884Z",
+    "firstPublishedAt": "2021-07-01T01:33:00.884Z",
+    "fields": {
+      "key": {
+        "en-US": "eCos-2.0"
+      },
+      "name": {
+        "en-US": "eCos version 2.0 "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/eCos-2.0"
+      }
+    }
+  },
+  {
+    "id": "34NeYP2nkNPZsrq4Q3Sy3T",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:31:40.118Z",
+    "updatedAt": "2021-07-01T01:32:46.112Z",
+    "publishedAt": "2021-07-01T01:32:46.112Z",
+    "firstPublishedAt": "2021-07-01T01:32:01.025Z",
+    "fields": {
+      "key": {
+        "en-US": "OLDAP-2.8"
+      },
+      "name": {
+        "en-US": "OpenLDAP 2.8"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/OLDAP-2.8"
+      }
+    }
+  },
+  {
+    "id": "6AAX9fd1B7BI0icMbsdVqr",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:31:24.947Z",
+    "updatedAt": "2021-07-01T01:31:50.184Z",
+    "publishedAt": "2021-07-01T01:31:50.184Z",
+    "firstPublishedAt": "2021-07-01T01:31:50.184Z",
+    "fields": {
+      "key": {
+        "en-US": "CAL-1.0"
+      },
+      "name": {
+        "en-US": "Cryptographic Autonomy v.1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/CAL-1.0"
+      }
+    }
+  },
+  {
+    "id": "70w8VencYKqrLcEFl5Otkq",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:30:35.700Z",
+    "updatedAt": "2021-07-01T01:31:03.300Z",
+    "publishedAt": "2021-07-01T01:31:03.300Z",
+    "firstPublishedAt": "2021-07-01T01:31:03.300Z",
+    "fields": {
+      "key": {
+        "en-US": "CATOSL-1.1"
+      },
+      "name": {
+        "en-US": "Computer Associates Trusted Open Source 1.1 "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/CATOSL-1.1"
+      }
+    }
+  },
+  {
+    "id": "6b8fHNgaqtot7QOqPe0RRQ",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:30:35.129Z",
+    "updatedAt": "2021-07-01T01:31:01.269Z",
+    "publishedAt": "2021-07-01T01:31:01.269Z",
+    "firstPublishedAt": "2021-07-01T01:31:01.269Z",
+    "fields": {
+      "key": {
+        "en-US": "OGTSL"
+      },
+      "name": {
+        "en-US": "Open Group Test Suite License"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/OGTSL"
+      }
+    }
+  },
+  {
+    "id": "2g3ThYB1QUzi41Ov5q59C6",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:30:06.166Z",
+    "updatedAt": "2021-07-01T01:30:28.043Z",
+    "publishedAt": "2021-07-01T01:30:28.043Z",
+    "firstPublishedAt": "2021-07-01T01:30:28.043Z",
+    "fields": {
+      "key": {
+        "en-US": "OCLC-2.0"
+      },
+      "name": {
+        "en-US": "OCLC Research Public License 2.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/OCLC-2.0"
+      }
+    }
+  },
+  {
+    "id": "69QHVGusMKUqqI6JGVG2r",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:29:33.997Z",
+    "updatedAt": "2021-07-01T01:30:00.447Z",
+    "publishedAt": "2021-07-01T01:30:00.447Z",
+    "firstPublishedAt": "2021-07-01T01:30:00.447Z",
+    "fields": {
+      "key": {
+        "en-US": "NTP"
+      },
+      "name": {
+        "en-US": "NTP"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/NTP"
+      }
+    }
+  },
+  {
+    "id": "xVXOt6l0Nrdn31at4WrcX",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:29:29.166Z",
+    "updatedAt": "2021-07-01T01:29:54.871Z",
+    "publishedAt": "2021-07-01T01:29:54.871Z",
+    "firstPublishedAt": "2021-07-01T01:29:54.871Z",
+    "fields": {
+      "key": {
+        "en-US": "CDDL-1.0"
+      },
+      "name": {
+        "en-US": "Common Development and Distribution 1.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/CDDL-1.0"
+      }
+    }
+  },
+  {
+    "id": "5VJFzcFY2WtQMi60XkTwkY",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:28:58.678Z",
+    "updatedAt": "2021-07-01T01:29:27.946Z",
+    "publishedAt": "2021-07-01T01:29:27.946Z",
+    "firstPublishedAt": "2021-07-01T01:29:27.946Z",
+    "fields": {
+      "key": {
+        "en-US": "NPOSL-3.0"
+      },
+      "name": {
+        "en-US": "Non-Profit Open Software License 3.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/NPOSL-3.0"
+      }
+    }
+  },
+  {
+    "id": "7FRZJeDLFXE1Vqi9nmjPnl",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:28:52.643Z",
+    "updatedAt": "2021-07-01T01:29:19.317Z",
+    "publishedAt": "2021-07-01T01:29:19.317Z",
+    "firstPublishedAt": "2021-07-01T01:29:19.317Z",
+    "fields": {
+      "key": {
+        "en-US": "CECILL-2.1"
+      },
+      "name": {
+        "en-US": "CeCILL 2.1"
+      },
+      "url": {
+        "en-US": "CECILL-2.1"
+      }
+    }
+  },
+  {
+    "id": "2pvKSCwx9LTGu9VK83JRJf",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:28:28.339Z",
+    "updatedAt": "2021-07-01T01:28:51.982Z",
+    "publishedAt": "2021-07-01T01:28:51.982Z",
+    "firstPublishedAt": "2021-07-01T01:28:51.982Z",
+    "fields": {
+      "key": {
+        "en-US": "Nokia"
+      },
+      "name": {
+        "en-US": "Nokia Open Source"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Nokia"
+      }
+    }
+  },
+  {
+    "id": "710HtDMPpPIEbBEfccFzow",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:19:24.762Z",
+    "updatedAt": "2021-07-01T01:27:54.710Z",
+    "publishedAt": "2021-07-01T01:27:54.710Z",
+    "firstPublishedAt": "2021-07-01T01:20:47.767Z",
+    "fields": {
+      "key": {
+        "en-US": "MulanPSL-2.0"
+      },
+      "name": {
+        "en-US": "Mulan Permissive Software License v2"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/MulanPSL-2.0"
+      }
+    }
+  },
+  {
+    "id": "1jUWUsSYRSuTjAj9zoGO1i",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:18:08.637Z",
+    "updatedAt": "2021-07-01T01:27:43.301Z",
+    "publishedAt": "2021-07-01T01:27:43.301Z",
+    "firstPublishedAt": "2021-07-01T01:19:09.440Z",
+    "fields": {
+      "key": {
+        "en-US": "MPL-2.0"
+      },
+      "name": {
+        "en-US": "Mozilla Public License 2.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/MPL-2.0"
+      }
+    }
+  },
+  {
+    "id": "6w6VI9Fjr3lmayyAq9THJ5",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:14:17.602Z",
+    "updatedAt": "2021-07-01T01:27:22.484Z",
+    "publishedAt": "2021-07-01T01:27:22.484Z",
+    "firstPublishedAt": "2021-07-01T01:16:21.276Z",
+    "fields": {
+      "key": {
+        "en-US": "MIT-0"
+      },
+      "name": {
+        "en-US": "MIT No Attribution"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/MIT-0"
+      }
+    }
+  },
+  {
+    "id": "4TBzOVclnxn2V5HYVw6Mq1",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:26:39.295Z",
+    "updatedAt": "2021-07-01T01:27:11.904Z",
+    "publishedAt": "2021-07-01T01:27:11.904Z",
+    "firstPublishedAt": "2021-07-01T01:27:11.904Z",
+    "fields": {
+      "key": {
+        "en-US": "BSDplusPatent"
+      },
+      "name": {
+        "en-US": "BSD+Patent"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/BSDplusPatent"
+      }
+    }
+  },
+  {
+    "id": "1tMs1x3EStpmtlIMWVdjsz",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:12:58.086Z",
+    "updatedAt": "2021-07-01T01:27:08.297Z",
+    "publishedAt": "2021-07-01T01:27:08.297Z",
+    "firstPublishedAt": "2021-07-01T01:13:57.458Z",
+    "fields": {
+      "key": {
+        "en-US": "MIT"
+      },
+      "name": {
+        "en-US": "MIT"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/MIT"
+      }
+    }
+  },
+  {
+    "id": "1LwCsbnaG1dT7dTwYtT02G",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:22:22.306Z",
+    "updatedAt": "2021-07-01T01:26:47.806Z",
+    "publishedAt": "2021-07-01T01:26:47.806Z",
+    "firstPublishedAt": "2021-07-01T01:22:55.404Z",
+    "fields": {
+      "key": {
+        "en-US": "Multics"
+      },
+      "name": {
+        "en-US": "Multics"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Multics"
+      }
+    }
+  },
+  {
+    "id": "71j0YgSQgGQ3lEwBkpAEnd",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:23:02.650Z",
+    "updatedAt": "2021-07-01T01:26:32.144Z",
+    "publishedAt": "2021-07-01T01:26:32.144Z",
+    "firstPublishedAt": "2021-07-01T01:23:32.897Z",
+    "fields": {
+      "key": {
+        "en-US": "NASA-1.3"
+      },
+      "name": {
+        "en-US": "NASA Open Source Agreement 1.3"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/NASA-1.3"
+      }
+    }
+  },
+  {
+    "id": "1XT6enmBDiDnC9y9wz1a2x",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:23:43.187Z",
+    "updatedAt": "2021-07-01T01:26:18.849Z",
+    "publishedAt": "2021-07-01T01:26:18.849Z",
+    "firstPublishedAt": "2021-07-01T01:24:26.057Z",
+    "fields": {
+      "key": {
+        "en-US": "Naumen"
+      },
+      "name": {
+        "en-US": "Naumen Public"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Naumen"
+      }
+    }
+  },
+  {
+    "id": "cu7CT2p4F2h8LDqtStoFq",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:24:32.976Z",
+    "updatedAt": "2021-07-01T01:25:41.115Z",
+    "publishedAt": "2021-07-01T01:25:41.115Z",
+    "firstPublishedAt": "2021-07-01T01:25:41.115Z",
+    "fields": {
+      "key": {
+        "en-US": "NGPL"
+      },
+      "name": {
+        "en-US": "Nethack General Public License"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/NGPL"
+      }
+    }
+  },
+  {
+    "id": "7bOeKpzJMk1VQDadlhwWJL",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-06-30T07:28:03.167Z",
+    "updatedAt": "2021-07-01T01:23:11.561Z",
+    "publishedAt": "2021-07-01T01:23:11.561Z",
+    "firstPublishedAt": "2021-07-01T01:07:03.169Z",
+    "fields": {
+      "key": {
+        "en-US": "0bsd"
+      },
+      "name": {
+        "en-US": "0-clause BSD"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/0BSD"
+      }
+    }
+  },
+  {
+    "id": "NryJDiQ3uf3SL8Jtr6klk",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:09:15.752Z",
+    "updatedAt": "2021-07-01T01:23:01.938Z",
+    "publishedAt": "2021-07-01T01:23:01.938Z",
+    "firstPublishedAt": "2021-07-01T01:11:22.920Z",
+    "fields": {
+      "key": {
+        "en-US": "bsd1Clause"
+      },
+      "name": {
+        "en-US": "1-clause BSD"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/BSD-1-Clause"
+      }
+    }
+  },
+  {
+    "id": "MDp7tV6lQD1WDc4OZrlxE",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:12:59.291Z",
+    "updatedAt": "2021-07-01T01:22:45.198Z",
+    "publishedAt": "2021-07-01T01:22:45.198Z",
+    "firstPublishedAt": "2021-07-01T01:13:29.499Z",
+    "fields": {
+      "key": {
+        "en-US": "bsd3Clause"
+      },
+      "name": {
+        "en-US": "3-clause BSD"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/BSD-3-Clause"
+      }
+    }
+  },
+  {
+    "id": "6DsZTGhXw6wp6JgNEy1D4S",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:17:44.127Z",
+    "updatedAt": "2021-07-01T01:21:48.707Z",
+    "publishedAt": "2021-07-01T01:21:48.707Z",
+    "firstPublishedAt": "2021-07-01T01:18:02.304Z",
+    "fields": {
+      "key": {
+        "en-US": "motosoto"
+      },
+      "name": {
+        "en-US": "Motosoto"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Motosoto"
+      }
+    }
+  },
+  {
+    "id": "4B1WznA3ZcZDjtI9jklBq5",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:14:02.680Z",
+    "updatedAt": "2021-07-01T01:21:41.233Z",
+    "publishedAt": "2021-07-01T01:21:41.233Z",
+    "firstPublishedAt": "2021-07-01T01:14:38.827Z",
+    "fields": {
+      "key": {
+        "en-US": "afl3"
+      },
+      "name": {
+        "en-US": "Academic Free 3.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/AFL-3.0"
+      }
+    }
+  },
+  {
+    "id": "25fa0jegooJCfdVrMv6I2U",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:16:33.409Z",
+    "updatedAt": "2021-07-01T01:21:29.292Z",
+    "publishedAt": "2021-07-01T01:21:29.292Z",
+    "firstPublishedAt": "2021-07-01T01:17:03.385Z",
+    "fields": {
+      "key": {
+        "en-US": "apsl2"
+      },
+      "name": {
+        "en-US": "Apple Public Source 2.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/APSL-2.0"
+      }
+    }
+  },
+  {
+    "id": "7LjWhciJZP07aLJMLD11Mi",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:17:19.231Z",
+    "updatedAt": "2021-07-01T01:21:15.662Z",
+    "publishedAt": "2021-07-01T01:21:15.662Z",
+    "firstPublishedAt": "2021-07-01T01:17:49.606Z",
+    "fields": {
+      "key": {
+        "en-US": "artistic2"
+      },
+      "name": {
+        "en-US": "Artistic 2.0 "
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Artistic-2.0"
+      }
+    }
+  },
+  {
+    "id": "7e2S2us3afoR4BpMBe8sVj",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:17:59.282Z",
+    "updatedAt": "2021-07-01T01:21:02.093Z",
+    "publishedAt": "2021-07-01T01:21:02.093Z",
+    "firstPublishedAt": "2021-07-01T01:18:21.383Z",
+    "fields": {
+      "key": {
+        "en-US": "aal"
+      },
+      "name": {
+        "en-US": "Attribution Assurance"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/AAL"
+      }
+    }
+  },
+  {
+    "id": "2HP1wSdacAnd4BuXYurKiA",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-07-01T01:12:18.365Z",
+    "updatedAt": "2021-07-01T01:12:49.264Z",
+    "publishedAt": "2021-07-01T01:12:49.264Z",
+    "firstPublishedAt": "2021-07-01T01:12:49.264Z",
+    "fields": {
+      "key": {
+        "en-US": "BSD2Clause"
+      },
+      "name": {
+        "en-US": "2-clause BSD"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/BSD-2-Clause"
+      }
+    }
+  },
+  {
+    "id": "5P5YYP23yvJUouhsVhSyYe",
+    "type": "Entry",
+    "contentType": "license",
+    "createdAt": "2021-06-30T06:57:08.307Z",
+    "updatedAt": "2021-07-01T00:50:58.410Z",
+    "publishedAt": "2021-07-01T00:50:58.410Z",
+    "firstPublishedAt": "2021-06-30T06:58:15.194Z",
+    "fields": {
+      "key": {
+        "en-US": "apache2"
+      },
+      "name": {
+        "en-US": "Apache 2.0"
+      },
+      "title": {
+        "en-US": "Apache License 2.0"
+      },
+      "url": {
+        "en-US": "https://opensource.org/licenses/Apache-2.0"
+      }
+    }
+  }
+]

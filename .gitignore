@@ -1,0 +1,9 @@
+.secrets/
+.run/
+nohup.out
+__pycache__/
+*.py[cod]
+tests/__pycache__/
+node_modules/
+dist/
+data/

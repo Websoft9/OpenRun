@@ -1,0 +1,712 @@
+[
+  {
+    "id": "3d65r7d4B374qECb0sI1XW",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2025-04-24T02:51:29.406Z",
+    "updatedAt": "2025-04-24T02:51:29.406Z",
+    "publishedAt": "",
+    "firstPublishedAt": "",
+    "fields": {}
+  },
+  {
+    "id": "1uTfACydn6VF6lplEuetzd",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2024-03-13T06:04:56.159Z",
+    "updatedAt": "2024-03-13T06:05:28.728Z",
+    "publishedAt": "2024-03-13T06:05:28.728Z",
+    "firstPublishedAt": "2024-03-13T06:05:28.728Z",
+    "fields": {
+      "key": {
+        "en-US": "groovy"
+      },
+      "name": {
+        "en-US": "Groovy"
+      },
+      "url": {
+        "en-US": "https://www.groovy-lang.org/"
+      }
+    }
+  },
+  {
+    "id": "2PBkld1UPyttDciKaNW9m9",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2023-08-21T01:48:00.120Z",
+    "updatedAt": "2023-08-21T01:48:49.217Z",
+    "publishedAt": "2023-08-21T01:48:49.217Z",
+    "firstPublishedAt": "2023-08-21T01:48:49.217Z",
+    "fields": {
+      "key": {
+        "en-US": "clojure"
+      },
+      "name": {
+        "en-US": "Clojure"
+      },
+      "url": {
+        "en-US": "https://clojure.org/"
+      }
+    }
+  },
+  {
+    "id": "2RrsVsdbRuy1hmGe7vfnVx",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2023-06-17T07:45:19.772Z",
+    "updatedAt": "2023-06-17T07:45:48.699Z",
+    "publishedAt": "2023-06-17T07:45:48.699Z",
+    "firstPublishedAt": "2023-06-17T07:45:48.699Z",
+    "fields": {
+      "key": {
+        "en-US": "Rust"
+      },
+      "name": {
+        "en-US": "Rust"
+      },
+      "url": {
+        "en-US": "https://www.rust-lang.org"
+      }
+    }
+  },
+  {
+    "id": "4qGUijXFbNgosOxYmHl5LT",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2023-06-05T01:55:32.356Z",
+    "updatedAt": "2023-06-05T01:56:19.510Z",
+    "publishedAt": "2023-06-05T01:56:19.510Z",
+    "firstPublishedAt": "2023-06-05T01:56:19.510Z",
+    "fields": {
+      "key": {
+        "en-US": "TypeScript"
+      },
+      "name": {
+        "en-US": "TypeScript"
+      },
+      "url": {
+        "en-US": "https://www.typescriptlang.org/"
+      }
+    }
+  },
+  {
+    "id": "6cLnTYtAlFZZVCOaRFYk2S",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2022-10-22T04:10:35.027Z",
+    "updatedAt": "2022-10-22T04:11:27.153Z",
+    "publishedAt": "2022-10-22T04:11:27.153Z",
+    "firstPublishedAt": "2022-10-22T04:11:27.153Z",
+    "fields": {
+      "key": {
+        "en-US": "erlang"
+      },
+      "name": {
+        "en-US": "Erlang"
+      },
+      "url": {
+        "en-US": "https://www.erlang.org/"
+      }
+    }
+  },
+  {
+    "id": "3ZRY6UR6j4c4dOYz3PXXFs",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2022-09-15T01:20:31.775Z",
+    "updatedAt": "2022-09-15T01:22:18.381Z",
+    "publishedAt": "2022-09-15T01:22:18.381Z",
+    "firstPublishedAt": "2022-09-15T01:21:15.722Z",
+    "fields": {
+      "key": {
+        "en-US": "go"
+      },
+      "name": {
+        "en-US": "Go"
+      },
+      "url": {
+        "en-US": "https://golang.google.cn/"
+      }
+    }
+  },
+  {
+    "id": "7kWM43LdFQGOu8uhJ4dIW5",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T03:35:48.723Z",
+    "updatedAt": "2021-07-02T03:43:57.622Z",
+    "publishedAt": "2021-07-02T03:43:57.622Z",
+    "firstPublishedAt": "2021-07-02T03:43:47.587Z",
+    "fields": {
+      "key": {
+        "en-US": "ASP"
+      },
+      "name": {
+        "en-US": "ASP"
+      },
+      "url": {
+        "en-US": "https://ASP"
+      }
+    }
+  },
+  {
+    "id": "5Aiy0HcuQ2bDWT7Xga3Qhj",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T03:31:18.819Z",
+    "updatedAt": "2021-07-02T03:31:59.056Z",
+    "publishedAt": "2021-07-02T03:31:59.056Z",
+    "firstPublishedAt": "2021-07-02T03:31:59.056Z",
+    "fields": {
+      "key": {
+        "en-US": "Pascal"
+      },
+      "name": {
+        "en-US": "Pascal"
+      },
+      "url": {
+        "en-US": "https://pascal"
+      }
+    }
+  },
+  {
+    "id": "6MnThA2GLj88FN506W4HuH",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T03:09:56.121Z",
+    "updatedAt": "2021-07-02T03:31:09.642Z",
+    "publishedAt": "2021-07-02T03:31:09.642Z",
+    "firstPublishedAt": "2021-07-02T03:22:26.653Z",
+    "fields": {
+      "key": {
+        "en-US": "Object Pascal"
+      },
+      "name": {
+        "en-US": "Object Pascal"
+      },
+      "url": {
+        "en-US": "https://"
+      }
+    }
+  },
+  {
+    "id": "67QzYbZG4KNizQEWmAhWkU",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T03:08:30.171Z",
+    "updatedAt": "2021-07-02T03:22:51.868Z",
+    "publishedAt": "2021-07-02T03:22:51.868Z",
+    "firstPublishedAt": "2021-07-02T03:09:43.053Z",
+    "fields": {
+      "key": {
+        "en-US": "Free Pascal"
+      },
+      "name": {
+        "en-US": "Free Pascal"
+      },
+      "url": {
+        "en-US": "https://www.freepascal.org/"
+      }
+    }
+  },
+  {
+    "id": "7laHszmwqPBADOsH44deaw",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T03:04:51.967Z",
+    "updatedAt": "2021-07-02T03:08:21.136Z",
+    "publishedAt": "2021-07-02T03:08:21.136Z",
+    "firstPublishedAt": "2021-07-02T03:08:21.136Z",
+    "fields": {
+      "key": {
+        "en-US": "BASIC"
+      },
+      "name": {
+        "en-US": "BASIC"
+      },
+      "url": {
+        "en-US": "https://www.britannica.com/technology/BASIC"
+      }
+    }
+  },
+  {
+    "id": "41DNXANqR5aYqx3CzLaYDF",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T03:03:58.895Z",
+    "updatedAt": "2021-07-02T03:04:46.739Z",
+    "publishedAt": "2021-07-02T03:04:46.739Z",
+    "firstPublishedAt": "2021-07-02T03:04:46.739Z",
+    "fields": {
+      "key": {
+        "en-US": "MATLAB"
+      },
+      "name": {
+        "en-US": "MATLAB"
+      },
+      "url": {
+        "en-US": "https://ww2.mathworks.cn/products/matlab.html"
+      }
+    }
+  },
+  {
+    "id": "1fldgYtVTmxMsPhrWr42XO",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T03:01:59.284Z",
+    "updatedAt": "2021-07-02T03:03:48.142Z",
+    "publishedAt": "2021-07-02T03:03:48.142Z",
+    "firstPublishedAt": "2021-07-02T03:03:48.142Z",
+    "fields": {
+      "key": {
+        "en-US": "XSL"
+      },
+      "name": {
+        "en-US": "XSL"
+      },
+      "url": {
+        "en-US": "https://www.w3.org/Style/XSL/"
+      }
+    }
+  },
+  {
+    "id": "6wDwrhWzPr7y7b84CoTTBv",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T03:01:32.975Z",
+    "updatedAt": "2021-07-02T03:01:54.272Z",
+    "publishedAt": "2021-07-02T03:01:54.272Z",
+    "firstPublishedAt": "2021-07-02T03:01:54.272Z",
+    "fields": {
+      "key": {
+        "en-US": "Lua"
+      },
+      "name": {
+        "en-US": "Lua"
+      },
+      "url": {
+        "en-US": "https://www.lua.org/"
+      }
+    }
+  },
+  {
+    "id": "3xwGlPSoWMVbEBJytwCfOR",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T03:00:35.344Z",
+    "updatedAt": "2021-07-02T03:01:28.876Z",
+    "publishedAt": "2021-07-02T03:01:28.876Z",
+    "firstPublishedAt": "2021-07-02T03:01:28.876Z",
+    "fields": {
+      "key": {
+        "en-US": "Tcl"
+      },
+      "name": {
+        "en-US": "Tcl"
+      },
+      "url": {
+        "en-US": "https://www.tcl.tk/"
+      }
+    }
+  },
+  {
+    "id": "ulkWbfmZHUPt6ZXHYBaXh",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:51:41.203Z",
+    "updatedAt": "2021-07-02T03:00:23.085Z",
+    "publishedAt": "2021-07-02T03:00:23.085Z",
+    "firstPublishedAt": "2021-07-02T03:00:23.085Z",
+    "fields": {
+      "key": {
+        "en-US": "Objective"
+      },
+      "name": {
+        "en-US": "Objective"
+      },
+      "url": {
+        "en-US": "http://"
+      }
+    }
+  },
+  {
+    "id": "55bXAezzkkPxMwtZjqX0ji",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:50:16.048Z",
+    "updatedAt": "2021-07-02T02:51:35.889Z",
+    "publishedAt": "2021-07-02T02:51:35.889Z",
+    "firstPublishedAt": "2021-07-02T02:51:35.889Z",
+    "fields": {
+      "key": {
+        "en-US": "ActionScript"
+      },
+      "name": {
+        "en-US": "ActionScript"
+      },
+      "url": {
+        "en-US": "https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/index.html"
+      }
+    }
+  },
+  {
+    "id": "68la9rJVc8XlwulNq94rID",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:49:30.759Z",
+    "updatedAt": "2021-07-02T02:50:08.428Z",
+    "publishedAt": "2021-07-02T02:50:08.428Z",
+    "firstPublishedAt": "2021-07-02T02:50:08.428Z",
+    "fields": {
+      "key": {
+        "en-US": "ASP.NET"
+      },
+      "name": {
+        "en-US": "ASP.NET"
+      },
+      "url": {
+        "en-US": "https://dotnet.microsoft.com/apps/aspnet"
+      }
+    }
+  },
+  {
+    "id": "76sFTfFkLey3vHEarvDE4U",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:46:30.738Z",
+    "updatedAt": "2021-07-02T02:48:41.393Z",
+    "publishedAt": "2021-07-02T02:48:41.393Z",
+    "firstPublishedAt": "2021-07-02T02:48:41.393Z",
+    "fields": {
+      "key": {
+        "en-US": "PL/SQL"
+      },
+      "name": {
+        "en-US": "PL/SQL"
+      },
+      "url": {
+        "en-US": "https://www.oracle.com/database/technologies/appdev/plsql.html"
+      }
+    }
+  },
+  {
+    "id": "5mKvsW7DU95pkeulIo28yF",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:46:07.412Z",
+    "updatedAt": "2021-07-02T02:46:24.455Z",
+    "publishedAt": "2021-07-02T02:46:24.455Z",
+    "firstPublishedAt": "2021-07-02T02:46:24.455Z",
+    "fields": {
+      "key": {
+        "en-US": "Ruby"
+      },
+      "name": {
+        "en-US": "Ruby"
+      },
+      "url": {
+        "en-US": "https://www.ruby-lang.org/en/"
+      }
+    }
+  },
+  {
+    "id": "1Sho5dUq0ENOHUuMxW6aZY",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:44:48.772Z",
+    "updatedAt": "2021-07-02T02:45:51.337Z",
+    "publishedAt": "2021-07-02T02:45:51.337Z",
+    "firstPublishedAt": "2021-07-02T02:45:51.337Z",
+    "fields": {
+      "key": {
+        "en-US": "JSP"
+      },
+      "name": {
+        "en-US": "JSP"
+      },
+      "url": {
+        "en-US": "https://docs.oracle.com/javaee/5/tutorial/doc/bnagy.html"
+      }
+    }
+  },
+  {
+    "id": "gB5qUrnEj9ygKgbtCyUll",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:32:15.553Z",
+    "updatedAt": "2021-07-02T02:44:29.004Z",
+    "publishedAt": "2021-07-02T02:44:29.004Z",
+    "firstPublishedAt": "2021-07-02T02:44:29.004Z",
+    "fields": {
+      "key": {
+        "en-US": "Assembly"
+      },
+      "name": {
+        "en-US": "Assembly"
+      },
+      "url": {
+        "en-US": "https://www.tutorialspoint.com/assembly_programming/index.htm"
+      }
+    }
+  },
+  {
+    "id": "3xD6BYPC337AfsU7ZLVEvh",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:28:26.010Z",
+    "updatedAt": "2021-07-02T02:32:00.193Z",
+    "publishedAt": "2021-07-02T02:32:00.193Z",
+    "firstPublishedAt": "2021-07-02T02:32:00.193Z",
+    "fields": {
+      "key": {
+        "en-US": "Visual Basic"
+      },
+      "name": {
+        "en-US": "Visual Basic"
+      },
+      "url": {
+        "en-US": "https://winworldpc.com/product/microsoft-visual-bas/60"
+      }
+    }
+  },
+  {
+    "id": "2HYNIqvfdm6vB7OW5CuCJb",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:24:58.211Z",
+    "updatedAt": "2021-07-02T02:27:55.476Z",
+    "publishedAt": "2021-07-02T02:27:55.476Z",
+    "firstPublishedAt": "2021-07-02T02:27:55.476Z",
+    "fields": {
+      "key": {
+        "en-US": "Kylix"
+      },
+      "name": {
+        "en-US": "Kylix"
+      },
+      "url": {
+        "en-US": "https://delphi.fandom.com/wiki/Kylix"
+      }
+    }
+  },
+  {
+    "id": "3nMiobuJqlrELpge95nCte",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:23:22.306Z",
+    "updatedAt": "2021-07-02T02:24:44.865Z",
+    "publishedAt": "2021-07-02T02:24:44.865Z",
+    "firstPublishedAt": "2021-07-02T02:24:44.865Z",
+    "fields": {
+      "key": {
+        "en-US": "Delphi"
+      },
+      "name": {
+        "en-US": "Delphi"
+      },
+      "url": {
+        "en-US": "https://www.embarcadero.com/cn/products/delphi"
+      }
+    }
+  },
+  {
+    "id": "37BqyiEwQTT6weeptE0Nkl",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:21:38.444Z",
+    "updatedAt": "2021-07-02T02:23:03.085Z",
+    "publishedAt": "2021-07-02T02:23:03.085Z",
+    "firstPublishedAt": "2021-07-02T02:23:03.085Z",
+    "fields": {
+      "key": {
+        "en-US": "VB .NET"
+      },
+      "name": {
+        "en-US": "Visual Basic .NET"
+      },
+      "url": {
+        "en-US": "https://docs.microsoft.com/dotnet/visual-basic/"
+      }
+    }
+  },
+  {
+    "id": "1l8eeZ9VDhd668dryUVvDc",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:17:10.956Z",
+    "updatedAt": "2021-07-02T02:21:26.938Z",
+    "publishedAt": "2021-07-02T02:21:26.938Z",
+    "firstPublishedAt": "2021-07-02T02:21:26.938Z",
+    "fields": {
+      "key": {
+        "en-US": "Unix Shell"
+      },
+      "name": {
+        "en-US": "Unix Shell"
+      },
+      "url": {
+        "en-US": "https://swcarpentry.github.io/shell-novice/"
+      }
+    }
+  },
+  {
+    "id": "7pNZmpf1eCBLx2oYonsAK7",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:16:52.328Z",
+    "updatedAt": "2021-07-02T02:17:05.752Z",
+    "publishedAt": "2021-07-02T02:17:05.752Z",
+    "firstPublishedAt": "2021-07-02T02:17:05.752Z",
+    "fields": {
+      "key": {
+        "en-US": "Perl"
+      },
+      "name": {
+        "en-US": "Perl"
+      },
+      "url": {
+        "en-US": "https://www.perl.org/"
+      }
+    }
+  },
+  {
+    "id": "7sAoBXjxdtWHcqEoxSHpJB",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:15:16.390Z",
+    "updatedAt": "2021-07-02T02:16:39.565Z",
+    "publishedAt": "2021-07-02T02:16:39.565Z",
+    "firstPublishedAt": "2021-07-02T02:16:39.565Z",
+    "fields": {
+      "key": {
+        "en-US": "JavaScript"
+      },
+      "name": {
+        "en-US": "JavaScript"
+      },
+      "url": {
+        "en-US": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      }
+    }
+  },
+  {
+    "id": "5ErftetWADiFvvgRO3pFnU",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:14:54.380Z",
+    "updatedAt": "2021-07-02T02:15:10.561Z",
+    "publishedAt": "2021-07-02T02:15:10.561Z",
+    "firstPublishedAt": "2021-07-02T02:15:10.561Z",
+    "fields": {
+      "key": {
+        "en-US": "Python"
+      },
+      "name": {
+        "en-US": "Python"
+      },
+      "url": {
+        "en-US": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "id": "7akHgnkqSmGh1UJZMw0MO",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:13:18.110Z",
+    "updatedAt": "2021-07-02T02:14:47.519Z",
+    "publishedAt": "2021-07-02T02:14:47.519Z",
+    "firstPublishedAt": "2021-07-02T02:14:47.519Z",
+    "fields": {
+      "key": {
+        "en-US": "C#"
+      },
+      "name": {
+        "en-US": "C#"
+      },
+      "url": {
+        "en-US": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+      }
+    }
+  },
+  {
+    "id": "4DsfObBcFoAWJGQZC4AQeS",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:10:10.762Z",
+    "updatedAt": "2021-07-02T02:14:26.672Z",
+    "publishedAt": "2021-07-02T02:14:26.672Z",
+    "firstPublishedAt": "2021-07-02T02:13:12.613Z",
+    "fields": {
+      "key": {
+        "en-US": "C"
+      },
+      "name": {
+        "en-US": "C"
+      },
+      "url": {
+        "en-US": "https://docs.microsoft.com/en-us/Cpp/?view=msvc-160"
+      }
+    }
+  },
+  {
+    "id": "6CcnCaE2mWTEtqPMVPnSyF",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:09:21.518Z",
+    "updatedAt": "2021-07-02T02:10:03.712Z",
+    "publishedAt": "2021-07-02T02:10:03.712Z",
+    "firstPublishedAt": "2021-07-02T02:10:03.712Z",
+    "fields": {
+      "key": {
+        "en-US": "PHP"
+      },
+      "name": {
+        "en-US": "PHP"
+      },
+      "url": {
+        "en-US": "https://www.php.net/"
+      }
+    }
+  },
+  {
+    "id": "5bFfqXIcehqRrhgs5GSove",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-02T02:05:02.506Z",
+    "updatedAt": "2021-07-02T02:09:05.662Z",
+    "publishedAt": "2021-07-02T02:09:05.662Z",
+    "firstPublishedAt": "2021-07-02T02:09:05.662Z",
+    "fields": {
+      "key": {
+        "en-US": "C++"
+      },
+      "name": {
+        "en-US": "C++"
+      },
+      "url": {
+        "en-US": "https://isocpp.org/"
+      }
+    }
+  },
+  {
+    "id": "17Jq88yTIez2ftdYQRrZSc",
+    "type": "Entry",
+    "contentType": "language",
+    "createdAt": "2021-07-01T09:43:37.088Z",
+    "updatedAt": "2021-07-01T09:44:06.404Z",
+    "publishedAt": "2021-07-01T09:44:06.404Z",
+    "firstPublishedAt": "2021-07-01T09:44:06.404Z",
+    "fields": {
+      "key": {
+        "en-US": "java"
+      },
+      "name": {
+        "en-US": "Java"
+      },
+      "url": {
+        "en-US": "https://www.java.com"
+      }
+    }
+  }
+]

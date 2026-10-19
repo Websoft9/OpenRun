@@ -1,0 +1,7 @@
+{
+  "source": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+  "fetchedAt": "2026-10-19T15:32:34.594Z",
+  "global": 1,
+  "regions": 7,
+  "countries": 217
+}

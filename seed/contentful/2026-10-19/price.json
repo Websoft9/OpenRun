@@ -1,0 +1,204 @@
+[
+  {
+    "id": "5PKNFsS4D3ZcQt1FFJGc86",
+    "type": "Entry",
+    "contentType": "price",
+    "createdAt": "2022-10-11T01:03:44.413Z",
+    "updatedAt": "2022-10-11T01:04:07.755Z",
+    "publishedAt": "2022-10-11T01:04:07.755Z",
+    "firstPublishedAt": "2022-10-11T01:04:07.755Z",
+    "fields": {
+      "key": {
+        "en-US": "subcription-year"
+      },
+      "name": {
+        "en-US": "Subcription by Year",
+        "zh-CN": "按年订阅"
+      },
+      "cycle": {
+        "en-US": "Hour",
+        "zh-CN": "小时"
+      }
+    }
+  },
+  {
+    "id": "43c7F0F9fjBwIk8a8SvHMR",
+    "type": "Entry",
+    "contentType": "price",
+    "createdAt": "2022-10-11T01:02:53.010Z",
+    "updatedAt": "2022-10-11T01:03:34.851Z",
+    "publishedAt": "2022-10-11T01:03:34.851Z",
+    "firstPublishedAt": "2022-10-11T01:03:34.851Z",
+    "fields": {
+      "key": {
+        "en-US": "subcription-month"
+      },
+      "name": {
+        "en-US": "Subcription by Month",
+        "zh-CN": "按月订阅"
+      },
+      "cycle": {
+        "en-US": "Hour",
+        "zh-CN": "小时"
+      }
+    }
+  },
+  {
+    "id": "5lyfWwAhboYvkIMWrw4fpJ",
+    "type": "Entry",
+    "contentType": "price",
+    "createdAt": "2022-10-11T01:02:48.787Z",
+    "updatedAt": "2022-10-11T01:03:13.013Z",
+    "publishedAt": "2022-10-11T01:03:13.013Z",
+    "firstPublishedAt": "2022-10-11T01:03:13.013Z",
+    "fields": {
+      "key": {
+        "en-US": "subcription-day"
+      },
+      "name": {
+        "en-US": "Subcription by Day",
+        "zh-CN": "按天订阅"
+      },
+      "cycle": {
+        "en-US": "Hour",
+        "zh-CN": "小时"
+      }
+    }
+  },
+  {
+    "id": "8p9Jguy5UGOSKFp3n9M1N",
+    "type": "Entry",
+    "contentType": "price",
+    "createdAt": "2022-07-16T01:15:27.988Z",
+    "updatedAt": "2022-10-11T01:02:40.922Z",
+    "publishedAt": "2022-10-11T01:02:40.922Z",
+    "firstPublishedAt": "2022-07-16T01:18:18.041Z",
+    "fields": {
+      "key": {
+        "en-US": "subcription-hour"
+      },
+      "name": {
+        "en-US": "Subcription by Hour",
+        "zh-CN": "按小时订阅"
+      },
+      "cycle": {
+        "en-US": "Hour",
+        "zh-CN": "小时"
+      }
+    }
+  },
+  {
+    "id": "3ef9HoFkuoZ0V8zw2Ua3f1",
+    "type": "Entry",
+    "contentType": "price",
+    "createdAt": "2022-10-10T13:40:36.239Z",
+    "updatedAt": "2022-10-11T00:47:22.590Z",
+    "publishedAt": "2022-10-11T00:47:22.590Z",
+    "firstPublishedAt": "2022-10-10T13:45:54.856Z",
+    "fields": {
+      "key": {
+        "en-US": "on-demand"
+      },
+      "name": {
+        "en-US": "On-Demand",
+        "zh-CN": "按需付费"
+      },
+      "description": {
+        "zh-CN": "根据任务进行价格评估，付费后开始实施服务"
+      },
+      "cycle": {
+        "en-US": "Number",
+        "zh-CN": "次"
+      }
+    }
+  },
+  {
+    "id": "Z5sH3nKTEbtBeb57BngLR",
+    "type": "Entry",
+    "contentType": "price",
+    "createdAt": "2022-10-10T13:46:11.362Z",
+    "updatedAt": "2022-10-11T00:45:21.161Z",
+    "publishedAt": "2022-10-11T00:45:21.161Z",
+    "firstPublishedAt": "2022-10-10T13:47:47.013Z",
+    "fields": {
+      "key": {
+        "en-US": "man-hours"
+      },
+      "name": {
+        "en-US": "Man hours",
+        "zh-CN": "小时人工费"
+      },
+      "description": {
+        "zh-CN": "按小时付人工费"
+      },
+      "cycle": {
+        "en-US": "Hour",
+        "zh-CN": "小时"
+      }
+    }
+  },
+  {
+    "id": "5SIUqJwLvA5awTg2DHJlME",
+    "type": "Entry",
+    "contentType": "price",
+    "createdAt": "2022-10-10T13:48:06.371Z",
+    "updatedAt": "2022-10-11T00:45:06.652Z",
+    "publishedAt": "2022-10-11T00:45:06.652Z",
+    "firstPublishedAt": "2022-10-10T13:48:57.705Z",
+    "fields": {
+      "key": {
+        "en-US": "man-days"
+      },
+      "name": {
+        "en-US": "Man days",
+        "zh-CN": "人工天付费"
+      },
+      "description": {
+        "zh-CN": "按天付人工费，差旅需客户承担"
+      },
+      "cycle": {
+        "en-US": "Day",
+        "zh-CN": "天"
+      }
+    }
+  },
+  {
+    "id": "2iP37wmANZSQhOsp5GCxA",
+    "type": "Entry",
+    "contentType": "price",
+    "createdAt": "2022-07-16T01:18:25.792Z",
+    "updatedAt": "2022-07-16T01:20:22.290Z",
+    "publishedAt": "2022-07-16T01:20:22.290Z",
+    "firstPublishedAt": "2022-07-16T01:20:22.290Z",
+    "fields": {
+      "key": {
+        "en-US": "license"
+      },
+      "name": {
+        "en-US": "By License",
+        "zh-CN": "购买版权"
+      },
+      "description": {
+        "zh-CN": "一次性购买版权付费方式"
+      }
+    }
+  },
+  {
+    "id": "12nhFYWwBLQIQ2zHUHELnA",
+    "type": "Entry",
+    "contentType": "price",
+    "createdAt": "2021-11-24T09:02:03.210Z",
+    "updatedAt": "2022-07-16T01:15:20.757Z",
+    "publishedAt": "2022-07-16T01:15:20.757Z",
+    "firstPublishedAt": "2021-11-24T09:02:43.188Z",
+    "fields": {
+      "key": {
+        "en-US": "free"
+      },
+      "name": {
+        "en-US": "Free",
+        "zh-CN": "免费"
+      }
+    }
+  }
+]
