@@ -120,7 +120,7 @@ class WorkflowTest(unittest.TestCase):
         init = self.run_script("init-db.js", "--reset")
         self.assertEqual(init.returncode, 0, msg=init.stderr or init.stdout)
         self.assertEqual(self.query("SELECT COUNT(*) FROM software")[0][0], 0)
-        self.assertEqual(self.query("SELECT COUNT(*) FROM categories")[0][0], 8)
+        self.assertEqual(self.query("SELECT COUNT(*) FROM categories")[0][0], 22)
         self.assertEqual(self.query("SELECT COUNT(*) FROM licenses")[0][0], 740)
         self.assertEqual(self.query("SELECT COUNT(*) FROM licenses WHERE is_osi_approved = 1")[0][0], 154)
         self.assertEqual(self.query("SELECT COUNT(*) FROM difficulty_levels")[0][0], 3)
@@ -128,7 +128,7 @@ class WorkflowTest(unittest.TestCase):
 
         again = self.run_script("init-db.js")
         self.assertEqual(again.returncode, 0, msg=again.stderr or again.stdout)
-        self.assertEqual(self.query("SELECT COUNT(*) FROM categories")[0][0], 8)
+        self.assertEqual(self.query("SELECT COUNT(*) FROM categories")[0][0], 22)
         self.assertGreaterEqual(self.query("SELECT COUNT(*) FROM schema_migrations")[0][0], 1)
 
         demo = self.run_script("demo-data.js")
@@ -180,6 +180,28 @@ class WorkflowTest(unittest.TestCase):
             "published",
         )
 
+    def test_process_framework_api_and_pages(self):
+        init = self.run_script("init-db.js", "--reset")
+        self.assertEqual(init.returncode, 0, msg=init.stderr or init.stdout)
+        base = self.start_server()
+
+        status, level_one = request_json(f"{base}/api/processes?level=1&lang=en")
+        self.assertEqual(status, 200, msg=level_one)
+        self.assertEqual(len(level_one["items"]), 13)
+        self.assertEqual(level_one["stats"]["total"], 159)
+        self.assertEqual(level_one["stats"]["l3"], 101)
+
+        status, detail = request_json(f"{base}/api/processes/9.0?lang=zh")
+        self.assertEqual(status, 200, msg=detail)
+        self.assertEqual(detail["item"]["process"]["name"], "管理财务资源")
+        self.assertEqual(len(detail["item"]["process"]["children"]), 4)
+
+        with urllib.request.urlopen(f"{base}/en/processes", timeout=10) as response:
+            self.assertEqual(response.status, 200)
+            body = response.read().decode("utf-8")
+        self.assertIn("Process framework", body)
+        self.assertIn("9.0", body)
+
     def test_submission_review_and_publish_flow(self):
         init = self.run_script("init-db.js", "--reset")
         self.assertEqual(init.returncode, 0, msg=init.stderr or init.stdout)
@@ -194,7 +216,7 @@ class WorkflowTest(unittest.TestCase):
             payload={
                 "repository": "https://github.com/example/demo-app",
                 "homepage": "https://demo.example.com",
-                "suggestedCategory": "productivity",
+                "suggestedCategory": "collaboration",
                 "note": "A demo app",
                 "contact": "tester",
             },
@@ -264,7 +286,7 @@ class WorkflowTest(unittest.TestCase):
             "license": "MIT",
             "primaryLanguage": "TypeScript",
             "stars": 10,
-            "categorySlugs": ["productivity"],
+            "categorySlugs": ["collaboration"],
             "summaryEn": "Demo summary",
             "summaryZh": "演示摘要",
             "featuresEn": ["Fast"],

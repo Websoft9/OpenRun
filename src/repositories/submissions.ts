@@ -455,6 +455,10 @@ function createDraftSoftware(db: AppDatabase, submission: Submission): string {
     row.id,
     'GLOBAL',
   )
+  db.prepare('INSERT OR IGNORE INTO software_industries (software_id, industry_code) VALUES (?, ?)').run(
+    row.id,
+    'CROSS_INDUSTRY',
+  )
 
   if (submission.suggestedCategory && categoryExists(db, submission.suggestedCategory)) {
     const category = db

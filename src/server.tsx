@@ -7,7 +7,10 @@ import { cors } from 'hono/cors'
 import type { Context, Next } from 'hono'
 import { jsxRenderer } from 'hono/jsx-renderer'
 import { openDatabase } from './db/database.js'
+import { runMigrations } from './db/migrate.js'
 import { resolveLocale, t } from './i18n/index.js'
+import { auth, ensureAuthMigrations } from './lib/auth.js'
+import { sessionMiddleware } from './lib/session.js'
 import { hashIp, safeEqual } from './lib/security.js'
 import { checkRateLimit } from './lib/rate-limit.js'
 import {
@@ -30,8 +33,11 @@ import {
   saveSoftwareReview,
   type SoftwareReviewInput,
 } from './repositories/admin.js'
+import { getIndustryByCode, listIndustries } from './repositories/industries.js'
 import { listLanguages } from './repositories/languages.js'
 import { listMarkets } from './repositories/markets.js'
+import { listPlatforms } from './repositories/platforms.js'
+import { getProcessByCode, getProcessStats, listProcesses } from './repositories/processes.js'
 import {
   createSubmission,
   getSubmissionByToken,
@@ -42,9 +48,14 @@ import {
   type SubmissionAction,
   type SubmissionStatus,
 } from './repositories/submissions.js'
+import type { SessionUser } from './repositories/users.js'
 import { ApiExplorePage, type ApiExplorerQuery } from './ui/api.js'
+import { AccountPage, AuthPage } from './ui/auth.js'
 import { Layout, type Theme } from './ui/layout.js'
 import { AboutPage, CategoriesPage, CategoryDetailPage, DetailPage, HomePage, SearchPage } from './ui/pages.js'
+import { ProcessDetailPage, ProcessesPage } from './ui/processes.js'
+import { IndustriesPage, IndustryDetailPage } from './ui/industries.js'
+import { InsightsPage } from './ui/insights.js'
 import { SubmitPage, SubmissionStatusPage } from './ui/submission.js'
 import { AdminDashboardPage, AdminSoftwarePage } from './ui/admin.js'
 
@@ -70,9 +81,92 @@ app.use('/api/software', cors({ origin: '*' }))
 app.use('/api/software/*', cors({ origin: '*' }))
 
 const db = openDatabase()
+runMigrations(db)
+await ensureAuthMigrations()
+
+app.all('/api/auth/*', (c) => auth.handler(c.req.raw))
+app.use('*', sessionMiddleware)
 
 function normalizeTheme(value: string | undefined): Theme {
   return value === 'dark' ? 'dark' : 'light'
+}
+
+function currentUser(c: Context): SessionUser | null {
+  const session = c.get('session')
+  if (!session?.user) {
+    return null
+  }
+  return {
+    id: session.user.id,
+    email: session.user.email,
+    name: session.user.name,
+  }
+}
+
+function safeNextPath(locale: Locale, value: string | undefined): string {
+  if (value && (value === `/${locale}` || value.startsWith(`/${locale}/`))) {
+    return value
+  }
+  return `/${locale}/account`
+}
+
+function appendTheme(path: string, theme: Theme): string {
+  const separator = path.includes('?') ? '&' : '?'
+  return `${path}${separator}theme=${theme}`
+}
+
+function authErrorKey(code: string | undefined): Parameters<typeof t>[1] {
+  if (code === 'invalid_credentials') return 'auth.error.invalid_credentials'
+  if (code === 'email_taken') return 'auth.error.email_taken'
+  if (code === 'password_short') return 'auth.error.password_short'
+  if (code === 'required') return 'auth.error.required'
+  if (code === 'rate_limited') return 'auth.error.rate_limited'
+  if (code === 'invalid_input') return 'auth.error.invalid_input'
+  return 'auth.error.server_error'
+}
+
+function betterAuthErrorCode(value: string | undefined): string {
+  switch ((value ?? '').toUpperCase()) {
+    case 'USER_ALREADY_EXISTS':
+    case 'USER_ALREADY_EXISTS_USE_ANOTHER_EMAIL':
+      return 'email_taken'
+    case 'INVALID_EMAIL_OR_PASSWORD':
+    case 'INVALID_PASSWORD':
+      return 'invalid_credentials'
+    case 'PASSWORD_TOO_SHORT':
+      return 'password_short'
+    case 'INVALID_EMAIL':
+      return 'invalid_input'
+    default:
+      return 'server_error'
+  }
+}
+
+async function authErrorFromResponse(response: Response): Promise<string> {
+  try {
+    const payload = (await response.json()) as { code?: string; message?: string }
+    return betterAuthErrorCode(payload.code ?? payload.message)
+  } catch {
+    return 'server_error'
+  }
+}
+
+function redirectWithAuthResponse(response: Response, location: string): Response {
+  const headers = new Headers()
+  const cookies = response.headers.getSetCookie?.() ?? []
+  for (const cookie of cookies) {
+    headers.append('Set-Cookie', cookie)
+  }
+  headers.set('Location', location)
+  return new Response(null, { status: 303, headers })
+}
+
+function authRedirect(locale: Locale, mode: 'login' | 'register', code: string, theme: Theme, next?: string): string {
+  const params = new URLSearchParams({ error: code, theme })
+  if (next) {
+    params.set('next', next)
+  }
+  return `/${locale}/${mode}?${params.toString()}`
 }
 
 const renderer = jsxRenderer(({ children }, c) => {
@@ -81,9 +175,18 @@ const renderer = jsxRenderer(({ children }, c) => {
   const theme = normalizeTheme(c.req.query('theme'))
   const title = c.get('title') ?? 'OpenWise'
   const description = c.get('description') ?? 'Open source software directory'
+  const user = currentUser(c)
 
   return (
-    <Layout locale={locale} title={title} description={description} activeUrl={c.req.url} categories={categories} theme={theme}>
+    <Layout
+      locale={locale}
+      title={title}
+      description={description}
+      activeUrl={c.req.url}
+      categories={categories}
+      theme={theme}
+      user={user}
+    >
       {children}
     </Layout>
   )
@@ -310,6 +413,7 @@ app.get('/api/software', (c) => {
     q: c.req.query('q') ?? undefined,
     category: c.req.query('category') ?? undefined,
     tag: c.req.query('tag') ?? undefined,
+    industry: c.req.query('industry') ?? undefined,
     delivery: parseDeliveryFilter(c.req.query('delivery')),
     hasUi: parseBooleanFilter(c.req.query('ui')),
     hasAi: parseBooleanFilter(c.req.query('ai')),
@@ -339,6 +443,27 @@ app.get('/api/home', (c) => {
     recent: listRecentProducts(db, locale),
     tags: getTagCloud(db, locale),
   })
+})
+
+app.get('/api/processes', (c) => {
+  const locale = normalizeLocale(c.req.query('lang') ?? 'en')
+  const level = c.req.query('level') ? Number(c.req.query('level')) : undefined
+  const items = listProcesses(db, locale, {
+    level: Number.isFinite(level) ? level : undefined,
+    parent: c.req.query('parent') ?? undefined,
+    q: c.req.query('q') ?? undefined,
+    limit: c.req.query('limit') ? Number(c.req.query('limit')) : undefined,
+  })
+  return c.json({ stats: getProcessStats(db), items })
+})
+
+app.get('/api/processes/:code', (c) => {
+  const locale = normalizeLocale(c.req.query('lang') ?? 'en')
+  const item = getProcessByCode(db, c.req.param('code'), locale)
+  if (!item) {
+    return c.json({ error: 'Not found' }, 404)
+  }
+  return c.json({ item })
 })
 
 app.post(
@@ -546,6 +671,8 @@ app.get('/:locale/admin/software/:slug', (c) => {
       categories={listAllCategories(db, locale)}
       languages={listLanguages(db)}
       markets={listMarkets(db)}
+      platforms={listPlatforms(db)}
+      industries={listIndustries(db, locale)}
       theme={theme}
       notice={adminNotice(locale, c.req.query('notice'))}
       error={adminError(locale, c.req.query('error'))}
@@ -573,6 +700,8 @@ app.post('/api/admin/software/:slug', async (c) => {
     ? getFormList(body, 'categories')
     : getFormList(body, 'categorySlugs')
   const markets = getFormList(body, 'markets')
+  const platforms = getFormList(body, 'platforms')
+  const industries = getFormList(body, 'industries')
   const license = getFormValue(body, 'license')
   const difficulty = getFormValue(body, 'deploymentDifficulty')
   const deploymentDifficulty =
@@ -620,6 +749,8 @@ app.post('/api/admin/software/:slug', async (c) => {
     categorySlugs,
     tags: getTagValues(body),
     markets: markets.length > 0 ? markets : ['GLOBAL'],
+    platforms,
+    industries: industries.length > 0 ? industries : ['CROSS_INDUSTRY'],
     summaryEn,
     summaryZh,
     featuresEn: lines(getFormValue(body, 'featuresEn')),
@@ -674,11 +805,78 @@ app.get('/:locale', (c) => {
       locale={locale}
       stats={getStats(db)}
       categories={listCategories(db, locale)}
+      processDomains={listProcesses(db, locale, { level: 1 })}
       featuredProducts={listFeaturedProducts(db, locale)}
       recentProducts={listRecentProducts(db, locale)}
       theme={theme}
     />,
   )
+})
+
+app.get('/:locale/processes', (c) => {
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  setPageMeta(c, locale, t(locale, 'meta.processes.title'), t(locale, 'meta.processes.description'))
+  return c.render(
+    <ProcessesPage
+      locale={locale}
+      processes={listProcesses(db, locale, { level: 1 })}
+      theme={theme}
+    />,
+  )
+})
+
+app.get('/:locale/processes/:code', (c) => {
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  const detail = getProcessByCode(db, c.req.param('code'), locale)
+  if (!detail) {
+    return c.notFound()
+  }
+  setPageMeta(c, locale, detail.process.name, t(locale, 'meta.processes.description'))
+  return c.render(<ProcessDetailPage locale={locale} detail={detail} theme={theme} />)
+})
+
+app.get('/:locale/industries', (c) => {
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  setPageMeta(c, locale, t(locale, 'meta.industries.title'), t(locale, 'meta.industries.description'))
+  return c.render(
+    <IndustriesPage
+      locale={locale}
+      industries={listIndustries(db, locale)}
+      theme={theme}
+    />,
+  )
+})
+
+app.get('/:locale/industries/:code', (c) => {
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  const delivery = parseDeliveryFilter(c.req.query('delivery'))
+  const hasUi = parseBooleanFilter(c.req.query('ui'))
+  const detail = getIndustryByCode(db, c.req.param('code'), locale, { delivery, hasUi })
+  if (!detail) {
+    return c.notFound()
+  }
+  setPageMeta(c, locale, detail.industry.name, t(locale, 'meta.industries.description'))
+  return c.render(
+    <IndustryDetailPage
+      locale={locale}
+      industry={detail.industry}
+      products={detail.software}
+      selectedDelivery={delivery}
+      selectedUi={hasUi}
+      theme={theme}
+    />,
+  )
+})
+
+app.get('/:locale/insights', (c) => {
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  setPageMeta(c, locale, t(locale, 'meta.insights.title'), t(locale, 'meta.insights.description'))
+  return c.render(<InsightsPage locale={locale} theme={theme} />)
 })
 
 app.get('/:locale/categories', (c) => {
@@ -749,6 +947,150 @@ app.get('/:locale/about', (c) => {
   const theme = normalizeTheme(c.req.query('theme'))
   setPageMeta(c, locale, t(locale, 'meta.about.title'), t(locale, 'meta.about.description'))
   return c.render(<AboutPage locale={locale} stats={getStats(db)} theme={theme} />)
+})
+
+app.get('/:locale/login', (c) => {
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  if (currentUser(c)) {
+    return c.redirect(appendTheme(`/${locale}/account`, theme))
+  }
+  setPageMeta(c, locale, t(locale, 'meta.login.title'), t(locale, 'meta.login.description'))
+  const errorCode = c.req.query('error')
+  return c.render(
+    <AuthPage
+      locale={locale}
+      theme={theme}
+      mode="login"
+      error={errorCode ? t(locale, authErrorKey(errorCode)) : undefined}
+      next={c.req.query('next')}
+    />,
+  )
+})
+
+app.post('/:locale/login', async (c) => {
+  if (isCrossSiteRequest(c)) {
+    return c.text('Forbidden', 403)
+  }
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  const ip = clientIp(c)
+  if (!checkRateLimit(`login:${ip}`, 10, 15 * 60 * 1000).allowed) {
+    return c.redirect(appendTheme(`/${locale}/login?error=rate_limited`, theme))
+  }
+
+  let body: Record<string, unknown>
+  try {
+    body = await parseRequestBody(c)
+  } catch {
+    return c.redirect(appendTheme(`/${locale}/login?error=invalid_input`, theme))
+  }
+
+  const next = safeNextPath(locale, getFormValue(body, 'next'))
+  try {
+    const response = await auth.api.signInEmail({
+      body: {
+        email: getFormValue(body, 'email'),
+        password: getFormValue(body, 'password'),
+      },
+      headers: c.req.raw.headers,
+      asResponse: true,
+    })
+    if (!response.ok) {
+      return c.redirect(authRedirect(locale, 'login', await authErrorFromResponse(response), theme, getFormValue(body, 'next')))
+    }
+    return redirectWithAuthResponse(response, appendTheme(next, theme))
+  } catch (error) {
+    console.error('Sign in failed', error)
+    return c.redirect(authRedirect(locale, 'login', 'server_error', theme, getFormValue(body, 'next')))
+  }
+})
+
+app.get('/:locale/register', (c) => {
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  if (currentUser(c)) {
+    return c.redirect(appendTheme(`/${locale}/account`, theme))
+  }
+  setPageMeta(c, locale, t(locale, 'meta.register.title'), t(locale, 'meta.register.description'))
+  return c.render(
+    <AuthPage
+      locale={locale}
+      theme={theme}
+      mode="register"
+      error={c.req.query('error') ? t(locale, authErrorKey(c.req.query('error'))) : undefined}
+      next={c.req.query('next')}
+    />,
+  )
+})
+
+app.post('/:locale/register', async (c) => {
+  if (isCrossSiteRequest(c)) {
+    return c.text('Forbidden', 403)
+  }
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  const ip = clientIp(c)
+  if (!checkRateLimit(`register:${ip}`, 5, 60 * 60 * 1000).allowed) {
+    return c.redirect(appendTheme(`/${locale}/register?error=rate_limited`, theme))
+  }
+
+  let body: Record<string, unknown>
+  try {
+    body = await parseRequestBody(c)
+  } catch {
+    return c.redirect(appendTheme(`/${locale}/register?error=invalid_input`, theme))
+  }
+
+  const next = safeNextPath(locale, getFormValue(body, 'next'))
+  try {
+    const response = await auth.api.signUpEmail({
+      body: {
+        email: getFormValue(body, 'email'),
+        name: getFormValue(body, 'name'),
+        password: getFormValue(body, 'password'),
+      },
+      headers: c.req.raw.headers,
+      asResponse: true,
+    })
+    if (!response.ok) {
+      return c.redirect(authRedirect(locale, 'register', await authErrorFromResponse(response), theme, getFormValue(body, 'next')))
+    }
+    return redirectWithAuthResponse(response, appendTheme(next, theme))
+  } catch (error) {
+    console.error('Registration failed', error)
+    return c.redirect(authRedirect(locale, 'register', 'server_error', theme, getFormValue(body, 'next')))
+  }
+})
+
+app.get('/:locale/account', (c) => {
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+  const user = currentUser(c)
+  if (!user) {
+    return c.redirect(appendTheme(`/${locale}/login?next=${encodeURIComponent(`/${locale}/account`)}`, theme))
+  }
+  setPageMeta(c, locale, t(locale, 'meta.account.title'), t(locale, 'meta.account.description'))
+  return c.render(<AccountPage locale={locale} theme={theme} user={user} />)
+})
+
+app.post('/:locale/logout', async (c) => {
+  if (isCrossSiteRequest(c)) {
+    return c.text('Forbidden', 403)
+  }
+  const locale = normalizeLocale(c.req.param('locale'))
+  const theme = normalizeTheme(c.req.query('theme'))
+
+  try {
+    const response = await auth.api.signOut({
+      headers: c.req.raw.headers,
+      asResponse: true,
+    })
+    return redirectWithAuthResponse(response, appendTheme(`/${locale}`, theme))
+  } catch (error) {
+    console.error('Sign out failed', error)
+    return c.redirect(appendTheme(`/${locale}`, theme))
+  }
 })
 
 app.get('/:locale/api', (c) => {
@@ -844,6 +1186,7 @@ app.notFound((c) => {
       activeUrl={c.req.url}
       categories={listCategories(db, locale)}
       theme={normalizeTheme(c.req.query('theme'))}
+      user={currentUser(c)}
     >
       <section class="empty-state-wrap">
         <h1>{t(locale, 'notFound.title')}</h1>

@@ -24,6 +24,13 @@ if (reset) {
     DROP TABLE IF EXISTS software_categories;
     DROP TABLE IF EXISTS software;
     DROP TABLE IF EXISTS categories;
+    DROP TABLE IF EXISTS software_processes;
+    DROP TABLE IF EXISTS process_nodes;
+    DROP TABLE IF EXISTS process_frameworks;
+    DROP TABLE IF EXISTS software_industries;
+    DROP TABLE IF EXISTS industries;
+    DROP TABLE IF EXISTS software_platforms;
+    DROP TABLE IF EXISTS platforms;
     DROP TABLE IF EXISTS software_markets;
     DROP TABLE IF EXISTS markets;
     DROP TABLE IF EXISTS languages;

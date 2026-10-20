@@ -79,6 +79,72 @@ software_markets(software_id, market_code)
 
 This is market availability only. Data residency, sanctions, and legal compliance should be modeled separately.
 
+## OS and CPU platform reference data
+
+Platform support is a small controlled vocabulary in `src/data/platforms.ts`, materialized into the database by `db:init`:
+
+```bash
+npm run db:seed:platforms
+```
+
+Tables:
+
+```text
+platforms(code, os_code, os_name, arch_code, arch_name, variant, aliases_json, source)
+software_platforms(software_id, platform_code, support_level, note)
+```
+
+Platform codes use OCI-style `os/arch` names such as `linux/amd64`, `linux/arm64`, `windows/amd64`, and `darwin/arm64`. Contentful currently provides OS only, so imported products use `linux/unspecified` or `windows/unspecified` until an editor supplies architecture-specific support.
+
+## Industry reference data
+
+Applicable enterprise industries use the 21 ISIC Rev.4 sections plus a `CROSS_INDUSTRY` value. The list is source-controlled in `src/data/industries.ts` and materialized by `db:init`.
+
+```bash
+npm run db:seed:industries
+```
+
+Tables:
+
+```text
+industries(code, name, name_zh, level, parent_code, source)
+software_industries(software_id, industry_code)
+```
+
+`software_industries` describes the industries of the enterprises that use the software, not the software vendor's own industry. Existing products default to `CROSS_INDUSTRY`; editors can select one or more specific industries.
+
+## PCF-aligned process framework
+
+The process model is a PCF-aligned **preview** in `src/data/process-framework.ts`, materialized by `db:init`:
+
+```bash
+npm run db:seed:processes
+```
+
+Current coverage:
+
+- L1: 13 domains
+- L2: 45 process groups
+- L3: 101 processes
+
+Tables:
+
+```text
+process_frameworks(id, name, version, license, source)
+process_nodes(code, framework_id, parent_code, level, name, name_zh, function_code, ...)
+software_processes(software_id, process_code, fit_level, confidence, evidence_url, review_status)
+```
+
+API:
+
+```text
+GET /api/processes?level=1
+GET /api/processes?parent=9.0
+GET /api/processes/9.0
+```
+
+The preview is not official APQC PCF data. Full PCF data requires an APQC license and should be imported from an authorized source. Software-to-process mappings are intentionally left empty until reviewed.
+
 ## Contentful seed data
 
 The repository includes a one-time Contentful snapshot under `seed/contentful/2026-10-19/` (catalog, products, licenses, tags, media metadata, delivery and pricing references). It is seed data for this project, not an ongoing upstream sync. The loader automatically uses the latest version directory unless `OPENRUN_CONTENTFUL_SEED_DIR` is set.
@@ -120,6 +186,8 @@ Optional environment variables:
 | Variable | Purpose |
 |---|---|
 | `OPENRUN_DB_PATH` | Override the SQLite database path |
+| `BETTER_AUTH_SECRET` | Secret used by Better Auth; set this in production |
+| `BETTER_AUTH_URL` | Public base URL used by Better Auth |
 | `ADMIN_TOKEN` | Enable and protect the admin review queue |
 | `GITHUB_TOKEN` / `GITHUB_PAT` | Raise GitHub API limits during submission enrichment |
 | `SUBMISSION_ENRICH=0` | Disable automatic GitHub metadata and license checks |

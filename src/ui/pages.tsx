@@ -1,6 +1,7 @@
 import type { FC } from 'hono/jsx'
 import { formatCompactNumber, formatDate, t, type MessageKey } from '../i18n/index.js'
 import type { CategorySummary, DeliveryModel, Locale, ProductCard, ProductDetail, TagSummary } from '../repositories/catalog.js'
+import type { ProcessSummary } from '../repositories/processes.js'
 import type { Theme } from './layout.js'
 
 const difficultyKeys: Record<ProductCard['deploymentDifficulty'], MessageKey> = {
@@ -66,15 +67,16 @@ function searchHref(locale: Locale, theme: Theme, state: SearchState): string {
   return `/${locale}/search?${params.toString()}`
 }
 
-const CatalogFilterBar: FC<{
+export const CatalogFilterBar: FC<{
   locale: Locale
   theme: Theme
-  category: string
+  actionPath: string
+  clearPath: string
   selectedDelivery?: DeliveryModel
   selectedUi?: boolean
   resultCount: number
-}> = ({ locale, theme, category, selectedDelivery, selectedUi, resultCount }) => (
-  <form class="catalog-filter-bar" method="get" action={`/${locale}/categories/${category}`}>
+}> = ({ locale, theme, actionPath, clearPath, selectedDelivery, selectedUi, resultCount }) => (
+  <form class="catalog-filter-bar" method="get" action={actionPath}>
     <input type="hidden" name="theme" value={theme} />
     <div class="catalog-filter-head">
       <strong>{t(locale, 'catalog.filterTitle')}</strong>
@@ -100,7 +102,7 @@ const CatalogFilterBar: FC<{
       </label>
       <div class="catalog-filter-actions">
         <button type="submit">{t(locale, 'search.apply')}</button>
-        <a class="ghost-button" href={withTheme(`/${locale}/categories/${category}`, theme)}>{t(locale, 'catalog.clear')}</a>
+        <a class="ghost-button" href={clearPath}>{t(locale, 'catalog.clear')}</a>
       </div>
     </div>
   </form>
@@ -180,15 +182,20 @@ export const ProductGrid: FC<{ locale: Locale; products: ProductCard[]; theme: T
 
 export const HomePage: FC<{
   locale: Locale
-  stats: { products: number; categories: number; tags: number }
+  stats: { products: number; categories: number; processDomains: number; tags: number }
   categories: CategorySummary[]
+  processDomains: ProcessSummary[]
   featuredProducts: ProductCard[]
   recentProducts: ProductCard[]
   theme: Theme
-}> = ({ locale, stats, categories, featuredProducts, recentProducts, theme }) => {
+}> = ({ locale, stats, categories, processDomains, featuredProducts, recentProducts, theme }) => {
   const tr = (key: MessageKey, params?: Record<string, string | number>) => t(locale, key, params)
-  const statValues = [stats.products, stats.categories, stats.tags]
-  const statLabels = [tr('home.stat.products'), tr('home.stat.categories'), tr('home.stat.tags')]
+  const statValues = [stats.products, stats.processDomains, stats.categories]
+  const statLabels = [
+    tr('home.stat.products'),
+    tr('home.stat.processDomains'),
+    tr('home.stat.categories'),
+  ]
   const signals = [
     ['home.signal.technology.title', 'home.signal.technology.description'],
     ['home.signal.useCase.title', 'home.signal.useCase.description'],
@@ -248,6 +255,23 @@ export const HomePage: FC<{
           <span>{tr('home.trust.itManagers')}</span>
           <span>{tr('home.trust.architects')}</span>
         </div>
+      </section>
+
+      <section class="section-head">
+        <h2>{tr('home.processes')}</h2>
+        <a href={withTheme(`/${locale}/processes`, theme)}>{tr('home.viewAll')}</a>
+      </section>
+      <section class="category-grid">
+        {processDomains.map((process) => (
+          <a class="category-card" href={withTheme(`/${locale}/processes/${process.code}`, theme)}>
+            <div class="category-card-top">
+              <span class="category-count">{process.code}</span>
+              <span class="category-arrow">↗</span>
+            </div>
+            <h3>{process.name}</h3>
+            <p>{process.childCount} {tr('processes.childUnit')}</p>
+          </a>
+        ))}
       </section>
 
       <section class="section-head">
@@ -360,7 +384,8 @@ export const CategoryDetailPage: FC<{
     <CatalogFilterBar
       locale={locale}
       theme={theme}
-      category={category.slug}
+      actionPath={`/${locale}/categories/${category.slug}`}
+      clearPath={withTheme(`/${locale}/categories/${category.slug}`, theme)}
       selectedDelivery={selectedDelivery}
       selectedUi={selectedUi}
       resultCount={products.length}
@@ -512,7 +537,7 @@ export const SearchPage: FC<{
 
 export const AboutPage: FC<{
   locale: Locale
-  stats: { products: number; categories: number; tags: number }
+  stats: { products: number; categories: number; processDomains: number; tags: number }
   theme: Theme
 }> = ({ locale, stats, theme }) => {
   const principles: MessageKey[] = [
@@ -523,8 +548,8 @@ export const AboutPage: FC<{
   ]
   const statItems = [
     [stats.products, 'home.stat.products'],
+    [stats.processDomains, 'home.stat.processDomains'],
     [stats.categories, 'home.stat.categories'],
-    [stats.tags, 'home.stat.tags'],
   ] satisfies Array<[number, MessageKey]>
 
   return (
@@ -657,6 +682,8 @@ export const DetailPage: FC<{ locale: Locale; product: ProductDetail; theme: The
           <div><dt>{t(locale, 'detail.license')}</dt><dd>{product.license}</dd></div>
           <div><dt>{t(locale, 'detail.deployment')}</dt><dd>{t(locale, difficultyKeys[product.deploymentDifficulty])}</dd></div>
           <div><dt>{t(locale, 'detail.markets')}</dt><dd>{product.markets.join(', ') || '—'}</dd></div>
+          <div><dt>{t(locale, 'detail.platforms')}</dt><dd>{product.platforms.join(', ') || '—'}</dd></div>
+          <div><dt>{t(locale, 'detail.industries')}</dt><dd>{product.industries.join(', ') || '—'}</dd></div>
           <div><dt>{t(locale, 'detail.release')}</dt><dd>{product.latestRelease}</dd></div>
           <div><dt>{t(locale, 'detail.updated')}</dt><dd>{formatDate(product.lastUpdatedAt, locale)}</dd></div>
         </dl>

@@ -96,6 +96,25 @@ class ContentfulSeedTest(unittest.TestCase):
             self.query("SELECT COUNT(*) FROM software_markets WHERE market_code = 'GLOBAL'")[0][0],
             386,
         )
+        self.assertEqual(self.query("SELECT COUNT(*) FROM platforms")[0][0], 15)
+        self.assertEqual(self.query("SELECT COUNT(*) FROM software_platforms")[0][0], 401)
+        self.assertEqual(
+            self.query("SELECT COUNT(*) FROM software WHERE NOT EXISTS (SELECT 1 FROM software_platforms sp WHERE sp.software_id = software.id)")[0][0],
+            0,
+        )
+        self.assertEqual(
+            self.query("SELECT COUNT(*) FROM software_platforms WHERE platform_code IN ('linux/unspecified', 'windows/unspecified')")[0][0],
+            401,
+        )
+        self.assertEqual(self.query("SELECT COUNT(*) FROM industries")[0][0], 22)
+        self.assertEqual(
+            self.query("SELECT COUNT(*) FROM software WHERE NOT EXISTS (SELECT 1 FROM software_industries si WHERE si.software_id = software.id)")[0][0],
+            0,
+        )
+        self.assertEqual(
+            self.query("SELECT COUNT(*) FROM software_industries WHERE industry_code = 'CROSS_INDUSTRY'")[0][0],
+            386,
+        )
         self.assertGreater(self.query("SELECT COUNT(*) FROM software_translations WHERE locale = 'zh'")[0][0], 0)
 
         semaphore = self.query(
@@ -123,7 +142,7 @@ class ContentfulSeedTest(unittest.TestCase):
 
         self.assertEqual(self.query("SELECT COUNT(*) FROM software")[0][0], 386)
         self.assertEqual(self.query("SELECT COUNT(*) FROM categories WHERE external_id <> ''")[0][0], 134)
-        self.assertEqual(self.query("SELECT COUNT(*) FROM category_parents")[0][0], 161)
+        self.assertEqual(self.query("SELECT COUNT(*) FROM category_parents")[0][0], 181)
         self.assertIn("updated: 386", second.stdout)
 
 

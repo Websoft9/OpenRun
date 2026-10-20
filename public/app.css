@@ -122,6 +122,12 @@ p {
   box-shadow: var(--shadow);
 }
 
+.site-header {
+  position: relative;
+  z-index: 20;
+  overflow: visible;
+}
+
 .site-footer {
   display: block;
   margin-top: 56px;
@@ -967,8 +973,8 @@ button {
 
 .footer-nav {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
 }
 
 .footer-column {
@@ -1204,6 +1210,71 @@ button {
 
 .form-card button[type='submit'] {
   justify-self: start;
+}
+
+.auth-page {
+  display: grid;
+  justify-items: center;
+  margin-top: 28px;
+}
+
+.auth-card {
+  width: min(100%, 520px);
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.auth-card h1 {
+  margin: 8px 0 10px;
+  letter-spacing: -0.04em;
+}
+
+.auth-card > p {
+  margin-top: 0;
+}
+
+.auth-card .form-card {
+  margin-top: 22px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.auth-switch {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.auth-switch a {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.account-identity {
+  display: grid;
+  gap: 4px;
+  margin: 18px 0 22px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--accent-soft);
+}
+
+.account-identity span {
+  color: var(--muted);
+}
+
+.auth-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
 }
 
 .honeypot {
@@ -1644,11 +1715,18 @@ body[data-theme='dark'] .ghost-button {
   display: inline-flex;
   align-items: center;
   gap: 9px;
+  line-height: 1;
 }
 
 .language-flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.15em;
+  height: 1.15em;
   font-size: 1.05rem;
   line-height: 1;
+  vertical-align: middle;
 }
 
 .language-menu-footer .language-menu-panel {
@@ -2077,18 +2155,30 @@ body[data-theme='dark'] .api-panel select {
 /* Top-right actions and responsive footer menu */
 
 .language-menu-trigger {
-  width: 42px;
+  width: auto;
   height: 42px;
   min-height: 42px;
-  padding: 0;
-  gap: 0;
+  padding: 0 12px;
+  gap: 8px;
+  align-items: center;
+  line-height: 1;
+}
+
+.language-current-label {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .footer-meta .language-menu-trigger {
-  width: 36px;
+  width: auto;
   height: 36px;
   min-height: 36px;
-  padding: 0;
+  padding: 0 10px;
+  gap: 7px;
 }
 
 .header-icon-group,
@@ -2239,4 +2329,37 @@ body[data-theme='dark'] .header-login {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+/* Process framework */
+
+.process-tree {
+  display: grid;
+  gap: 14px;
+}
+
+.process-group {
+  padding: 18px;
+}
+
+.process-group-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.process-group-head h3 {
+  margin: 0;
+}
+
+.process-group .filter-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.insights-empty {
+  margin-top: 22px;
+  line-height: 1.8;
 }

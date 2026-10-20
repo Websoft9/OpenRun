@@ -2,7 +2,9 @@ import type { FC } from 'hono/jsx'
 import { formatDate, t } from '../i18n/index.js'
 import type { CategorySummary, Locale } from '../repositories/catalog.js'
 import type { LanguageSummary } from '../repositories/languages.js'
+import type { IndustrySummary } from '../repositories/industries.js'
 import type { MarketSummary } from '../repositories/markets.js'
+import type { PlatformSummary } from '../repositories/platforms.js'
 import type { SoftwareAdmin } from '../repositories/admin.js'
 import type { Submission } from '../repositories/submissions.js'
 import type { Theme } from './layout.js'
@@ -172,10 +174,12 @@ export const AdminSoftwarePage: FC<{
   categories: CategorySummary[]
   languages: LanguageSummary[]
   markets: MarketSummary[]
+  platforms: PlatformSummary[]
+  industries: IndustrySummary[]
   theme: Theme
   notice?: string
   error?: string
-}> = ({ locale, software, categories, languages, markets, theme, notice, error }) => {
+}> = ({ locale, software, categories, languages, markets, platforms, industries, theme, notice, error }) => {
   const difficultyOptions: Array<SoftwareAdmin['deploymentDifficulty']> = ['easy', 'moderate', 'advanced']
   const difficultyKeys = {
     easy: 'difficulty.easy',
@@ -300,6 +304,40 @@ export const AdminSoftwarePage: FC<{
               ))}
             </div>
             <small class="form-privacy">{t(locale, 'admin.marketsHint')}</small>
+          </fieldset>
+          <fieldset class="checkbox-fieldset">
+            <legend>{t(locale, 'admin.platforms')}</legend>
+            <div class="checkbox-grid">
+              {platforms.map((platform) => (
+                <label class="checkbox-row">
+                  <input
+                    type="checkbox"
+                    name="platforms"
+                    value={platform.code}
+                    checked={software.platforms.includes(platform.code)}
+                  />
+                  <span>{platform.label}</span>
+                </label>
+              ))}
+            </div>
+            <small class="form-privacy">{t(locale, 'admin.platformsHint')}</small>
+          </fieldset>
+          <fieldset class="checkbox-fieldset">
+            <legend>{t(locale, 'admin.industries')}</legend>
+            <div class="checkbox-grid">
+              {industries.map((industry) => (
+                <label class="checkbox-row">
+                  <input
+                    type="checkbox"
+                    name="industries"
+                    value={industry.code}
+                    checked={software.industries.includes(industry.code)}
+                  />
+                  <span>{industry.name}</span>
+                </label>
+              ))}
+            </div>
+            <small class="form-privacy">{t(locale, 'admin.industriesHint')}</small>
           </fieldset>
           <fieldset class="checkbox-fieldset">
             <legend>{t(locale, 'detail.requirements')}</legend>

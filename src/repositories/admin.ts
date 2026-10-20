@@ -3,6 +3,8 @@ import { slugify } from '../db/seed.js'
 import { contentHash } from '../lib/content-hash.js'
 import { languageExists } from './languages.js'
 import { marketExists } from './markets.js'
+import { industryExists } from './industries.js'
+import { platformExists } from './platforms.js'
 import { SubmissionError } from './submissions.js'
 
 export type SoftwareAdmin = {
@@ -32,6 +34,8 @@ export type SoftwareAdmin = {
   categories: string[]
   tags: string[]
   markets: string[]
+  platforms: string[]
+  industries: string[]
   summaryEn: string
   summaryZh: string
   featuresEn: string[]
@@ -75,6 +79,8 @@ type SoftwareAdminRow = {
   category_slugs: string | null
   tags: string | null
   markets: string | null
+  platforms: string | null
+  industries: string | null
   summary_en: string | null
   summary_zh: string | null
   features_en: string | null
@@ -113,6 +119,8 @@ export type SoftwareReviewInput = {
   categorySlugs: string[]
   tags: string[]
   markets: string[]
+  platforms: string[]
+  industries: string[]
   summaryEn: string
   summaryZh: string
   featuresEn: string[]
@@ -141,7 +149,9 @@ const adminQuery = `
     p.source_url, p.fetched_at, p.reviewed_at, p.published_at,
     GROUP_CONCAT(DISTINCT c.slug) AS category_slugs,
     GROUP_CONCAT(DISTINCT t.name) AS tags,
-    GROUP_CONCAT(DISTINCT smk.market_code) AS markets
+    GROUP_CONCAT(DISTINCT smk.market_code) AS markets,
+    GROUP_CONCAT(DISTINCT sp.platform_code) AS platforms,
+    GROUP_CONCAT(DISTINCT si.industry_code) AS industries
   FROM software s
   LEFT JOIN analyses a ON a.software_id = s.id
   LEFT JOIN software_translations tr ON tr.software_id = s.id AND tr.locale = 'zh'
@@ -152,6 +162,8 @@ const adminQuery = `
   LEFT JOIN software_tags st ON st.software_id = s.id
   LEFT JOIN tags t ON t.id = st.tag_id
   LEFT JOIN software_markets smk ON smk.software_id = s.id
+  LEFT JOIN software_platforms sp ON sp.software_id = s.id
+  LEFT JOIN software_industries si ON si.software_id = s.id
 `
 
 function parseList(value: string | null): string[] {
@@ -198,6 +210,8 @@ function mapAdmin(row: SoftwareAdminRow): SoftwareAdmin {
     categories: parseList(row.category_slugs),
     tags: parseList(row.tags),
     markets: parseList(row.markets),
+    platforms: parseList(row.platforms),
+    industries: parseList(row.industries),
     summaryEn: row.summary_en ?? '',
     summaryZh: row.summary_zh ?? '',
     featuresEn: parseJsonList(row.features_en),
@@ -266,6 +280,16 @@ export function saveSoftwareReview(db: AppDatabase, slug: string, input: Softwar
       throw new SubmissionError('unknown_market', `Unknown market: ${market}`)
     }
   }
+  for (const platform of input.platforms) {
+    if (!platformExists(db, platform)) {
+      throw new SubmissionError('unknown_platform', `Unknown platform: ${platform}`)
+    }
+  }
+  for (const industry of input.industries) {
+    if (!industryExists(db, industry)) {
+      throw new SubmissionError('unknown_industry', `Unknown industry: ${industry}`)
+    }
+  }
   assertKnownCategories(db, input.categorySlugs)
 
   db.exec('BEGIN')
@@ -331,6 +355,22 @@ export function saveSoftwareReview(db: AppDatabase, slug: string, input: Softwar
         market,
       )
     }
+
+    db.prepare('DELETE FROM software_platforms WHERE software_id = ?').run(existing.id)
+    for (const platform of input.platforms) {
+      db.prepare(
+        "INSERT OR IGNORE INTO software_platforms (software_id, platform_code, support_level) VALUES (?, ?, 'supported')",
+      ).run(existing.id, platform)
+    }
+
+    db.prepare('DELETE FROM software_industries WHERE software_id = ?').run(existing.id)
+    for (const industry of input.industries) {
+      db.prepare('INSERT OR IGNORE INTO software_industries (software_id, industry_code) VALUES (?, ?)').run(
+        existing.id,
+        industry,
+      )
+    }
+
 
     db.prepare(`
       INSERT INTO analyses (

@@ -11,6 +11,7 @@ type LayoutProps = PropsWithChildren<{
   activeUrl: string
   categories: CategorySummary[]
   theme: Theme
+  user?: { name: string; email: string } | null
 }>
 
 function withTheme(path: string, theme: Theme): string {
@@ -53,13 +54,6 @@ const MoonIcon: FC = () => (
   </svg>
 )
 
-const GlobeIcon: FC = () => (
-  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-    <circle cx="12" cy="12" r="8.5" />
-    <path d="M3.8 12h16.4M12 3.5c2.1 2.3 3.2 5.2 3.2 8.5S14.1 18.2 12 20.5C9.9 18.2 8.8 15.3 8.8 12S9.9 5.8 12 3.5Z" />
-  </svg>
-)
-
 const ChevronIcon: FC = () => (
   <svg class="chevron-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
     <path d="m7 10 5 5 5-5" />
@@ -72,16 +66,18 @@ const LanguageSwitcher: FC<{
   theme: Theme
   variant?: 'header' | 'footer'
 }> = ({ locale, activeUrl, theme, variant = 'header' }) => {
-  const label = localeOptions.find((option) => option.code === locale)?.label ?? 'English'
+  const current = localeOptions.find((option) => option.code === locale) ?? localeOptions[0]
 
   return (
     <details class={`language-menu language-menu-${variant}`}>
       <summary
         class="language-menu-trigger"
-        aria-label={`${t(locale, 'language.label')}: ${label}`}
-        title={`${t(locale, 'language.label')}: ${label}`}
+        aria-label={`${t(locale, 'language.label')}: ${current.label}`}
+        title={`${t(locale, 'language.label')}: ${current.label}`}
       >
-        <GlobeIcon />
+        <span class="language-flag" aria-hidden="true">{current.flag}</span>
+        <span class="language-current-label">{current.label}</span>
+        <ChevronIcon />
       </summary>
       <div class="language-menu-panel">
         {localeOptions.map((option) => (
@@ -115,9 +111,18 @@ const FooterNavColumns: FC<{
       <div class="footer-links">
         <a href={withTheme(`/${locale}`, theme)}>{t(locale, 'nav.home')}</a>
         <a href={withTheme(`/${locale}/search`, theme)}>{t(locale, 'nav.search')}</a>
-        <a href={withTheme(`/${locale}/categories`, theme)}>{t(locale, 'nav.categories')}</a>
+        <a href={withTheme(`/${locale}/processes`, theme)}>{t(locale, 'nav.process')}</a>
+        <a href={withTheme(`/${locale}/categories`, theme)}>{t(locale, 'nav.software')}</a>
+        <a href={withTheme(`/${locale}/industries`, theme)}>{t(locale, 'nav.industry')}</a>
+        <a href={withTheme(`/${locale}/insights`, theme)}>{t(locale, 'nav.insights')}</a>
         <a href={withTheme(`/${locale}/submit`, theme)}>{t(locale, 'footer.submit')}</a>
         <a href={withTheme(`/${locale}/about`, theme)}>{t(locale, 'footer.about')}</a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <span class="footer-label">{t(locale, 'footer.developers')}</span>
+      <div class="footer-links">
         <a href={withTheme(`/${locale}/api`, theme)}>{t(locale, 'footer.apiExplore')}</a>
       </div>
     </div>
@@ -143,7 +148,7 @@ const FooterNavColumns: FC<{
   </>
 )
 
-export const Layout: FC<LayoutProps> = ({ locale, title, description, activeUrl, categories, theme, children }) => {
+export const Layout: FC<LayoutProps> = ({ locale, title, description, activeUrl, categories, theme, user, children }) => {
   const tr = (key: Parameters<typeof t>[1], params?: Parameters<typeof t>[2]) => t(locale, key, params)
   const activePath = new URL(activeUrl).pathname
   const nextTheme = theme === 'dark' ? 'light' : 'dark'
@@ -171,13 +176,33 @@ export const Layout: FC<LayoutProps> = ({ locale, title, description, activeUrl,
                   <span class="brand-mark">OW</span>
                   <span>OpenWise</span>
                 </a>
-                <p class="tagline">{tr('brand.tagline')}</p>
               </div>
             </div>
             <nav class="top-nav">
-              <a href={withTheme(`/${locale}`, theme)} class={activePath === `/${locale}` ? 'active' : ''}>{tr('nav.home')}</a>
-              <a href={withTheme(`/${locale}/search`, theme)} class={activePath.includes('/search') ? 'active' : ''}>{tr('nav.search')}</a>
-              <a href={withTheme(`/${locale}/categories`, theme)} class={activePath.includes('/categories') ? 'active' : ''}>{tr('nav.categories')}</a>
+              <a
+                href={withTheme(`/${locale}/processes`, theme)}
+                class={activePath.startsWith(`/${locale}/processes`) ? 'active' : ''}
+              >
+                {tr('nav.process')}
+              </a>
+              <a
+                href={withTheme(`/${locale}/categories`, theme)}
+                class={activePath.includes('/categories') || activePath.includes('/software/') ? 'active' : ''}
+              >
+                {tr('nav.software')}
+              </a>
+              <a
+                href={withTheme(`/${locale}/industries`, theme)}
+                class={activePath.includes('/industries') ? 'active' : ''}
+              >
+                {tr('nav.industry')}
+              </a>
+              <a
+                href={withTheme(`/${locale}/insights`, theme)}
+                class={activePath.includes('/insights') ? 'active' : ''}
+              >
+                {tr('nav.insights')}
+              </a>
             </nav>
             <div class="header-actions">
               <div class="header-icon-group">
@@ -203,8 +228,8 @@ export const Layout: FC<LayoutProps> = ({ locale, title, description, activeUrl,
                 <a class="header-cta header-submit" href={withTheme(`/${locale}/submit`, theme)}>
                   {tr('nav.submit')}
                 </a>
-                <a class="header-cta header-login" href={withTheme(`/${locale}/admin`, theme)}>
-                  {tr('nav.login')}
+                <a class="header-cta header-login" href={withTheme(user ? `/${locale}/account` : `/${locale}/login`, theme)}>
+                  {user ? tr('nav.account') : tr('nav.login')}
                 </a>
               </div>
             </div>

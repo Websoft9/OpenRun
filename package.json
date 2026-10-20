@@ -16,15 +16,20 @@
     "test": "python3 -m unittest discover -s tests",
     "catalog:contentful:export": "npm run build && node dist/scripts/export-contentful.js",
     "db:seed:contentful": "npm run build && node dist/scripts/seed-contentful.js",
+    "db:remap-types": "npm run build && node dist/scripts/remap-software-types.js",
     "sync:spdx": "npm run build && node dist/scripts/sync-spdx.js",
     "db:seed:licenses": "npm run build && node dist/scripts/seed-licenses.js",
     "sync:languages": "npm run build && node dist/scripts/sync-languages.js",
     "db:seed:languages": "npm run build && node dist/scripts/seed-languages.js",
     "sync:markets": "npm run build && node dist/scripts/sync-markets.js",
-    "db:seed:markets": "npm run build && node dist/scripts/seed-markets.js"
+    "db:seed:markets": "npm run build && node dist/scripts/seed-markets.js",
+    "db:seed:platforms": "npm run build && node dist/scripts/seed-platforms.js",
+    "db:seed:industries": "npm run build && node dist/scripts/seed-industries.js",
+    "db:seed:processes": "npm run build && node dist/scripts/seed-processes.js"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.6",
+    "better-auth": "^1.7.11",
     "hono": "^4.13.0"
   },
   "devDependencies": {

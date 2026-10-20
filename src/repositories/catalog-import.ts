@@ -37,6 +37,8 @@ export type CatalogImportProduct = {
   selfServiceSetup?: boolean
   categories?: string[]
   tags?: string[]
+  platforms?: string[]
+  industries?: string[]
   summaryEn?: string
   summaryZh?: string
   featuresEn?: string[]
@@ -172,6 +174,8 @@ export function parseCatalogPayload(raw: unknown): { products: CatalogImportProd
       selfServiceSetup: record.selfServiceSetup !== false,
       categories: asStringArray(record.categories),
       tags: asStringArray(record.tags),
+      platforms: asStringArray(record.platforms),
+      industries: asStringArray(record.industries),
       summaryEn: typeof record.summaryEn === 'string' ? record.summaryEn : undefined,
       summaryZh: typeof record.summaryZh === 'string' ? record.summaryZh : undefined,
       featuresEn: asStringArray(record.featuresEn),
@@ -399,6 +403,45 @@ export function importCatalog(
         SELECT ?, 'GLOBAL'
         WHERE NOT EXISTS (SELECT 1 FROM software_markets WHERE software_id = ?)
       `).run(softwareId, softwareId)
+
+      if (product.industries && product.industries.length > 0) {
+        const knownIndustries = new Set(
+          (db.prepare('SELECT code FROM industries').all() as Array<{ code: string }>).map((row) => row.code),
+        )
+        db.prepare('DELETE FROM software_industries WHERE software_id = ?').run(softwareId)
+        for (const industryCode of new Set(product.industries)) {
+          if (!knownIndustries.has(industryCode)) {
+            result.warnings.push(`${product.name}: unknown industry ${industryCode}`)
+            continue
+          }
+          db.prepare('INSERT OR IGNORE INTO software_industries (software_id, industry_code) VALUES (?, ?)').run(
+            softwareId,
+            industryCode,
+          )
+        }
+      } else {
+        db.prepare(`
+          INSERT OR IGNORE INTO software_industries (software_id, industry_code)
+          SELECT ?, 'CROSS_INDUSTRY'
+          WHERE NOT EXISTS (SELECT 1 FROM software_industries WHERE software_id = ?)
+        `).run(softwareId, softwareId)
+      }
+
+      if (product.platforms && product.platforms.length > 0) {
+        const knownPlatforms = new Set(
+          (db.prepare('SELECT code FROM platforms').all() as Array<{ code: string }>).map((row) => row.code),
+        )
+        db.prepare('DELETE FROM software_platforms WHERE software_id = ?').run(softwareId)
+        for (const platformCode of new Set(product.platforms)) {
+          if (!knownPlatforms.has(platformCode)) {
+            result.warnings.push(`${product.name}: unknown platform ${platformCode}`)
+            continue
+          }
+          db.prepare(
+            "INSERT OR IGNORE INTO software_platforms (software_id, platform_code, support_level) VALUES (?, ?, 'supported')",
+          ).run(softwareId, platformCode)
+        }
+      }
 
       db.prepare('DELETE FROM software_categories WHERE software_id = ?').run(softwareId)
       for (const categorySlug of product.categories ?? []) {

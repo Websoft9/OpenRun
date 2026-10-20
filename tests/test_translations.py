@@ -41,7 +41,7 @@ class TranslationStorageTest(unittest.TestCase):
 
         self.assertEqual(software, 50)
         self.assertEqual(analysis, 50)
-        self.assertEqual(categories, 8)
+        self.assertEqual(categories, 22)
         self.assertGreater(tags, 0)
 
     def test_translation_integrity_check_passes(self):

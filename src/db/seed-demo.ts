@@ -183,6 +183,11 @@ export function seedDemoData(db: AppDatabase): number {
         SELECT ?, 'GLOBAL'
         WHERE NOT EXISTS (SELECT 1 FROM software_markets WHERE software_id = ?)
       `).run(softwareId, softwareId)
+      db.prepare(`
+        INSERT OR IGNORE INTO software_industries (software_id, industry_code)
+        SELECT ?, 'CROSS_INDUSTRY'
+        WHERE NOT EXISTS (SELECT 1 FROM software_industries WHERE software_id = ?)
+      `).run(softwareId, softwareId)
 
       db.prepare('DELETE FROM software_categories WHERE software_id = ?').run(softwareId)
       for (const categorySlug of product.categories) {

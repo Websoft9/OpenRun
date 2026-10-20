@@ -1,4 +1,4 @@
-.PHONY: app-list app-restart app-start app-status app-stop build connector db-demo db-import db-init db-reset db-seed-contentful db-seed-languages db-seed-licenses db-seed-markets help opencode opencode-clear sync-languages sync-markets sync-spdx
+.PHONY: app-list app-restart app-start app-status app-stop build connector db-demo db-import db-init db-reset db-seed-contentful db-seed-languages db-seed-licenses db-seed-industries db-seed-markets db-seed-platforms db-seed-processes help opencode opencode-clear sync-languages sync-markets sync-spdx
 
 ifeq ($(OS),Windows_NT)
 PYTHON ?= py
@@ -28,9 +28,12 @@ help:
 	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'db-seed-licenses' 'seed licenses from the checked-in SPDX snapshot'
 	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'db-seed-languages' 'seed programming languages from the checked-in Linguist snapshot'
 	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'db-seed-markets' 'seed economic regions and countries from the checked-in World Bank snapshot'
+	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'db-seed-platforms' 'seed OS/CPU platform reference data from source'
+	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'db-seed-processes' 'seed the PCF-aligned L1/L2/L3 process model'
+	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'db-seed-industries' 'seed ISIC industry reference data from source'
 	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'sync-markets' 'fetch World Bank country/region data, write a snapshot, update the DB'
 	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'sync-languages' 'fetch GitHub Linguist languages, write a snapshot, update the DB'
-	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'sync-languages sync-markets sync-spdx' 'fetch the latest SPDX License List, write a snapshot, update the DB'
+	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'sync-spdx' 'fetch the latest SPDX License List, write a snapshot, update the DB'
 	@printf '  \033[2mmake \033[0m\033[1;32m%-18s\033[0m %s\n' 'db-reset' 'drop all tables, migrate and reseed reference data'
 	@printf '\n'
 	@printf '  \033[1;35m▸ Dev\033[0m\n'
@@ -82,6 +85,15 @@ db-seed-languages:
 
 db-seed-markets:
 	@npm run db:seed:markets
+
+db-seed-platforms:
+	@npm run db:seed:platforms
+
+db-seed-processes:
+	@npm run db:seed:processes
+
+db-seed-industries:
+	@npm run db:seed:industries
 
 sync-markets:
 	@npm run sync:markets

@@ -395,9 +395,15 @@ function ensureUniqueCategorySlug(db: AppDatabase, desired: string, externalId: 
     const row = db.prepare('SELECT external_source, external_id FROM categories WHERE slug = ?').get(candidate) as
       | { external_source: string; external_id: string }
       | undefined
-    if (!row || (row.external_source === 'contentful' && row.external_id === externalId) || !row.external_id) {
+    if (!row) {
       return candidate
     }
+    // Allow reuse only when this exact contentful entry already owns the slug.
+    if (row.external_source === 'contentful' && row.external_id === externalId) {
+      return candidate
+    }
+    // Seed/reference categories (external_source = '') are reserved and must not be claimed by contentful entries.
+    // Any other contentful category also requires a new suffix.
     candidate = `${desired}-${suffix}`
     suffix += 1
   }
@@ -528,6 +534,7 @@ function buildProductImport(
   catalogSlugs: Map<string, string>,
   tagTranslations: Map<string, string>,
   normalizeLanguageName: (raw: string) => string,
+  knownPlatforms: Set<string>,
 ): { product: CatalogImportProduct; extra: { id: string; logoUrl: string; screenshots: string[]; metadata: string } } | null {
   const key = firstString(product, 'key', ['en-US'])
   if (!key) {
@@ -598,6 +605,22 @@ function buildProductImport(
 
   const catalogIds = firstLinkIds(product, 'catalog', ['en-US', 'zh-CN'])
   const categorySlugs = [...new Set(catalogIds.map((id) => catalogSlugs.get(id)).filter((slug): slug is string => Boolean(slug)))]
+
+  const osPlatformCodes: Record<string, string> = {
+    linux: 'linux/unspecified',
+    windows: 'windows/unspecified',
+    macos: 'darwin/unspecified',
+    'mac os': 'darwin/unspecified',
+    darwin: 'darwin/unspecified',
+    freebsd: 'freebsd/unspecified',
+  }
+  const platforms = new Set<string>()
+  for (const osName of firstStringArray(product, 'os', ['en-US'])) {
+    const code = osPlatformCodes[osName.trim().toLowerCase()]
+    if (code && knownPlatforms.has(code)) {
+      platforms.add(code)
+    }
+  }
 
   const tagNames = new Map<string, { name: string; zh: string }>()
   for (const id of firstLinkIds(product, 'tags', ['en-US', 'zh-CN'])) {
@@ -799,6 +822,7 @@ function buildProductImport(
     selfServiceSetup: valueFor(field(product, 'appStore'), 'en-US') === true,
     categories: categorySlugs,
     tags: [...tagNames.values()].map((value) => value.name),
+    platforms: [...platforms],
     summaryEn,
     featuresEn,
     useCasesEn,
@@ -831,6 +855,9 @@ export function importContentfulDataset(
   const catalogMap = buildCatalogMap(dataset)
   const catalogSlugs = upsertCatalogCategories(db, catalogMap)
   const normalizeLanguageName = buildLanguageResolver(db)
+  const knownPlatforms = new Set(
+    (db.prepare('SELECT code FROM platforms').all() as Array<{ code: string }>).map((row) => row.code),
+  )
   const topLevelCategories = catalogMap.imports.filter((item) => item.parentExternalId === null).length
 
   const tagTranslations = new Map<string, string>()
@@ -847,6 +874,7 @@ export function importContentfulDataset(
       catalogSlugs,
       tagTranslations,
       normalizeLanguageName,
+      knownPlatforms,
     )
     if (!built) {
       warnings.push(`Skipped Contentful product ${product.sys.id}: missing key`)

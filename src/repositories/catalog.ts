@@ -33,6 +33,8 @@ type ProductListRow = {
   category_names: string
   tags: string
   markets: string
+  platforms: string
+  industries: string
 }
 
 type ProductDetailRow = ProductListRow & {
@@ -76,6 +78,8 @@ export type ProductCard = {
   categories: Array<{ slug: string; name: string }>
   tags: string[]
   markets: string[]
+  platforms: string[]
+  industries: string[]
 }
 
 export type ProductDetail = ProductCard & {
@@ -108,6 +112,7 @@ export type SearchFilters = {
   q?: string
   category?: string
   tag?: string
+  industry?: string
   delivery?: DeliveryModel
   hasUi?: boolean
   hasAi?: boolean
@@ -145,11 +150,13 @@ const baseListQuery = `
     GROUP_CONCAT(DISTINCT c.slug) AS category_slugs,
     GROUP_CONCAT(DISTINCT COALESCE(NULLIF(ct.name, ''), c.name_en)) AS category_names,
     GROUP_CONCAT(DISTINCT COALESCE(NULLIF(tt.name, ''), t.name)) AS tags,
-    GROUP_CONCAT(DISTINCT mk.name) AS markets
+    GROUP_CONCAT(DISTINCT mk.name) AS markets,
+    GROUP_CONCAT(DISTINCT pl.os_name || ' / ' || pl.arch_name) AS platforms,
+    GROUP_CONCAT(DISTINCT si.industry_code || '|' || i.name || '|' || i.name_zh) AS industries
   FROM software s
   JOIN analyses a ON a.software_id = s.id
   LEFT JOIN software_categories sc ON sc.software_id = s.id
-  LEFT JOIN categories c ON c.id = sc.category_id
+  LEFT JOIN categories c ON c.id = sc.category_id AND c.external_source = ''
   LEFT JOIN software_translations st
     ON st.software_id = s.id AND st.locale = ? AND st.status = 'published'
   LEFT JOIN category_translations ct
@@ -160,6 +167,10 @@ const baseListQuery = `
     ON tt.tag_id = t.id AND tt.locale = ? AND tt.status = 'published'
   LEFT JOIN software_markets smk ON smk.software_id = s.id
   LEFT JOIN markets mk ON mk.code = smk.market_code
+  LEFT JOIN software_platforms spl ON spl.software_id = s.id
+  LEFT JOIN platforms pl ON pl.code = spl.platform_code
+  LEFT JOIN software_industries si ON si.software_id = s.id
+  LEFT JOIN industries i ON i.code = si.industry_code
   WHERE s.status = 'published'
 `
 
@@ -203,12 +214,14 @@ const detailQuery = `
     GROUP_CONCAT(DISTINCT c.slug) AS category_slugs,
     GROUP_CONCAT(DISTINCT COALESCE(NULLIF(ct.name, ''), c.name_en)) AS category_names,
     GROUP_CONCAT(DISTINCT COALESCE(NULLIF(tt.name, ''), t.name)) AS tags,
-    GROUP_CONCAT(DISTINCT mk.name) AS markets
+    GROUP_CONCAT(DISTINCT mk.name) AS markets,
+    GROUP_CONCAT(DISTINCT pl.os_name || ' / ' || pl.arch_name) AS platforms,
+    GROUP_CONCAT(DISTINCT si.industry_code || '|' || i.name || '|' || i.name_zh) AS industries
   FROM software s
   JOIN analyses a ON a.software_id = s.id
   JOIN provenance p ON p.software_id = s.id
   LEFT JOIN software_categories sc ON sc.software_id = s.id
-  LEFT JOIN categories c ON c.id = sc.category_id
+  LEFT JOIN categories c ON c.id = sc.category_id AND c.external_source = ''
   LEFT JOIN software_translations st
     ON st.software_id = s.id AND st.locale = ? AND st.status = 'published'
   LEFT JOIN software_analysis_translations sat
@@ -221,12 +234,31 @@ const detailQuery = `
     ON tt.tag_id = t.id AND tt.locale = ? AND tt.status = 'published'
   LEFT JOIN software_markets smk ON smk.software_id = s.id
   LEFT JOIN markets mk ON mk.code = smk.market_code
+  LEFT JOIN software_platforms spl ON spl.software_id = s.id
+  LEFT JOIN platforms pl ON pl.code = spl.platform_code
+  LEFT JOIN software_industries si ON si.software_id = s.id
+  LEFT JOIN industries i ON i.code = si.industry_code
   WHERE s.status = 'published' AND s.slug = ?
   GROUP BY s.id
 `
 
 function parseGroup(value: string | null | undefined): string[] {
   return value ? value.split(',').filter(Boolean) : []
+}
+
+function parseLocalizedNameBlob(value: string | null | undefined, locale: Locale): string[] {
+  if (!value) {
+    return []
+  }
+  return value
+    .split(',')
+    .map((item) => item.split('|'))
+    .map(([code, name, nameZh]) => (locale === 'zh' && nameZh ? nameZh : name ?? code))
+    .filter(Boolean)
+}
+
+function parseIndustries(value: string | null | undefined, locale: Locale): string[] {
+  return parseLocalizedNameBlob(value, locale)
 }
 
 function toCategories(row: ProductListRow | ProductDetailRow): Array<{ slug: string; name: string }> {
@@ -244,7 +276,7 @@ function toDeliveryModels(row: ProductListRow): DeliveryModel[] {
   return models
 }
 
-function mapCard(row: ProductListRow): ProductCard {
+function mapCard(row: ProductListRow, locale: Locale): ProductCard {
   return {
     slug: row.slug,
     name: row.name,
@@ -268,12 +300,14 @@ function mapCard(row: ProductListRow): ProductCard {
     categories: toCategories(row),
     tags: parseGroup(row.tags),
     markets: parseGroup(row.markets),
+    platforms: parseGroup(row.platforms),
+    industries: parseIndustries(row.industries, locale),
   }
 }
 
-function mapDetail(row: ProductDetailRow): ProductDetail {
+function mapDetail(row: ProductDetailRow, locale: Locale): ProductDetail {
   return {
-    ...mapCard(row),
+    ...mapCard(row, locale),
     features: JSON.parse(row.features),
     useCases: JSON.parse(row.use_cases),
     alternatives: JSON.parse(row.alternatives),
@@ -290,6 +324,7 @@ type CategoryDbRow = {
   slug: string
   parent_id: number | null
   position: number
+  external_source: string
   name: string
   description: string
 }
@@ -309,6 +344,7 @@ function loadCategoryTree(db: AppDatabase, locale: Locale): CategoryTree {
         c.slug,
         c.parent_id,
         c.position,
+        c.external_source,
         COALESCE(NULLIF(ct.name, ''), c.name_en) AS name,
         COALESCE(NULLIF(ct.description, ''), c.description_en) AS description
       FROM categories c
@@ -379,9 +415,17 @@ export function listCategories(db: AppDatabase, locale: Locale): CategorySummary
   const tree = loadCategoryTree(db, locale)
   const memo = new Map<number, Set<number>>()
   return tree.rows
-    .filter((row) => row.parent_id === null)
+    .filter((row) => row.external_source === '' && row.parent_id !== null)
+    .sort((left, right) => {
+      const leftParent = left.parent_id !== null ? tree.byId.get(left.parent_id) : undefined
+      const rightParent = right.parent_id !== null ? tree.byId.get(right.parent_id) : undefined
+      return (
+        (leftParent?.position ?? 0) - (rightParent?.position ?? 0) ||
+        left.position - right.position ||
+        left.name.localeCompare(right.name)
+      )
+    })
     .map((row) => toCategorySummary(row, tree, memo))
-    .filter((category) => category.productCount > 0)
 }
 
 export function listAllCategories(db: AppDatabase, locale: Locale): CategorySummary[] {
@@ -445,14 +489,14 @@ export function listFeaturedProducts(db: AppDatabase, locale: Locale, limit = 6)
   const rows = db
     .prepare(`${baseListQuery} AND s.is_featured = 1 ${baseListGroup} ORDER BY s.stars DESC LIMIT ?`)
     .all(locale, locale, locale, limit) as ProductListRow[]
-  return rows.map((row) => mapCard(row))
+  return rows.map((row) => mapCard(row, locale))
 }
 
 export function listRecentProducts(db: AppDatabase, locale: Locale, limit = 8): ProductCard[] {
   const rows = db
     .prepare(`${baseListQuery} ${baseListGroup} ORDER BY s.last_updated_at DESC LIMIT ?`)
     .all(locale, locale, locale, limit) as ProductListRow[]
-  return rows.map((row) => mapCard(row))
+  return rows.map((row) => mapCard(row, locale))
 }
 
 export function listProducts(db: AppDatabase, locale: Locale, filters: SearchFilters = {}): ProductCard[] {
@@ -480,6 +524,11 @@ export function listProducts(db: AppDatabase, locale: Locale, filters: SearchFil
   if (filters.tag) {
     conditions.push('s.id IN (SELECT st.software_id FROM software_tags st JOIN tags t2 ON t2.id = st.tag_id WHERE t2.slug = ?)')
     params.push(filters.tag)
+  }
+
+  if (filters.industry) {
+    conditions.push('s.id IN (SELECT software_id FROM software_industries WHERE industry_code = ?)')
+    params.push(filters.industry)
   }
 
   if (filters.delivery) {
@@ -524,7 +573,7 @@ export function listProducts(db: AppDatabase, locale: Locale, filters: SearchFil
     .prepare(`${baseListQuery}${where} ${baseListGroup} ORDER BY s.stars DESC, s.name ASC LIMIT ?`)
     .all(locale, locale, locale, ...params, limit) as ProductListRow[]
 
-  return rows.map((row) => mapCard(row))
+  return rows.map((row) => mapCard(row, locale))
 }
 
 export function getCategoryBySlug(db: AppDatabase, slug: string, locale: Locale): CategorySummary | null {
@@ -541,7 +590,7 @@ export function getProductBySlug(db: AppDatabase, slug: string, locale: Locale):
   if (!row) {
     return null
   }
-  return mapDetail(row)
+  return mapDetail(row, locale)
 }
 
 export function getTagCloud(db: AppDatabase, locale: Locale): TagSummary[] {
@@ -566,25 +615,17 @@ export function getTagCloud(db: AppDatabase, locale: Locale): TagSummary[] {
   }))
 }
 
-export function getStats(db: AppDatabase): { products: number; categories: number; tags: number } {
+export function getStats(db: AppDatabase): { products: number; categories: number; processDomains: number; tags: number } {
   const products = db.prepare("SELECT COUNT(*) AS count FROM software WHERE status = 'published'").get() as { count: number }
   const categories = db
-    .prepare(`
-      WITH RECURSIVE top(id, root_id) AS (
-        SELECT id, id FROM categories WHERE parent_id IS NULL
-        UNION ALL
-        SELECT c.id, t.root_id FROM categories c JOIN top t ON c.parent_id = t.id
-      )
-      SELECT COUNT(DISTINCT t.root_id) AS count
-      FROM top t
-      JOIN software_categories sc ON sc.category_id = t.id
-      JOIN software s ON s.id = sc.software_id AND s.status = 'published'
-    `)
+    .prepare("SELECT COUNT(*) AS count FROM categories WHERE external_source = '' AND parent_id IS NOT NULL")
     .get() as { count: number }
+  const processDomains = db.prepare('SELECT COUNT(*) AS count FROM process_nodes WHERE level = 1').get() as { count: number }
   const tags = db.prepare('SELECT COUNT(*) AS count FROM tags').get() as { count: number }
   return {
     products: products.count,
     categories: categories.count,
+    processDomains: processDomains.count,
     tags: tags.count,
   }
 }
